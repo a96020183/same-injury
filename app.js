@@ -2,7 +2,7 @@
 (() => {
   const data = globalThis.REPLAY_DATA;
   const $ = selector => document.querySelector(selector);
-  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const esc = value => String(value ?? '').replace(/\btask\b/gi, word => word[0] === 'T' ? 'Work activity' : 'work activity').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let runName = 'demo', currentView = 'overview', snapshot = 'before', traceLane = '', traceLimit = 30;
   const run = () => data.runs[runName];
   const items = () => snapshot === 'before' ? run().itemsBefore : run().itemsAfter;
@@ -10,7 +10,7 @@
   const resultNames = {pending:'Identity awaiting review',reported:'Found',reported_differs:'Written differently',in_log:'Found in the log',in_log_differs:'Written differently',outside:'State Plan',review:'A person decides',not_found:'No matching report in the searched sample',not_in_log:'Not found in the log sample',not_required:'Reporting exclusion to review'};
   const isKey = e => ['reject','replan','approve','escalate','merge','fallback','error'].includes(e.kind) || e.agent === 'skeptic' || e.agent === 'evaluator' && e.kind === 'verdict' && !/explanations weighed/.test(e.summary) || e.agent === 'linker' && e.kind === 'verdict' && / → (link|evaluate)/.test(e.summary);
   const announce = text => { $('#announcement').textContent = text; };
-  function openDialog(id) { const el = $('#'+id); if (!el.open) el.showModal(); }
+  function openDialog(id) { const el = $('#'+id); if (!el.open) { el.showModal(); el.scrollTop = 0; } }
   function closeDialog(id) { $('#'+id).close(); }
   function receiptLinks(qids = []) {
     return `<div class="receipt-links">${[...new Set(qids)].map(q => run().receipts[q] ? `<button class="receipt-link" data-receipt="${esc(q)}">${esc(q)}</button>` : `<span class="receipt-missing">${esc(q)} · not included</span>`).join('')}</div>`;
@@ -23,7 +23,8 @@
     const intro = data.intro;
     $('#intro-records').innerHTML = intro.records.map((r,i) => {
       const text = esc(r.text).replace(esc(r.mark || '___'), `<mark>${esc(r.mark)}</mark>`);
-      return `<article class="rec"><h2>${esc(r.who)}</h2><p class="plain">${esc(r.plain || 'DOL enforcement database')}</p>${r.unknown ? `<div class="question" aria-hidden="true">?</div>` : `<span class="synthetic">SYNTHETIC record</span><div class="id">${esc(r.id)}</div>${(r.subIds || []).map(s=>`<div class="sub">${esc(s)}</div>`).join('')}<div class="sub">${esc(r.date)}</div>`}<p class="text">${text}</p>${i === 0 ? '<button class="ghost" id="opening-case">Open Demo company case</button>' : ''}</article>`;
+      const sourceLabel = r.id?.startsWith('SIR-SYN') ? 'OSHA report format · SYNTHETIC test record' : r.plain || 'DOL enforcement database';
+      return `<article class="rec"><h2>${esc(r.who)}</h2><p class="plain">${esc(sourceLabel)}</p>${r.unknown ? `<div class="question" aria-hidden="true">?</div>` : `<span class="synthetic">SYNTHETIC record</span><div class="id">${esc(r.id)}</div>${(r.subIds || []).map(s=>`<div class="sub">${esc(s)}</div>`).join('')}<div class="sub">${esc(r.date)}</div>`}<p class="text">${text}</p>${i === 0 ? '<button class="ghost" id="opening-case">Open Demo company case</button>' : ''}</article>`;
     }).join('');
     $('#system-types').innerHTML = intro.systems.map(s=>`<div><strong>${esc(s.kind)}</strong><span>${esc(s.what)}</span></div>`).join('');
   }
@@ -90,7 +91,7 @@
     const evidence=(i.searched || []).map(x=>`<li>${esc(x.label)}${x.found !== undefined ? ` · ${esc(x.found)} found` : ''} ${receiptLinks([x.qid])}</li>`).join('');
     const scan=Object.entries(run().scans).find(([name])=>name.includes(i.site+'_') && (!i.caseId || name.includes('case'+i.caseId+'.')));
     const review=i.synthetic && i.proposalId ? run().reviewers[i.proposalId] : null;
-    $('#case-body').innerHTML=`${i.synthetic ? '<span class="synthetic">SYNTHETIC · all fields invented</span>' : '<p class="fine">Composite public records · neutral outcome only</p>'}<p class="case-meta">${esc(i.dir==='log'?'Plant log → OSHA':'OSHA → plant log')} · ${esc(i.date)} · ${esc(run().name)}<br>Snapshot: ${snapshot==='before'?'before identity approval':'after recorded automatic operator approvals'}</p><h3>${esc(i.headline)}</h3><p>${esc(resultNames[i.column] || i.column)}</p><div class="case-detail">${(i.detail || []).map(d=>`<p>${esc(d)}</p>`).join('')}</div>${i.synthetic ? '<p class="boundary">This conclusion concerns an invented plant. It is a demonstration, not a finding about a real employer.</p>' : ''}<h3>Where the agents searched</h3><ul class="searches">${evidence}</ul><h3>Query receipts cited by this case</h3>${receiptLinks(cited)}${scan ? `<details><summary>View the SYNTHETIC scanned 301 form</summary><img class="case-scan" src="${esc(scan[1])}" width="1000" height="1294" alt="Synthetic OSHA 301 form for ${esc(i.site)}; employee identity fields are blacked out." loading="lazy"></details>` : ''}${laneState?.form301 ? `<details><summary>What the recorded vision model read</summary><pre>${esc(JSON.stringify(laneState.form301,null,2))}</pre></details>` : ''}${review ? `<details><summary>Recorded-data view of the masked identity</summary><p class="fine">Reconstructed offline from the SQL recordings. Invented plant and employer only. This is not an identity approval.</p><pre>${esc(JSON.stringify(review,null,2))}</pre></details>` : ''}<h3>The agents’ exchanges</h3><p class="fine">Original recorded events, in order. The trace can also show model-call metadata and all events.</p><button class="ghost" data-lane-trace="${esc(lane)}">Show this case in the trace</button><ol class="events">${events.filter(e=>e.kind!=='model').map(eventHtml).join('')}</ol>`;
+    $('#case-body').innerHTML=`${i.synthetic ? '<span class="synthetic">SYNTHETIC · all fields invented</span>' : '<p class="fine">Composite public records · neutral outcome only</p>'}<p class="case-meta">${esc(i.dir==='log'?'Plant log → OSHA':'OSHA → plant log')} · ${esc(i.date)} · ${esc(run().name)}<br>Snapshot: ${snapshot==='before'?'before identity approval':'after recorded automatic operator approvals'}</p><h3>${esc(i.headline)}</h3><p>${esc(resultNames[i.column] || i.column)}</p><div class="case-detail"><p class="fine"><strong>Recorded product wording.</strong> Approval instructions below describe the original product. This replay performs no approvals.</p>${(i.detail || []).map(d=>`<p>${esc(d)}</p>`).join('')}</div>${i.synthetic ? '<p class="boundary">This conclusion concerns an invented plant. It is a demonstration, not a finding about a real employer.</p>' : ''}<h3>Where the agents searched</h3><ul class="searches">${evidence}</ul><h3>Query receipts cited by this case</h3>${receiptLinks(cited)}${scan ? `<details><summary>View the SYNTHETIC scanned 301 form</summary><img class="case-scan" src="${esc(scan[1])}" width="1000" height="1294" alt="Synthetic OSHA 301 form for ${esc(i.site)}; employee identity fields are blacked out." loading="lazy"></details>` : ''}${laneState?.form301 ? `<details><summary>What the recorded vision model read</summary><pre>${esc(JSON.stringify(laneState.form301,null,2))}</pre></details>` : ''}${review ? `<details><summary>Recorded-data view of the masked identity</summary><p class="fine">Reconstructed offline from the SQL recordings. Invented plant and employer only. This is not an identity approval.</p><pre>${esc(JSON.stringify(review,null,2))}</pre></details>` : ''}<h3>The agents’ exchanges</h3><p class="fine">Original recorded events, in order. The trace can also show model-call metadata and all events.</p><button class="ghost" data-lane-trace="${esc(lane)}">Show this case in the trace</button><ol class="events">${events.filter(e=>e.kind!=='model').map(eventHtml).join('')}</ol>`;
     openDialog('case-dialog');
   }
   function openTrace(lane='') {
@@ -120,7 +121,7 @@
     if(button.dataset.view){setView(button.dataset.view);return;}
     if(button.dataset.case){openCase(button.dataset.case);return;}
     if(button.dataset.receipt){openReceipt(button.dataset.receipt);return;}
-    if(button.dataset.laneTrace){closeDialog('case-dialog');openTrace(button.dataset.laneTrace);return;}
+    if(button.dataset.laneTrace){openTrace(button.dataset.laneTrace);return;}
     if(button.id==='opening-case'){chooseRun('demo');openCase('L6');return;}
     if(button.id==='watch-unseen'){chooseRun('unseen');setView('results');openCase('L4');return;}
     if(button.id==='focus-case'){openCase(run().focusLane);return;}

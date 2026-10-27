@@ -34,7 +34,9 @@ Zetaris supplies federated evidence and access control in the original product. 
 
 `data/replay.json` contains the public replay. `data/replay.js` wraps the same data as a classic script so that direct file opening works without a JSON fetch. `data/provenance.json` records source paths and SHA-256 hashes. All fonts and images are local. The site’s content security policy disallows network connections and external scripts.
 
-The permanent top banner contains the required `https://github.com/a96020183/same-injury` link placeholder. A coordinator must replace that placeholder with the final GitHub repository URL before publishing. It intentionally has no claimed destination yet. On a narrow display, the one-line banner scrolls horizontally and can receive keyboard focus. All other file references are relative and work under a project subpath.
+The permanent top banner links to the [GitHub README](https://github.com/a96020183/same-injury). The same source link is available with the downloads. The supplied demo URL is https://a96020183.github.io/same-injury/. On a narrow display, the one-line banner scrolls horizontally and can receive keyboard focus. All other file references are relative and work under a project subpath.
+
+The opening phone report is labelled as a SYNTHETIC test record in the OSHA report format; it is not an actual public-file record. Original product guidance inside a case is explicitly labelled as recorded wording. The viewer expands work-activity terminology for readability. The downloaded replay, SQL, result values, hashes and original wording remain unchanged. Closing a case-specific trace returns to the open case, and the dialog close control remains available while scrolling.
 
 The source snapshot is commit `9a40898e9e6420b1a43276e6bd3c75448cc3c449`. The configured origin has a `main` branch and no `master` branch. The source was fetched successfully and reset to `origin/main`; the originally requested `origin/master` target does not exist.
 
