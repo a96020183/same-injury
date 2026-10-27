@@ -1,0 +1,76 @@
+{
+ "seed": 3001,
+ "tables": {
+  "plant_group_A:scan/loc_master": "site_master",
+  "plant_group_A:scan/scanned_log_transcribed": "incident",
+  "plant_group_A:scan/people_dim": "distractor",
+  "plant_group_A:scan/good_catch": "distractor",
+  "plant_group_A:scan/nm_detail": "distractor",
+  "plant_group_B:mysql/plants": "site_master",
+  "plant_group_B:mysql/recordables": "incident",
+  "plant_group_B:mysql/nm_log": "distractor",
+  "plant_group_B:mysql/hazard_obs": "distractor",
+  "plant_group_C:postgres/sites": "site_master",
+  "plant_group_C:postgres/EHS_Export_2024": "incident",
+  "plant_group_C:postgres/people_dim": "distractor",
+  "plant_group_C:postgres/training_completions": "distractor",
+  "plant_group_C:postgres/fa_visits": "distractor",
+  "plant_group_D:csv/facility_dim": "site_master",
+  "plant_group_D:csv/inc_rpt": "incident",
+  "plant_group_D:csv/training_completions": "distractor",
+  "plant_group_D:csv/good_catch": "distractor",
+  "plant_group_D:csv/nm_detail": "distractor",
+  "minio:csv/yr_totals": "summary"
+ },
+ "field_map": {
+  "plant_group_A:scan/scanned_log_transcribed": {
+   "site": "site",
+   "narrative": "transcribed_text",
+   "date": "transcribed_text",
+   "body_part": "transcribed_text"
+  },
+  "plant_group_B:mysql/recordables": {
+   "case_id": "log_line",
+   "site": "plant_id",
+   "date": "evt_date",
+   "body_part": "part_of_body",
+   "narrative": "descr",
+   "injury": "nature_of_injury",
+   "outcome": "result_cd",
+   "days_away": "days_away",
+   "job_title": "job_title",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_C:postgres/EHS_Export_2024": {
+   "case_id": "log_line",
+   "site": "plant",
+   "date": "evt_date",
+   "body_part": "bp",
+   "narrative": "narr",
+   "injury": "nature_of_injury",
+   "outcome": "outcome",
+   "days_away": "away_ct",
+   "job_title": "position",
+   "_date_format": "%d-%b-%Y"
+  },
+  "plant_group_D:csv/inc_rpt": {
+   "case_id": "f8",
+   "site": "f9",
+   "date": "f6",
+   "body_part": "f3",
+   "narrative": "f5",
+   "injury": "f1",
+   "outcome": "f2",
+   "days_away": "f4",
+   "job_title": "f7",
+   "_date_format": "%Y%m%d"
+  }
+ },
+ "systems": {
+  "A": "scan",
+  "B": "mysql",
+  "C": "postgres",
+  "D": "csv"
+ },
+ "n_establishments": 28
+}

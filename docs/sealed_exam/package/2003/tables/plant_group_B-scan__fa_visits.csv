@@ -1,0 +1,23 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,07/31/2024,Site-623D,finger,"Body part: finger. Outcome: laceration, finger.",none
+FA002,11/30/2024,Site-13C1,foot,Splinter in foot,bandage
+FA003,09/14/2024,Site-6712,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",cold compress
+FA004,07/26/2024,Site-13C1,hand,"Dust in eye, flushed",ice pack
+FA005,12/26/2024,Site-13C1,foot,"Headache, rested 15 min",ice pack
+FA006,01/21/2024,Site-6712,hand,Splinter in hand,eye wash
+FA007,12/12/2024,Site-13C1,finger,"Body part: finger. Outcome: laceration, finger.",eye wash
+FA008,01/30/2024,Site-623D,finger,"Dust in eye, flushed",none
+FA009,06/01/2024,Site-13C1,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",cold compress
+FA010,03/27/2024,Site-6712,arm,"Headache, rested 15 min",bandage
+FA011,12/21/2024,Site-623D,finger,Splinter in finger,ice pack
+FA012,12/19/2024,Site-623D,arm,"Dust in eye, flushed",eye wash
+FA013,02/05/2024,Site-13C1,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",cold compress
+FA014,10/25/2024,Site-0623,foot,"Dust in eye, flushed",none
+FA015,07/30/2024,Site-6712,hand,Splinter in hand,cold compress
+FA016,06/12/2024,Site-6712,finger,"Headache, rested 15 min",cold compress
+FA017,03/06/2024,Site-13C1,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",none
+FA018,06/08/2024,Site-13C1,hand,Splinter in hand,eye wash
+FA019,01/19/2024,Site-6712,arm,"Headache, rested 15 min",none
+FA020,06/24/2024,Site-13C1,foot,"Dust in eye, flushed",eye wash
+FA021,01/01/2024,Site-6712,foot,Splinter in foot,none
+FA022,02/05/2024,Site-0623,foot,"Body part: foot. Outcome: laceration, foot.",cold compress

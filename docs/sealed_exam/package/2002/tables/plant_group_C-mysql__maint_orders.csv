@@ -1,0 +1,18 @@
+wo_id,asset,opened,site,problem,status
+WO85279,palletizer,20240314,Site-7946,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",open
+WO69175,line 3 conveyor,20240503,Site-7261,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO76781,packaging line,20241009,Site-F513,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO39469,grinder,20240210,Site-F513,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO33641,mixer,20240727,Site-0843,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO22468,mixer,20241202,Site-F513,Sensor fault mixer,open
+WO18733,oven loader,20240123,Site-0843,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO29611,line 3 conveyor,20241009,Site-0843,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO16559,oven loader,20240522,Site-0843,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",open
+WO12370,band saw,20241216,Site-7261,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",closed
+WO30304,grinder,20240306,Site-0843,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO47300,slicer,20240214,Site-0843,Sensor fault slicer,open
+WO38142,mixer,20240501,Site-7261,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",open
+WO88947,slicer,20240908,Site-7946,"Body part: body. Contact: slicer. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO33310,grinder,20240324,Site-7946,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",open
+WO56078,oven loader,20241011,Site-7261,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",open
+WO35458,band saw,20241015,Site-7946,"Body part: body. Contact: band saw. Task: doing maintenance. Outcome: injury, type not stated.",closed

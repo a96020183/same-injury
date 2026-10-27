@@ -1,0 +1,19 @@
+wo_id,asset,opened,site,problem,status
+WO66303,slicer,20240805,Site-5A14,Sensor fault slicer,open
+WO95779,packaging line,20240108,Site-4A94,"Body part: body. Contact: machine. Outcome: injury, type not stated.",closed
+WO21539,line 3 conveyor,20240629,Site-0B13,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",closed
+WO34081,slicer,20240416,Site-DEEB,Sensor fault slicer,closed
+WO82761,mixer,20241217,Site-2CBA,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",closed
+WO77032,line 3 conveyor,20241015,Site-5A14,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO50039,oven loader,20240822,Site-1275,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO12591,grinder,20240620,Site-4141,Sensor fault grinder,open
+WO91320,mixer,20240424,Site-BB58,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",open
+WO36851,line 3 conveyor,20241026,Site-1275,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO52373,oven loader,20240724,Site-9030,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",open
+WO50945,oven loader,20240927,Site-4A94,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO98171,line 3 conveyor,20240411,Site-36E1,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",closed
+WO57630,line 3 conveyor,20241023,Site-4141,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO78189,line 3 conveyor,20240311,Site-4A94,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",closed
+WO38382,line 3 conveyor,20241120,Site-D6DF,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO42564,slicer,20240103,Site-63C7,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",closed
+WO54781,mixer,20240217,Site-D6DF,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",open

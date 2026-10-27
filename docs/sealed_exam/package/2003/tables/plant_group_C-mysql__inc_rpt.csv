@@ -1,0 +1,144 @@
+f6,f2,f4,f5,f8,f9,f1,f3,f7
+1,Site-AAB4,23/01/2024,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Back sprain,2,65,Sanitation
+2,Site-AAB4,02/02/2024,"Hand(s), finger(s)","Body part: finger. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",R finger sprain,4,0,Packcaging
+3,Site-AAB4,19/02/2024,Arm(s),"Body part: elbow. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",L elbow strain,2,65,Maintenance
+4,Site-AAB4,06/03/2024,"Ear(s), facial region","Body part: body. Contact: roller. Task: doing maintenance. Outcome: injury, type not stated.",Nose contusion,2,40,Maintenance
+5,Site-AAB4,26/03/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Back strain,2,38,Sanitaiton
+6,Site-AAB4,26/03/2024,"Chest--including ribs, internal organs","Body part: body. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",R rib fracture,2,145,Foreman
+7,Site-AAB4,01/04/2024,"Foot (feet), toe(s)","Body part: foot. Contact: machine. Outcome: injury, type not stated.",Foot pain,2,141,General Helper
+8,Site-AAB4,10/04/2024,"Hand(s), finger(s)","Body part: hand. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",R thumb sprain,2,59,Maintenance
+9,Site-AAB4,20/04/2024,"Foot (feet), toe(s)","Body part: foot. Contact: pallet (struck). Outcome: fracture, foot.",L foot puncture,2,3,General Helper
+10,Site-AAB4,08/05/2024,"Ear(s), facial region","Body part: eye. Contact: pallet. Task: cutting. Outcome: injury, type not stated.",R eye contusion,4,0,General Helper
+11,Site-AAB4,12/05/2024,Arm(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",L elbow contusion,2,9,Maintenance
+12,Site-AAB4,14/05/2024,Arm(s),"Body part: body. Outcome: injury, type not stated.",Elbow cellulitis,2,11,Maintenance
+13,Site-AAB4,19/05/2024,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",L ankle strain,3,0,Maintenance
+14,Site-AAB4,24/05/2024,Leg(s),"Body part: knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",L knee contusion,3,0,Sanitation
+15,Site-AAB4,21/06/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine (cut). Outcome: laceration, finger.",R finger laceration,2,180,General Helper
+16,Site-AAB4,15/07/2024,"Hand(s), finger(s)","Body part: finger. Outcome: injury, type not stated.",L finger crush,2,2,Mixer
+17,Site-AAB4,20/07/2024,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: roller. Task: clearing a jam. Outcome: injury, type not stated.",L hand fracature,2,107,General Helper
+18,Site-AAB4,29/07/2024,Leg(s),"Body part: ring finger. Contact: machine. Task: walking. Outcome: injury, type not stated.",R leg strain,2,146,Machine Operator
+19,Site-AAB4,21/08/2024,,"Body part: shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",R shoulder sprain,2,113,General Helper
+20,Site-AAB4,16/09/2024,,"Body part: body. Outcome: injury, type not stated.",Insect bite,4,0,General Helper
+21,Site-AAB4,18/09/2024,"Foot (feet), toe(s)","Body part: foot. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",R foot contusion,2,4,General Helper
+22,Site-AAB4,21/09/2024,,"Body part: body. Contact: truck. Outcome: injury, type not stated.",Mult contusions,2,29,Driver
+23,Site-AAB4,24/09/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Back strain,2,12,Machine Operator
+24,Site-AAB4,11/10/2024,"Hand(s), finger(s)","Body part: body. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",R finger abrasions,2,70,Machine Operator
+25,Site-AAB4,11/10/2024,,"Body part: neck. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",Neck contusion,2,133,General Helper
+26,Site-AAB4,12/10/2024,,"Body part: head. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",Neck strain,2,120,General Helper
+27,Site-AAB4,17/10/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine (cut). Outcome: laceration, finger.",R finger laceration,4,0,Maintenance
+28,Site-AAB4,23/10/2024,,"Body part: body. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",R shoulder pain,3,0,Sanitation
+29,Site-AAB4,25/10/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Back sprain,2,9,Driver
+30,Site-AAB4,31/10/2024,"Hand(s), finger(s)","Body part: body. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",R finger laceration,2,82,Sanitation
+31,Site-AAB4,05/11/2024,,"Body part: neck. Contact: conveyor. Outcome: injury, type not stated.",Neck contusion,2,114,General Helper
+32,Site-AAB4,21/11/2024,Arm(s),"Body part: elbow. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",R elbow contusion,4,0,Driver
+33,Site-AAB4,24/11/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",Low back strain,3,0,Foreman
+1,Site-8F8E,07/01/2024,"Hand(s), finger(s)","Body part: body. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",RMF laceration,3,0,Machine Operator
+2,Site-8F8E,09/01/2024,,"Body part: hand. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",R shoulder strain,2,126,Shipper
+3,Site-8F8E,05/02/2024,Arm(s),"Body part: elbow. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",L elbow laceration,4,0,Machine Operator
+4,Site-8F8E,07/02/2024,"Ear(s), facial region","Body part: ring finger. Contact: rack. Task: clearing a jam. Outcome: injury, type not stated.",Forehead laceration,2,1,Maintenance
+5,Site-8F8E,19/02/2024,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: pump. Task: walking. Outcome: injury, type not stated.",Low back pain,3,0,Maintenance
+6,Site-8F8E,30/04/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Low back sprain,2,7,Sanitation
+7,Site-8F8E,10/05/2024,"Hand(s), finger(s)","Body part: finger. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",R finger laceration,3,0,Maintenancae
+8,Site-8F8E,02/06/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Back strain,3,0,Machine Operator
+9,Site-8F8E,04/06/2024,,"Body part: body. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Head contusion,2,160,Indexer
+10,Site-8F8E,10/06/2024,Arm(s),"Body part: body. Contact: rack. Task: cleaning. Outcome: injury, type not stated.",R arm contusion,3,0,Sanitation
+11,Site-8F8E,11/06/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Low back sprain,3,0,Sanitation
+12,Site-8F8E,12/06/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Outcome: injury, type not stated.",Back strain,3,0,General Helper
+13,Site-8F8E,25/06/2024,"Foot (feet), toe(s)","Body part: toe. Contact: mixer. Outcome: injury, type not stated.",L toe fracture,2,180,Break Person
+14,Site-8F8E,08/07/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",L finger laceration,3,0,General Helper
+15,Site-8F8E,10/07/2024,,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.",L ankle sprain,2,36,Shipper
+16,Site-8F8E,21/07/2024,Leg(s),"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",R knee sprain,2,77,Break Person
+17,Site-8F8E,02/08/2024,"Ear(s), facial region","Body part: body. Contact: truck. Task: cleaning. Outcome: injury, type not stated.",Nose fracture,3,0,Sanitation
+18,Site-8F8E,11/08/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Outcome: injury, type not stated.",Low back strain,2,1,Break Person
+19,Site-8F8E,15/08/2024,"Hand(s), finger(s)","Body part: hand. Outcome: injury, type not stated.",L hand contusion,3,0,Mixer
+20,Site-8F8E,18/08/2024,"Hand(s), finger(s)","Body part: index finger. Contact: blade (cut). Task: doing maintenance. Outcome: laceration, index finger.",R finger laceration,4,0,Break Person
+21,Site-8F8E,21/09/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",Low back strain,2,86,Sanitation
+22,Site-8F8E,04/10/2024,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: machine (cut). Task: doing maintenance. Outcome: laceration, ring finger and hand.",R hand laceration,3,0,Maintenance
+23,Site-8F8E,10/10/2024,"Hand(s), finger(s)","Body part: finger. Contact: blade (cut). Task: cleaning. Outcome: laceration, finger.",R finger laceration,4,0,General Helper
+24,Site-8F8E,27/10/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Outcome: injury, type not stated.",Low back sprain,2,14,General Helper
+25,Site-8F8E,06/11/2024,,"Body part: arm. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",Head laceration,4,0,General Helper
+1,Site-918E,17/03/2024,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",L knee tear,2,78,General Helper
+2,Site-918E,11/04/2024,Pelvic region,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Groin strain,2,1,General Helper
+3,Site-918E,30/04/2024,,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",Mult contusions,3,0,Foreman
+4,Site-918E,11/05/2024,"Hand(s), finger(s)","Body part: thumb and hand. Contact: machine (cut). Outcome: laceration, thumb and hand.",Thumb laceration,4,0,Engineer
+5,Site-918E,08/07/2024,"Body part: body. Outcome: injury, type not stated.","Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Back knee contusion,3,0,General Helper
+6,Site-918E,17/09/2024,"Hand(s), finger(s)","Body part: hand. Contact: chain. Outcome: injury, type not stated.",R finger fracture,2,15,Engineer
+7,Site-918E,19/09/2024,"Foot (feet), toe(s)","Body part: toe. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Toe fracture,2,3,Foreman
+8,Site-918E,01/10/2024,,"Body part: shoulder. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",R shoulder strain,2,28,Machine Operator
+9,Site-918E,06/11/2024,Pelvic region,"Body part: body. Contact: machine (strained). Task: lifting or moving material. Outcome: sprain or strain, body.",Groin strain,2,78,Engineer
+1,Site-EDE6,21/02/2024,"Hand(s), finger(s)","Body part: finger and hand. Contact: machine. Outcome: injury, type not stated.",L finger crush,2,2,General Helper
+2,Site-EDE6,24/05/2024,"Hand(s), finger(s)","Body part: thumb. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",R thumb sprain,2,4,General Helper
+3,Site-EDE6,26/08/2024,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.",Back sprain,2,7,Foreman
+4,Site-EDE6,16/12/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Task: walking. Outcome: injury, type not stated.",Back strain,3,0,Foreman
+1,Site-5AE3,26/04/2024,"Hand(s), finger(s)","Body part: middle finger. Contact: machine. Outcome: injury, type not stated.",Finger contusion,3,0,General Helper
+2,Site-5AE3,10/06/2024,,"Body part: ankle. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",R ankle contusion,3,0,General Helper
+3,Site-5AE3,09/07/2024,"Body part: back. Outcome: injury, type not stated.","Body part: hand. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Low back contusion,2,28,Mixer Operator
+4,Site-5AE3,11/09/2024,"Hand(s), finger(s)","Body part: index finger. Contact: conveyor. Outcome: injury, type not stated.",R finger laceration,4,0,Machine Operator
+5,Site-5AE3,01/10/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Back strain,2,6,Machine Operator
+6,Site-5AE3,04/11/2024,"Ear(s), facial region","Body part: eye and face. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",Face contusion,2,2,Shipper
+7,Site-5AE3,08/11/2024,,"Body part: shoulder. Outcome: sprain or strain, shoulder.",L shoulder strain,3,0,Foreman
+8,Site-5AE3,19/11/2024,Leg(s),"Body part: knee. Contact: rack. Task: walking. Outcome: injury, type not stated.",L knee strain,3,0,Mixer Operator
+1,Site-0446,01/01/2024,Arm(s),"Body part: body. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",L arm contusion,3,0,General Helper
+2,Site-0446,10/01/2024,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Low back sprain,2,2,General Helper
+3,Site-0446,10/01/2024,Upper and lower extremities,"Body part: index finger. Contact: equipment. Task: walking. Outcome: injury, type not stated.",R shoulder leg contusion,4,0,General Helper
+4,Site-0446,10/01/2024,,"Body part: body. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",R wrist fracture,2,39,General Helper
+5,Site-0446,14/01/2024,,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Multiple contusions,2,43,Driver
+6,Site-0446,16/01/2024,,"Body part: body. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",R shoulder strain,2,1,General Helper
+7,Site-0446,19/01/2024,,"Body part: hand and ankle. Contact: pallet. Outcome: injury, type not stated.",R ankle contusion,3,0,General Helper
+8,Site-0446,25/01/2024,"Body part: back. Outcome: injury, type not stated.","Body part: hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Low back sprain,2,135,General Helper
+9,Site-0446,30/01/2024,"Hand(s), finger(s)","Body part: hand. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",R hand contusion,3,0,Sanitation
+10,Site-0446,30/01/2024,Arm(s),"Body part: arm. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Arm contusion,3,0,Break Person
+11,Site-0446,01/02/2024,,"Body part: back. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Shoulder contusion,4,0,Foreman
+12,Site-0446,06/02/2024,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Mult contusions,3,0,General Helper
+13,Site-0446,08/02/2024,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Shoulder contusion,3,0,Maintenance
+14,Site-0446,11/02/2024,"Hand(s), finger(s)","Body part: thumb. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",L thumb fracture,2,14,General Helper
+15,Site-0446,18/02/2024,"Foot (feet), toe(s)","Body part: body. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",R toe fracture,2,6,Shipper
+16,Site-0446,28/02/2024,Leg(s),"Body part: knee and back. Contact: pallet. Outcome: injury, type not stated.",L knee sprain,2,92,Driver
+17,Site-0446,05/03/2024,Leg(s),"Body part: knee. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",L knee contusion,2,65,General Helper
+18,Site-0446,20/03/2024,"Hand(s), finger(s)","Body part: hand. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",L hand contusion,2,161,General Helper
+19,Site-0446,24/03/2024,"Hand(s), finger(s)","Body part: finger. Contact: truck. Task: clearing a jam. Outcome: injury, type not stated.",L finger contusion,3,0,Sanitation
+20,Site-0446,29/03/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Back strain,2,2,Sanitation
+21,Site-0446,29/03/2024,"Hand(s), finger(s)","Body part: hand. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Splinter in R finger,4,0,Checker
+22,Site-0446,03/04/2024,"Hand(s), finger(s)","Body part: hand. Contact: machine (cut). Task: lifting or moving material. Outcome: laceration, hand.",R finger laceration,3,0,Foreman
+23,Site-0446,11/04/2024,Leg(s),"Body part: body. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",L knee strain,2,3,Sanitation
+24,Site-0446,19/04/2024,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",R shoulder tear,2,180,Merchandiser
+25,Site-0446,21/04/2024,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Low back strain,2,4,Checker
+26,Site-0446,21/04/2024,"Hand(s), finger(s)","Body part: thumb. Contact: machine (cut). Outcome: laceration, thumb.",R thumb laceration,3,0,Engineer
+27,Site-0446,23/04/2024,Arm(s),"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",R arm strain,3,0,Operator
+28,Site-0446,24/04/2024,,"Body part: body. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",L shoulder contusion,2,50,General Helper
+29,Site-0446,28/04/2024,Arm(s),"Body part: body. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",R arm contusion,2,2,General Helper
+30,Site-0446,29/04/2024,"Ear(s), facial region","Body part: face. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.",Face contusion,2,1,Checker
+31,Site-0446,13/05/2024,"Hand(s), finger(s)","Body part: hand. Contact: roller. Task: cleaning. Outcome: injury, type not stated.",L finger abrasions,2,180,General Helper
+32,Site-0446,13/05/2024,"Hand(s), finger(s)","Body part: index finger. Contact: conveyor. Outcome: injury, type not stated.",R finger contusion,3,0,General Helper
+33,Site-0446,15/05/2024,"Hand(s), finger(s)","Body part: body. Contact: pallet. Outcome: injury, type not stated.",L hand contusion,3,0,General Helper
+34,Site-0446,18/05/2024,"Hand(s), finger(s)","Body part: body. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",R hand contusion burn,3,0,General Helper
+35,Site-0446,31/05/2024,"Hand(s), finger(s)","Body part: finger. Contact: chain. Outcome: injury, type not stated.",R finger laceration,3,0,Engineer
+36,Site-0446,01/06/2024,,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",R shoulder strain,2,132,Checker
+37,Site-0446,06/06/2024,Leg(s),"Body part: body. Contact: conveyor. Task: lifting or moving material. Outcome: injury, type not stated.",L knee strain,2,125,General Helper
+38,Site-0446,09/06/2024,"Foot (feet), toe(s)","Body part: foot. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",R great toe sprain,2,2,General Helper
+39,Site-0446,09/06/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",Low back strain,2,125,General Helper
+40,Site-0446,10/06/2024,Leg(s),"Body part: knee. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",R knee contusion,2,7,Sanitation
+41,Site-0446,13/06/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",L finger contusion,3,0,General Helper
+42,Site-0446,28/06/2024,,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Hip strain,3,0,General Helper
+43,Site-0446,01/07/2024,Arm(s),"Body part: arm. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",L arm abrasion,3,0,Supervisor
+44,Site-0446,26/07/2024,"Foot (feet), toe(s)","Body part: foot. Contact: truck. Task: walking. Outcome: injury, type not stated.",R foot contusion,2,107,Engineer
+45,Site-0446,05/08/2024,"Chest--including ribs, internal organs","Body part: foot. Contact: ladder. Task: operating equipment. Outcome: injury, type not stated.",Chest wall contusion,3,0,Foreman
+46,Site-0446,09/08/2024,"Hand(s), finger(s)","Body part: hand. Contact: chain. Task: clearing a jam. Outcome: injury, type not stated.",L thumb tip amputation,2,67,General Helper
+47,Site-0446,10/08/2024,Arm(s),"Body part: forearm. Contact: truck (struck). Outcome: fracture, forearm.",R forearm laceration,4,0,Engineer
+48,Site-0446,14/08/2024,"Hand(s), finger(s)","Body part: hand. Contact: knife. Task: cutting. Outcome: injury, type not stated.",L thumb laceration,2,1,Mixer
+49,Site-0446,27/08/2024,Leg(s),"Body part: body. Contact: door. Task: walking. Outcome: injury, type not stated.",R knee contusion,2,92,General Helper
+50,Site-0446,28/08/2024,Leg(s),"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",L knee sprain,2,36,Foreman
+51,Site-0446,24/09/2024,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",L knee contusion,2,2,General Helper
+52,Site-0446,15/10/2024,"Hand(s), finger(s)","Body part: hand. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",R hand contusion,3,0,General Helper
+53,Site-0446,16/10/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",Back strain,2,3,Sanitation
+54,Site-0446,20/10/2024,,"Body part: wrist. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",L wrist contusion,3,0,General Helper
+55,Site-0446,21/10/2024,"Hand(s), finger(s)","Body part: finger. Contact: slicer. Task: clearing a jam. Outcome: injury, type not stated.",R finger laceration,2,1,Machine Operator
+56,Site-0446,23/10/2024,"Hand(s), finger(s)","Body part: thumb. Contact: equipment (cut). Task: cleaning. Outcome: laceration, thumb.",R thumb laceration,2,13,Sanitation
+57,Site-0446,29/10/2024,,"Body part: wrist. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",R wrist strain,2,16,Driver
+58,Site-0446,31/10/2024,"Ear(s), facial region","Body part: hand. Contact: truck. Outcome: injury, type not stated.",Cheek laceration,4,0,General Helper
+59,Site-0446,04/11/2024,,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",L ankle sprain,2,108,Engineer
+60,Site-0446,14/11/2024,"Hand(s), finger(s)","Body part: ring finger. Contact: knife (cut). Outcome: laceration, ring finger.",R ring finger tip amputation,2,56,Machine Operator
+61,Site-0446,19/11/2024,,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",L ankle sprain,2,29,Driver
+62,Site-0446,09/12/2024,Leg(s),"Body part: knee. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",L knee contusion,2,80,General Helper
+63,Site-0446,13/12/2024,"Ear(s), facial region","Body part: body. Contact: machine. Outcome: injury, type not stated.",Face contusion,2,1,General Helper
+64,Site-0446,30/12/2024,"Foot (feet), toe(s)","Body part: foot. Contact: conveyor. Task: lifting or moving material. Outcome: injury, type not stated.",L great toe contusion,2,1,General Helper

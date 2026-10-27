@@ -1,0 +1,94 @@
+{
+ "seed": 1003,
+ "note": "Public OSHA and DOL records of four companies, re-sharded into four plant systems, then de-identified and composed (scripts/deidentify.py, scripts/compose_records.py): names, addresses, towns, ZIPs and record numbers replaced by codes; dates shifted and states swapped per company; on real plants the log case numbers are codes, job titles are job families, injury wording is restated and days away are invented; 300A employees, hours and days are invented. Synthetic records (marked SYNTHETIC) exist only in the invented Site-SYN plants.",
+ "files": {
+  "dol/inspection.csv": {
+   "rows": 19,
+   "sha256": "24b8ae35f0d98a9807d378fca20223acb9472042e69045219ad7a9d72e0ed9c5"
+  },
+  "dol/related_activity.csv": {
+   "rows": 19,
+   "sha256": "63a54a91bfd13a5ac708fc6c6758ccd86dc5aac8545f67864fbc8b748451a482"
+  },
+  "group_a_postgres/emp_master.csv": {
+   "rows": 20,
+   "sha256": "cbcffb6a4b7c746389442e6670e1eb4d5f83467018cea6cb6adc187717841e2e"
+  },
+  "group_a_postgres/injury_log.csv": {
+   "rows": 38,
+   "sha256": "9d75752095cbc94f23f0bca748626bbc230e44d3c1e3309979a787762b60d624"
+  },
+  "group_a_postgres/lms_export.csv": {
+   "rows": 15,
+   "sha256": "2ea64fcf42533bcd549a89ab7e06a6b339cd88f9b88e7f6d741b376dec044ed7"
+  },
+  "group_a_postgres/sites.csv": {
+   "rows": 5,
+   "sha256": "b245110eb54711ea5ff8150e4b2ea4e9ea09fc4f316e0b109c44bdd84933979d"
+  },
+  "group_b_mysql/inc_rpt.csv": {
+   "rows": 55,
+   "sha256": "73301538684e1ee555fe63c1b8ef5ce21d36b4d2aa6d79c673d0147df0af4e8c"
+  },
+  "group_b_mysql/lms_export.csv": {
+   "rows": 12,
+   "sha256": "b24f3de3b0c7e51baf6f132489e56ffd1bc67bb30625bde0ee7a633001e49609"
+  },
+  "group_b_mysql/sites.csv": {
+   "rows": 8,
+   "sha256": "b83a2e0a3f3f0eab6a4fe89eee280d31a64c802d1f899c65e75928e6c9285b48"
+  },
+  "group_c_csv/cmms_wo.csv": {
+   "rows": 15,
+   "sha256": "8a30fb8f59713d2d5727b48c4e46d3b26514e156e16c469ca697fbba43682e49"
+  },
+  "group_c_csv/EHS_Export_2024.csv": {
+   "rows": 34,
+   "sha256": "078eb0362489a0566f5b97311f9063982ecfd0ba5b5107fe72daf2b83438850f"
+  },
+  "group_c_csv/hr_roster.csv": {
+   "rows": 18,
+   "sha256": "af8828c54af1b67e44dd076289c7432928d57e025adb3be9c35c53ace1e6d4b1"
+  },
+  "group_c_csv/sites.csv": {
+   "rows": 3,
+   "sha256": "4b884b9e4a22b2f64e7aa0fa97bd7b5be6d3bd8aa12bc1d9e81386a573af4658"
+  },
+  "group_d_scan/good_catch.csv": {
+   "rows": 16,
+   "sha256": "98bcd9564c49721ce508e1ef2a2d7fc4adede306671f2ceb46f4384d51394f25"
+  },
+  "group_d_scan/scanned_log_transcribed.csv": {
+   "rows": 66,
+   "sha256": "c8dabea3a9ff99ecaf1f08dbc325b2c703c7f20b0c014172d847034441c2589f"
+  },
+  "group_d_scan/sites.csv": {
+   "rows": 4,
+   "sha256": "de9f76d12f1ce05f9568e07494d61403a59d76ae3032e7d3a644d7643ea57aa0"
+  },
+  "reference/state_plans.csv": {
+   "rows": 22,
+   "sha256": "fa8388e4aeb4dc6a414d2043c31ab9762a86adb589922d1e062f812b5bf43b5f"
+  },
+  "shared/annual_summary_300A.csv": {
+   "rows": 23,
+   "sha256": "14bd92873df0870b8930e131d5ba3ad0ca256f7d225f6d6fcc8b6aca5209cdf2"
+  },
+  "shared/osha_sir_2024.csv": {
+   "rows": 264,
+   "sha256": "2ab322f06f04b52e0c94e772fd3eefbbe94f7e5911ba5cccaa148cc2455435f7"
+  },
+  "shared/reply_letters.csv": {
+   "rows": 1,
+   "sha256": "85f10fef6426b59e8a05c6e343e6825d6b95e9945fee3bb431f17a8153c0574e"
+  },
+  "synthetic_csv/injury_log.csv": {
+   "rows": 4,
+   "sha256": "449ce7fc687eb9f954446634b1252ea10838937b17a4da776b1fda8f315ae7a3"
+  },
+  "synthetic_csv/sites.csv": {
+   "rows": 3,
+   "sha256": "e6676bac15c283c0cee91ecd918b7f8dccbb61e5df8e94e56dd1cfa98510f451"
+  }
+ }
+}

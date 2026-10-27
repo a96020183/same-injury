@@ -1,0 +1,170 @@
+{
+ "run1": {
+  "counts": {
+   "t_tp": 19,
+   "t_pred": 19,
+   "t_gold": 20,
+   "f_tp": 73,
+   "f_pred": 73,
+   "f_gold": 80
+  },
+  "table_recall": [
+   19,
+   20,
+   [
+    0.76,
+    0.99
+   ]
+  ],
+  "table_precision": [
+   19,
+   19,
+   [
+    0.83,
+    1.0
+   ]
+  ],
+  "field_recall": [
+   73,
+   80,
+   [
+    0.83,
+    0.96
+   ]
+  ],
+  "field_precision": [
+   73,
+   73,
+   [
+    0.95,
+    1.0
+   ]
+  ]
+ },
+ "run2": {
+  "counts": {
+   "t_tp": 20,
+   "t_pred": 20,
+   "t_gold": 20,
+   "f_tp": 79,
+   "f_pred": 79,
+   "f_gold": 80
+  },
+  "table_recall": [
+   20,
+   20,
+   [
+    0.84,
+    1.0
+   ]
+  ],
+  "table_precision": [
+   20,
+   20,
+   [
+    0.84,
+    1.0
+   ]
+  ],
+  "field_recall": [
+   79,
+   80,
+   [
+    0.93,
+    1.0
+   ]
+  ],
+  "field_precision": [
+   79,
+   79,
+   [
+    0.95,
+    1.0
+   ]
+  ]
+ },
+ "rules": {
+  "counts": {
+   "t_tp": 11,
+   "t_pred": 11,
+   "t_gold": 20,
+   "f_tp": 39,
+   "f_pred": 39,
+   "f_gold": 80
+  },
+  "table_recall": [
+   11,
+   20,
+   [
+    0.34,
+    0.74
+   ]
+  ],
+  "table_precision": [
+   11,
+   11,
+   [
+    0.74,
+    1.0
+   ]
+  ],
+  "field_recall": [
+   39,
+   80,
+   [
+    0.38,
+    0.6
+   ]
+  ],
+  "field_precision": [
+   39,
+   39,
+   [
+    0.91,
+    1.0
+   ]
+  ]
+ },
+ "keyword": {
+  "counts": {
+   "t_tp": 8,
+   "t_pred": 28,
+   "t_gold": 20,
+   "f_tp": 32,
+   "f_pred": 100,
+   "f_gold": 80
+  },
+  "table_recall": [
+   8,
+   20,
+   [
+    0.22,
+    0.61
+   ]
+  ],
+  "table_precision": [
+   8,
+   28,
+   [
+    0.15,
+    0.47
+   ]
+  ],
+  "field_recall": [
+   32,
+   80,
+   [
+    0.3,
+    0.51
+   ]
+  ],
+  "field_precision": [
+   32,
+   100,
+   [
+    0.24,
+    0.42
+   ]
+  ]
+ }
+}

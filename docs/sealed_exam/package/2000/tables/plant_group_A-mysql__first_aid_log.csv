@@ -1,0 +1,26 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,2024-06-14,Site-FEF1,arm,"Headache, rested 15 min",ice pack
+FA002,2024-02-20,Site-DC85,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",eye wash
+FA003,2024-10-22,Site-C46C,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",ice pack
+FA004,2024-01-02,Site-C46C,foot,"Body part: foot. Outcome: laceration, foot.",cold compress
+FA005,2024-09-25,Site-DC85,foot,Splinter in foot,none
+FA006,2024-07-18,Site-DC85,finger,"Headache, rested 15 min",ice pack
+FA007,2024-09-08,Site-C46C,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",none
+FA008,2024-06-17,Site-DC85,hand,"Body part: hand. Outcome: laceration, hand.",eye wash
+FA009,2024-03-08,Site-FEF1,finger,"Dust in eye, flushed",eye wash
+FA010,2024-11-21,Site-FEF1,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",ice pack
+FA011,2024-04-17,Site-C46C,finger,"Dust in eye, flushed",cold compress
+FA012,2024-01-19,Site-DC85,hand,"Headache, rested 15 min",cold compress
+FA013,2024-01-10,Site-FEF1,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",eye wash
+FA014,2024-04-03,Site-FEF1,arm,"Headache, rested 15 min",eye wash
+FA015,2024-06-18,Site-FEF1,foot,Splinter in foot,cold compress
+FA016,2024-12-16,Site-DC85,arm,"Dust in eye, flushed",none
+FA017,2024-02-08,Site-C46C,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",cold compress
+FA018,2024-02-15,Site-DC85,foot,"Body part: foot. Outcome: laceration, foot.",cold compress
+FA019,2024-07-16,Site-C46C,finger,"Headache, rested 15 min",cold compress
+FA020,2024-10-30,Site-DC85,finger,"Dust in eye, flushed",eye wash
+FA021,2024-02-23,Site-C46C,arm,"Dust in eye, flushed",cold compress
+FA022,2024-11-21,Site-FEF1,foot,"Headache, rested 15 min",ice pack
+FA023,2024-05-25,Site-C46C,hand,"Body part: hand. Outcome: laceration, hand.",ice pack
+FA024,2024-11-26,Site-C46C,foot,"Dust in eye, flushed",ice pack
+FA025,2024-11-25,Site-DC85,arm,"Dust in eye, flushed",none

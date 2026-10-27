@@ -1,0 +1,71 @@
+{
+ "note": "Emulator view of the unseen company: the same sources the company role sees on live Zetaris.",
+ "datasources": [
+  {
+   "name": "unseen3001_my",
+   "description": "plant group B system",
+   "folder": "unseen3001_my",
+   "engine": "mysql"
+  },
+  {
+   "name": "unseen3001_paper",
+   "description": "plant group A system",
+   "folder": "unseen3001_paper",
+   "engine": "postgres"
+  },
+  {
+   "name": "unseen3001_pg",
+   "description": "plant group C system",
+   "folder": "unseen3001_pg",
+   "engine": "postgres"
+  }
+ ],
+ "lightning": [
+  {
+   "name": "unseen3001_files",
+   "description": "plant group D exports",
+   "tables": {
+    "facility_dim": "unseen3001_files/facility_dim.csv",
+    "good_catch": "unseen3001_files/good_catch.csv",
+    "inc_rpt": "unseen3001_files/inc_rpt.csv",
+    "nm_detail": "unseen3001_files/nm_detail.csv",
+    "training_completions": "unseen3001_files/training_completions.csv"
+   }
+  },
+  {
+   "name": "unseen3001_hq",
+   "description": "headquarters shared drive",
+   "tables": {
+    "yr_totals": "unseen3001_hq/yr_totals.csv"
+   }
+  },
+  {
+   "name": "unseen3001_public",
+   "description": "OSHA and DOL public files",
+   "tables": {
+    "severe_injury_reports": "unseen3001_public/osha_sir_2024.csv",
+    "state_plans": "unseen3001_public/state_plans.csv",
+    "inspection": "unseen3001_public/inspection.csv",
+    "related_activity": "unseen3001_public/related_activity.csv"
+   }
+  },
+  {
+   "name": "unseen3001_extra",
+   "description": "separate plant system",
+   "tables": {
+    "sites": "unseen3001_extra/sites.csv",
+    "injury_log": "unseen3001_extra/injury_log.csv"
+   }
+  }
+ ],
+ "policies": {
+  "unseen3001_public.severe_injury_reports": {
+   "Employer": "[A-Za-z0-9]",
+   "Address1": "[A-Za-z]"
+  },
+  "unseen3001_public.inspection": {
+   "estab_name": "[A-Za-z0-9]",
+   "site_address": "[A-Za-z]"
+  }
+ }
+}

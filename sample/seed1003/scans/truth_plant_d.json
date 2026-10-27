@@ -1,0 +1,35 @@
+{
+ "301_Site-SYN2_caseS8753.jpg": {
+  "site": "Site-SYN2",
+  "case_no": "S8753",
+  "injury_date": "2024-04-30",
+  "time_of_event": "14:01",
+  "job_title": "Slicer Room Attendant",
+  "er_visit": "yes",
+  "inpatient_overnight": "yes",
+  "side": "",
+  "body_part": "two fingers"
+ },
+ "301_Site-SYN2_caseS2385.jpg": {
+  "site": "Site-SYN2",
+  "case_no": "S2385",
+  "injury_date": "2024-08-06",
+  "time_of_event": "17:43",
+  "job_title": "Portion Room Attendant",
+  "er_visit": "no",
+  "inpatient_overnight": "no",
+  "side": "",
+  "body_part": "two fingers"
+ },
+ "301_Site-SYN3_caseS7560.jpg": {
+  "site": "Site-SYN3",
+  "case_no": "S7560",
+  "injury_date": "2024-10-19",
+  "time_of_event": "14:07",
+  "job_title": "Dicer Station Hand",
+  "er_visit": "no",
+  "inpatient_overnight": "no",
+  "side": "",
+  "body_part": "finger"
+ }
+}

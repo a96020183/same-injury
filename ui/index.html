@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same Injury</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/ui/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="word">Same Injury</span><span class="stamp" title="Prepared for counsel review. A label does not create privilege; counsel decides how the output is handled.">For counsel review</span></div>
+  <div class="meta">
+    <span id="mode" class="chip"></span>
+    <span id="models" class="chip"></span>
+    <button id="scoreBtn" class="ghost">Score · unseen company</button>
+    <button id="againBtn" class="ghost hidden" title="Start a new run (the replay speed is in the first screen)">Run again</button>
+    <button id="traceBtn" class="ghost">Trace <span id="traceCount"></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- 1. the real fragmentation -->
+  <section id="intro" class="view">
+    <p id="impact" class="impact"></p>
+    <div class="lead"><h1 id="headline"></h1>
+      <div class="cta"><button id="startBtn" class="primary">Find the systems</button>
+        <label class="fine">Replay speed <select id="pace"><option value="0">instant</option><option value="180" selected>normal</option><option value="450">slow</option></select></label></div></div>
+    <div id="records" class="records"></div>
+    <p id="idnote" class="note"></p>
+    <div class="threads-row"><div class="label">Three records, two threads: no shared key from the log to OSHA</div>
+    <svg class="threads" viewBox="0 0 720 120" role="img" aria-label="Three records, two threads: the plant log reaches OSHA's report by address and week; OSHA's report reaches the DOL inspection by its referral number">
+      <g class="node"><rect x="1" y="30" width="190" height="60" rx="2"/><text x="96" y="56">Plant log</text><text x="96" y="76" class="s">site, case, date</text></g>
+      <g class="node"><rect x="265" y="30" width="190" height="60" rx="2"/><text x="360" y="56">OSHA report</text><text x="360" y="76" class="s">phone report, own ID</text></g>
+      <g class="node"><rect x="529" y="30" width="190" height="60" rx="2"/><text x="624" y="56">DOL inspection</text><text x="624" y="76" class="s">opened later, own ID</text></g>
+      <path d="M191 60 H265" /><path d="M455 60 H529" />
+      <text x="228" y="22" class="e">house no. + ZIP + week</text><text x="492" y="22" class="e">referral number</text>
+      <text x="228" y="112" class="e2">no shared key</text><text x="492" y="112" class="e2">linked by referral</text>
+    </svg></div>
+    <div class="systems-row">
+      <div class="label">Your company keeps its logs in four systems (and a separate test system that holds only invented plants)</div>
+      <div id="systems" class="systems"></div>
+      <div id="composite" class="fine"></div>
+    </div>
+  </section>
+
+
+  <!-- 2. discovery layer 1 -->
+  <section id="discovery" class="view hidden">
+    <div class="step-head"><span class="num">1</span><h2>Where the injury records are</h2><span id="discStatus" class="status"></span></div>
+    <div id="gov" class="gov"></div>
+    <div id="uslBox" class="usl hidden">
+      <div class="usl-head">
+        <div><h3>Unified model, draft</h3><p class="fine">COMPILE USL is an administrator action in Zetaris. Nothing is compiled until you approve. The tables and field maps it unifies are below.</p></div>
+        <button id="uslBtn" class="primary">Approve and compile</button>
+      </div>
+      <details><summary>Show USL</summary><pre id="uslCode"></pre></details>
+    </div>
+    <button id="discToggle" class="ghost hidden">Show tables and field maps</button>
+    <div id="sources" class="sources"></div>
+    <div id="tables" class="tables"></div>
+  </section>
+
+  <!-- 3. discovery layer 2 -->
+  <section id="results" class="view hidden">
+    <div class="step-head"><span class="num">2</span><h2>Which records are the same injury</h2><span id="resStatus" class="status"></span></div>
+    <div id="skepticLine" class="fine skeptic-line"></div>
+    <div id="ticker" class="ticker hidden"></div>
+    <div id="featured" class="featured hidden"></div>
+    <div id="queue" class="queue hidden"></div>
+    <div class="cols">
+      <div class="col"><div class="col-head"><h3>Plant log → OSHA</h3><span class="fine">Every amputation in a plant log: did OSHA get a report?</span></div><div id="colLog"></div></div>
+      <div class="col"><div class="col-head"><h3>OSHA → plant log</h3><span class="fine">Every amputation or hospitalization OSHA was told about: is it in our log?</span></div><div id="colOsha"></div></div>
+    </div>
+    <div id="certify" class="certify hidden"></div>
+    <div id="next" class="next hidden"></div>
+    <div id="actions" class="actions hidden"><a id="exportBtn" class="primary" href="/api/export" target="_blank">Counsel export</a><span class="fine">Every line lists where the agents searched and the query IDs.</span></div>
+  </section>
+
+  <section id="proof" class="view">
+    <div class="score">
+      <div class="score-head"><h3>Checked against outside records</h3></div>
+      <div id="external" class="ext"></div>
+      <p id="extNote" class="fine"></p>
+    </div>
+    <div class="unseen">
+      <div class="u-head u2 first"><div><div class="label">Start here</div><h3>Both layers on a company generated after the code</h3>
+        <p class="fine">Its own public OSHA reports and DOL inspections, matched against its logs. Watch the agents disagree on a same-ZIP pair (synthetic records): every step of the replay is listed with its receipts until it goes to a person, who sees the employer names.</p></div>
+        <button id="unseen2Btn" class="ghost">Replay both layers</button></div>
+      <div id="unseen2Out"></div>
+      <div class="u-head"><div><div class="label">Not a prepared company</div><h3>Try a company generated after the code</h3>
+        <p class="fine">A new seed through the same generator as the exam: random table names, column names and date formats, distractor tables. Discovery maps it on the spot and is scored against the generator's answer key. A composite of public records: no result is a finding about any employer.</p></div>
+        <button id="unseenBtn" class="ghost">Run Discovery on it</button></div>
+      <div id="unseenOut"></div>
+
+    </div>
+  </section>
+</main>
+
+<div id="statusbar" class="statusbar hidden"><div id="pipe" class="pipe"></div><div class="nowrow"><div id="now" class="now"></div><button id="barApprove" class="primary hidden">Approve and compile</button></div></div>
+
+<aside id="trace" class="trace hidden">
+  <div class="trace-head"><h3>Agent trace</h3><button id="traceClose" class="ghost">Close</button>
+    <div id="traceStats" class="tstats"></div>
+    <div class="tmode"><button id="keyOnly" class="on">Key decisions</button><button id="allEv">Every event</button></div>
+    <div id="agentFilter" class="filters"></div></div>
+  <ol id="events"></ol>
+</aside>
+
+<div id="drawer" class="drawer hidden"><div class="drawer-in"><button id="drawerClose" class="ghost close">Close</button><div id="drawerBody"></div></div></div>
+<div id="modal" class="modal hidden"><div class="modal-in"><button id="modalClose" class="ghost close">Close</button><div id="modalBody"></div></div></div>
+
+<script src="/ui/app.js"></script>
+</body>
+</html>

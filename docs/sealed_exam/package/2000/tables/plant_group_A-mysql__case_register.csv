@@ -1,0 +1,27 @@
+f9,f3,f5,f4,f8,f6,f2,f1,f7
+124,Site-DC85,2024-02-22,"Hand(s), finger(s)","Body part: body. Contact: chain. Task: operating equipment. Outcome: injury, type not stated.",fractured left pinkie finger,3,0,Line  Processing Operator
+224,Site-DC85,2024-11-27,"Hand(s), finger(s)","Body part: body. Contact: blade. Task: cleaning. Outcome: injury, type not stated.","Body part: ring finger and hand. Outcome: laceration, ring finger and hand.",4,0,Sanitor
+1,Site-FEF1,2024-03-18,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",back strain,2,22,Group Lead
+2,Site-FEF1,2024-04-19,Leg(s),"Body part: leg. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.",Laceraion to right upper thigh.,2,7,Machine Operator
+3,Site-FEF1,2024-04-24,"Foot (feet), toe(s)","Body part: right foot. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Foot strain,3,0,Deposit Operator
+4,Site-FEF1,2024-05-13,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.",Lumbar strain,2,63,Trash Collector
+5,Site-FEF1,2024-07-02,,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",Strain,2,59,Mechanic
+6,Site-FEF1,2024-07-10,"Hand(s), finger(s)","Body part: finger. Contact: conveyor (cut). Task: cleaning. Outcome: laceration, finger.",Laceration,3,0,Machine Operator
+7,Site-FEF1,2024-07-18,,"Body part: wrist. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain,3,0,Tray Wash Operator
+8,Site-FEF1,2024-07-30,"Body part: body. Outcome: injury, type not stated.","Body part: hip and lower back. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Strain,2,1,Mechanic
+9,Site-FEF1,2024-08-07,"Foot (feet), toe(s)","Body part: left ring finger and left foot. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Fracture,2,146,Pumper
+10,Site-FEF1,2024-08-28,"Foot (feet), toe(s)","Body part: foot. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Contusion,2,116,PIT Driver
+11,Site-FEF1,2024-10-18,"Hand(s), finger(s)","Body part: hand. Contact: rack (cut). Outcome: laceration, hand.",Laceration,3,0,Microbiologist
+12,Site-FEF1,2024-10-26,,"Body part: shoulder. Outcome: injury, type not stated.",Strain,2,14,Machine Operator
+13,Site-FEF1,2024-11-01,Abdomen,"Body part: abdomen. Contact: conveyor (strained). Task: lifting or moving material. Outcome: sprain or strain, abdomen.",Abdominal strain.,2,36,Mechanic
+14,Site-FEF1,2024-12-12,"Hand(s), finger(s)","Body part: hand. Contact: door (cut). Task: operating equipment. Outcome: laceration, hand.",laceration.,3,0,Machine Operator
+1,Site-C46C,2024-02-04,"Hand(s), finger(s)","Body part: middle finger. Contact: conveyor. Task: cleaning. Outcome: injury, type not stated.","Body part: right middle finger and right hand. Outcome: amputation, right middle finger and right hand.",2,180,Operator
+2,Site-C46C,2024-02-13,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: machine (strained). Outcome: sprain or strain, lower back and back.",Strain to lower back,2,180,Utility Operator
+3,Site-C46C,2024-03-26,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: truck. Task: walking. Outcome: injury, type not stated.",Strain to lower back.,3,0,Maintenance
+4,Site-C46C,2024-04-03,"Hand(s), finger(s)","Body part: body. Contact: cutter (cut). Task: cutting. Outcome: laceration, body.",Laceration to left palm.,3,0,Sanitation
+5,Site-C46C,2024-05-08,Arm(s),"Body part: left ring finger. Contact: equipment (strained). Task: clearing a jam. Outcome: sprain or strain, left ring finger.",Strain to left bicep tendon.,2,144,Operator
+6,Site-C46C,2024-05-21,Leg(s),"Body part: left ring finger. Contact: equipment (cut). Task: clearing a jam. Outcome: laceration, left ring finger.",Laceration to left shin.,4,0,Forklift driver
+7,Site-C46C,2024-05-22,,"Body part: left ankle and left back. Contact: stairs (injured). Task: walking. Outcome: dislocation, left ankle and left back.",Dislocation of left ankle.,2,180,Continuous Improvement
+8,Site-C46C,2024-05-22,Arm(s),"Body part: right ring finger and right forearm. Contact: conveyor (strained). Task: clearing a jam. Outcome: sprain or strain, right ring finger and right forearm.",Straing to left forearm.,2,71,Operator
+9,Site-C46C,2024-08-22,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment (strained). Task: cleaning. Outcome: sprain or strain, lower back and back.",EE strain to lower back.,3,0,Operator
+10,Site-C46C,2024-11-08,"Hand(s), finger(s)","Body part: right ring finger and right little finger. Contact: conveyor (cut). Task: clearing a jam. Outcome: laceration, right ring finger and right little finger.","Body part: right ring finger and right little finger. Outcome: laceration, right ring finger and right little finger.",2,13,Sanitation

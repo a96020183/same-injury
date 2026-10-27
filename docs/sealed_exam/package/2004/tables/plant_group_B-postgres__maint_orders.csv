@@ -1,0 +1,18 @@
+wo_id,asset,opened,site,problem,status
+WO74668,line 3 conveyor,08/17/24,Site-0BE3,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO62420,grinder,10/06/24,Site-83B6,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",open
+WO82874,line 3 conveyor,08/22/24,Site-0BE3,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO16492,mixer,11/26/24,Site-482E,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",open
+WO66620,line 3 conveyor,01/21/24,Site-83B6,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO31194,grinder,05/29/24,Site-F0EB,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO75058,oven loader,07/17/24,Site-83B6,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO34116,packaging line,07/21/24,Site-E3B5,"Body part: body. Contact: machine. Outcome: injury, type not stated.",open
+WO36741,palletizer,03/11/24,Site-0BE3,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",open
+WO96060,packaging line,08/17/24,Site-0BC7,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO58396,slicer,01/13/24,Site-005D,"Body part: body. Contact: slicer. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO62397,oven loader,03/02/24,Site-D597,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO75397,grinder,10/01/24,Site-005D,Sensor fault grinder,closed
+WO60955,line 3 conveyor,08/27/24,Site-83B6,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO65458,line 3 conveyor,05/12/24,Site-0BC7,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO42254,band saw,02/26/24,Site-F0EB,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",open
+WO83072,oven loader,11/15/24,Site-482E,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed

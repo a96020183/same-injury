@@ -1,0 +1,16 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,03-Jun-2024,Site-AC18,arm,"Body part: arm. Outcome: laceration, arm.",bandage
+FA002,10-Sep-2024,Site-AC18,hand,"Headache, rested 15 min",ice pack
+FA003,10-Oct-2024,Site-22E6,finger,Splinter in finger,eye wash
+FA004,22-Sep-2024,Site-D8BD,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",ice pack
+FA005,20-Apr-2024,Site-E0CB,foot,"Body part: foot. Outcome: laceration, foot.",none
+FA006,20-Jul-2024,Site-D8BD,foot,"Headache, rested 15 min",ice pack
+FA007,14-Feb-2024,Site-22E6,foot,"Dust in eye, flushed",none
+FA008,31-May-2024,Site-E0CB,foot,"Body part: foot. Outcome: laceration, foot.",none
+FA009,22-Sep-2024,Site-22E6,hand,"Dust in eye, flushed",eye wash
+FA010,21-Mar-2024,Site-E0CB,arm,Splinter in arm,ice pack
+FA011,10-Dec-2024,Site-AC18,hand,"Dust in eye, flushed",eye wash
+FA012,13-May-2024,Site-E0CB,foot,"Dust in eye, flushed",bandage
+FA013,07-Apr-2024,Site-AC18,foot,"Body part: foot. Outcome: laceration, foot.",eye wash
+FA014,18-Apr-2024,Site-AC18,finger,"Headache, rested 15 min",bandage
+FA015,01-Oct-2024,Site-22E6,foot,"Headache, rested 15 min",bandage

@@ -1,0 +1,127 @@
+{
+ "note": "What the agents' Zetaris user (role L1_AGENT) sees: only the assigned sources, with employer identity masked by Zetaris column policies (scripts/setup_governance.py). The SAMPLE_MODE emulator applies the same masks.",
+ "datasources": [
+  {
+   "name": "plant_a",
+   "description": "plant group A system",
+   "folder": "group_a_postgres",
+   "engine": "postgres"
+  },
+  {
+   "name": "plant_b",
+   "description": "plant group B system",
+   "folder": "group_b_mysql",
+   "engine": "mysql",
+   "systemTables": [
+    "ADMINISTRABLE_ROLE_AUTHORIZATIONS",
+    "APPLICABLE_ROLES",
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLUMNS",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "KEYWORDS",
+    "PARAMETERS",
+    "PROCESSLIST",
+    "ROUTINES",
+    "SCHEMATA",
+    "STATISTICS",
+    "TABLES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS"
+   ]
+  },
+  {
+   "name": "plant_d",
+   "description": "plant group D system",
+   "folder": "group_d_scan",
+   "engine": "postgres"
+  }
+ ],
+ "lightning": [
+  {
+   "name": "plant_c",
+   "description": "plant group C exports",
+   "tables": {
+    "cmms_wo": "group_c_csv/cmms_wo.csv",
+    "ehs_export_2024": "group_c_csv/EHS_Export_2024.csv",
+    "hr_roster": "group_c_csv/hr_roster.csv",
+    "sites": "group_c_csv/sites.csv"
+   }
+  },
+  {
+   "name": "hq_files",
+   "description": "headquarters shared drive",
+   "tables": {
+    "annual_summary_300a": "shared/annual_summary_300A.csv",
+    "reply_letters": "shared/reply_letters.csv"
+   }
+  },
+  {
+   "name": "osha_public",
+   "description": "OSHA public files",
+   "tables": {
+    "severe_injury_reports": "shared/osha_sir_2024.csv",
+    "state_plans": "reference/state_plans.csv"
+   }
+  },
+  {
+   "name": "dol",
+   "description": "DOL enforcement data snapshot",
+   "tables": {
+    "inspection": "dol/inspection.csv",
+    "related_activity": "dol/related_activity.csv"
+   }
+  },
+  {
+   "name": "extra_sites",
+   "description": "separate plant system",
+   "tables": {
+    "sites": "synthetic_csv/sites.csv",
+    "injury_log": "synthetic_csv/injury_log.csv"
+   }
+  }
+ ],
+ "policies": {
+  "osha_public.severe_injury_reports": {
+   "Employer": "[A-Za-z0-9]",
+   "Address1": "[A-Za-z]"
+  },
+  "dol.inspection": {
+   "estab_name": "[A-Za-z0-9]",
+   "site_address": "[A-Za-z]"
+  },
+  "plant_a.sites": {
+   "plant_name": "[A-Za-z0-9]",
+   "legal_name": "[A-Za-z0-9]",
+   "ein": "[A-Za-z0-9]",
+   "street": "[A-Za-z]"
+  },
+  "plant_b.sites": {
+   "plant_name": "[A-Za-z0-9]",
+   "legal_name": "[A-Za-z0-9]",
+   "ein": "[A-Za-z0-9]",
+   "street": "[A-Za-z]"
+  },
+  "plant_c.sites": {
+   "plant_name": "[A-Za-z0-9]",
+   "legal_name": "[A-Za-z0-9]",
+   "ein": "[A-Za-z0-9]",
+   "street": "[A-Za-z]"
+  },
+  "plant_d.sites": {
+   "plant_name": "[A-Za-z0-9]",
+   "legal_name": "[A-Za-z0-9]",
+   "ein": "[A-Za-z0-9]",
+   "street": "[A-Za-z]"
+  },
+  "extra_sites.sites": {
+   "plant_name": "[A-Za-z0-9]",
+   "legal_name": "[A-Za-z0-9]",
+   "ein": "[A-Za-z0-9]",
+   "street": "[A-Za-z]"
+  }
+ }
+}

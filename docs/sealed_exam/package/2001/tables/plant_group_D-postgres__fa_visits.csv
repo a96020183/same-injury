@@ -1,0 +1,14 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,2024-06-23,Site-EE7B,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",none
+FA002,2024-10-16,Site-9D2B,arm,"Body part: arm. Outcome: laceration, arm.",cold compress
+FA003,2024-04-12,Site-3F99,hand,"Body part: hand. Outcome: laceration, hand.",cold compress
+FA004,2024-09-12,Site-DA05,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",eye wash
+FA005,2024-01-01,Site-3F99,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",eye wash
+FA006,2024-04-07,Site-5435,finger,"Body part: finger. Outcome: laceration, finger.",bandage
+FA007,2024-10-02,Site-DA05,hand,"Body part: head. Outcome: injury, type not stated.",eye wash
+FA008,2024-06-02,Site-3D47,finger,"Body part: finger. Outcome: laceration, finger.",ice pack
+FA009,2024-04-07,Site-BE69,hand,"Body part: head. Outcome: injury, type not stated.",cold compress
+FA010,2024-04-01,Site-5489,arm,"Body part: head. Outcome: injury, type not stated.",none
+FA011,2024-01-07,Site-DA05,arm,"Body part: arm. Outcome: laceration, arm.",none
+FA012,2024-04-02,Site-9D2B,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",none
+FA013,2024-07-10,Site-C02D,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",eye wash

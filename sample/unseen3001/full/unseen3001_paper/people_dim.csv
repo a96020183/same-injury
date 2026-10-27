@@ -1,0 +1,20 @@
+emp_id,hire_date,job_title,site,shift
+E6570,02/15/2024,Packer,Site-B67C,1st
+E7434,07/10/2024,Maintenance Tech,Site-B67C,3rd
+E5000,06/06/2024,Sanitation,Site-2B64,1st
+E6629,05/01/2024,Maintenance Tech,Site-7085,2nd
+E4266,10/13/2024,Operator,Site-7085,2nd
+E4610,03/12/2024,Operator,Site-081D,1st
+E2791,07/23/2024,Sanitation,Site-7FC5,1st
+E3996,06/19/2024,Operator,Site-7FC5,2nd
+E6067,12/06/2024,Packer,Site-2B64,3rd
+E1371,04/02/2024,Operator,Site-2B64,1st
+E1369,06/06/2024,Packer,Site-7FC5,3rd
+E7741,09/26/2024,Packer,Site-7FC5,2nd
+E9095,10/02/2024,Maintenance Tech,Site-2B64,1st
+E5307,02/01/2024,Sanitation,Site-7085,2nd
+E6215,03/03/2024,Maintenance Tech,Site-081D,2nd
+E1018,06/09/2024,Sanitation,Site-7085,1st
+E3153,02/12/2024,Packer,Site-7085,1st
+E3797,02/22/2024,Operator,Site-081D,3rd
+E1001,09/12/2024,Operator,Site-2B64,3rd

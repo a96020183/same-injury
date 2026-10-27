@@ -1,0 +1,11 @@
+wo_id,asset,opened,site,problem,status
+WO18723,palletizer,2024-11-19,Site-8D04,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",closed
+WO19828,grinder,2024-08-29,Site-3F99,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO55571,oven loader,2024-07-14,Site-3F99,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO62835,packaging line,2024-04-29,Site-4CAF,"Body part: body. Contact: machine. Outcome: injury, type not stated.",closed
+WO91637,slicer,2024-07-15,Site-3F99,"Body part: body. Contact: slicer. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO93136,grinder,2024-11-07,Site-8D04,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO76160,palletizer,2024-07-14,Site-8D04,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",open
+WO48285,band saw,2024-11-25,Site-5435,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",open
+WO27121,palletizer,2024-04-28,Site-C02D,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",closed
+WO92652,oven loader,2024-04-28,Site-C02D,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed

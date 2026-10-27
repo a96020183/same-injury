@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+node_modules/
+.env
+.env.*
+!.env.example
+*PRIVATE*
+sealed/
+data/
+vendor/
+runs/app/
+# internal working notes (Chinese) and judge reviews stay on this machine, not in the public repo
+建置報告.md
+待使用者決定.md
+關卡報告.md
+docs/review_*
+docs/review_*.md
+docs/review_screens/
+docs/nightshift_vl_issue.md
+# gate outputs and raw run logs carry published names
+out/
+runs/
+
+# sealed exam: internal Chinese report
+封存考試報告.md
+
+# any Chinese-named internal file (reports, decisions, judge notes), wherever it is
+*報告*
+*決定*
+*評審*
+*審查*
+*紀錄*
+*筆記*
+*說明*
+docs/qa_*.md

@@ -1,0 +1,96 @@
+{
+ "models": [
+  "live:nvidia/nemotron-3-ultra-550b-a55b"
+ ],
+ "calls": [
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 11970
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 19711
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 24039
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 23818
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 37101
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 28642
+  }
+ ],
+ "tables": {
+  "plant_group_A:scan/hazard_obs": "distractor",
+  "plant_group_A:scan/scanned_log_transcribed": "incident",
+  "plant_group_A:scan/sites": "site_master",
+  "plant_group_A:scan/training_completions": "distractor",
+  "plant_group_C:mysql/hazard_obs": "distractor",
+  "plant_group_C:mysql/maint_orders": "distractor",
+  "plant_group_C:mysql/plants": "site_master",
+  "plant_group_C:mysql/recordables": "incident",
+  "plant_group_D:postgres/hazard_obs": "distractor",
+  "plant_group_D:postgres/hr_roster": "distractor",
+  "plant_group_D:postgres/plants": "site_master",
+  "plant_group_D:postgres/safety_events": "incident",
+  "plant_group_D:postgres/trn_rec": "distractor",
+  "minio:csv/annual_summary_300A": "summary",
+  "plant_group_B:csv/emp_master": "distractor",
+  "plant_group_B:csv/fa_visits": "distractor",
+  "plant_group_B:csv/loc_master": "site_master",
+  "plant_group_B:csv/tbl_ehs_01": "incident",
+  "plant_group_B:csv/tbl_ehs_02": "distractor"
+ },
+ "field_map": {
+  "plant_group_A:scan/scanned_log_transcribed": {
+   "date": "transcribed_text",
+   "body_part": "transcribed_text",
+   "narrative": "transcribed_text",
+   "site": "site"
+  },
+  "plant_group_C:mysql/recordables": {
+   "date": "Incident Date",
+   "body_part": "part_of_body",
+   "narrative": "notes",
+   "site": "loc"
+  },
+  "plant_group_D:postgres/safety_events": {
+   "date": "f4",
+   "body_part": "f8",
+   "narrative": "f1",
+   "site": "f6"
+  },
+  "plant_group_B:csv/tbl_ehs_01": {
+   "date": "evt_date",
+   "body_part": "body_pt",
+   "narrative": "descr",
+   "site": "Site Name"
+  }
+ }
+}

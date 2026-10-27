@@ -1,0 +1,17 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,03/29/2024,Site-014F,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",med
+NM002,11/26/2024,Site-D717,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",med
+NM003,06/28/2024,Site-FE4B,"Body part: ring finger and foot. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",med
+NM004,05/06/2024,Site-014F,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",high
+NM005,02/19/2024,Site-D717,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",high
+NM006,03/07/2024,Site-FE4B,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",low
+NM007,01/01/2024,Site-014F,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM008,09/29/2024,Site-014F,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",low
+NM009,05/06/2024,Site-D717,"Body part: ring finger and foot. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",low
+NM010,05/28/2024,Site-FE4B,"Body part: ring finger and hand. Contact: grinder. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM011,10/28/2024,Site-014F,"Body part: ring finger and foot. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",med
+NM012,12/08/2024,Site-FE4B,"Body part: body. Contact: grinder. Task: walking. Outcome: injury, type not stated.",low
+NM013,01/27/2024,Site-6C93,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",med
+NM014,07/23/2024,Site-D717,"Body part: ring finger and hand. Contact: grinder. Task: cleaning. Outcome: injury, type not stated.",med
+NM015,09/10/2024,Site-6C93,"Body part: body. Contact: grinder. Task: walking. Outcome: injury, type not stated.",med
+NM016,03/03/2024,Site-D717,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",high

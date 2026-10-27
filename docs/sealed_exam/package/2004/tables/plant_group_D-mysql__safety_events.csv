@@ -1,0 +1,95 @@
+f8,f7,f5,f4,f3,f9,f2,f6,f1
+1,Site-24C9,04/01/2024,"Hand(s), finger(s)","Body part: left thumb. Contact: cutter (cut). Task: cutting. Outcome: laceration, left thumb.","Body part: left thumb. Outcome: laceration, left thumb.",3,0,shipping
+2,Site-24C9,11/01/2024,"Hand(s), finger(s)","Body part: left little finger and left hand. Outcome: injury, type not stated.","Body part: little finger. Outcome: contusion, little finger.",3,0,livestock
+3,Site-24C9,14/02/2024,"Foot (feet), toe(s)","Body part: body. Contact: knife. Outcome: injury, type not stated.","Body part: foot. Outcome: burn, foot.",3,0,kill
+4,Site-24C9,21/02/2024,"Ear(s), facial region","Body part: left leg and left eye. Contact: chain (cut). Task: operating equipment. Outcome: laceration, left leg and left eye.","Body part: left eye. Outcome: laceration, left eye.",4,0,kill
+5,Site-24C9,22/02/2024,"Ear(s), facial region","Body part: body. Contact: knife (cut). Outcome: laceration, body.","Body part: body. Outcome: laceration, body.",4,0,ham bone
+6,Site-24C9,22/02/2024,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Fractured left tibia,2,38,shipping
+7,Site-24C9,25/02/2024,"Ear(s), facial region","Body part: eye and face. Outcome: fracture, eye and face.","Body part: eye. Outcome: injury, type not stated.",4,0,wastewater
+8,Site-24C9,08/03/2024,"Hand(s), finger(s)","Body part: left thumb. Contact: grinder. Task: cutting. Outcome: injury, type not stated.","Body part: ring finger. Outcome: laceration, ring finger.",3,0,maintenance
+9,Site-24C9,18/03/2024,"Ear(s), facial region","Body part: eye. Outcome: injury, type not stated.","Body part: eye. Outcome: injury, type not stated.",4,0,kill
+10,Site-24C9,21/03/2024,"Ear(s), facial region","Body part: eye. Outcome: injury, type not stated.","Body part: eye. Outcome: injury, type not stated.",4,0,kill
+11,Site-24C9,27/03/2024,"Ear(s), facial region","Body part: left ring finger and left eye. Outcome: injury, type not stated.","Body part: eye. Outcome: injury, type not stated.",4,0,kill
+12,Site-24C9,26/03/2024,Arm(s),"Body part: left arm. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Fractured left humerus,2,2,kill
+13,Site-24C9,04/04/2024,,"Body part: right wrist. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",3,0,loin bone
+14,Site-24C9,11/04/2024,,"Body part: hand. Contact: truck. Task: walking. Outcome: injury, type not stated.",Restricted duty,3,0,kill
+15,Site-24C9,12/04/2024,"Hand(s), finger(s)","Body part: left middle finger. Outcome: injury, type not stated.","Body part: left middle finger. Outcome: fracture, left middle finger.",3,0,kill
+16,Site-24C9,15/04/2024,"Hand(s), finger(s)","Body part: left thumb and left ring finger. Contact: truck. Task: doing maintenance. Outcome: injury, type not stated.","Body part: left thumb. Outcome: injury, type not stated.",3,0,maintenance
+17,Site-24C9,16/04/2024,"Hand(s), finger(s)","Body part: hand. Outcome: injury, type not stated.",Tendonitis,2,1,loin bone
+18,Site-24C9,18/04/2024,Arm(s),"Body part: right elbow. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",3,0,conversion
+19,Site-24C9,23/04/2024,Multiple upper extremities locations,"Body part: left hand and left foot. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.","Body part: fingers and finger. Outcome: fracture, fingers and finger.",2,6,trainer
+20,Site-24C9,03/05/2024,"Hand(s), finger(s)","Body part: right thumb. Contact: knife (cut). Task: operating equipment. Outcome: laceration, right thumb.",Stitches,3,0,kill
+21,Site-24C9,03/06/2024,"Foot (feet), toe(s)","Body part: body. Contact: truck. Task: walking. Outcome: injury, type not stated.","Body part: body. Outcome: contusion, body.",3,0,cut
+22,Site-24C9,07/06/2024,,"Body part: head and face. Contact: equipment (struck). Task: cutting. Outcome: fracture, head and face.",Prescription eye drops,4,0,kill
+23,Site-24C9,18/06/2024,"Foot (feet), toe(s)","Body part: body. Outcome: injury, type not stated.","Body part: body. Outcome: burn, body.",3,0,bacon
+25,Site-24C9,19/06/2024,Leg(s),"Body part: left knee. Outcome: injury, type not stated.","Body part: knee. Outcome: injury, type not stated.",3,0,ham bone
+26,Site-24C9,20/06/2024,"Hand(s), finger(s)","Body part: right ring finger. Outcome: injury, type not stated.",Cellulitis,3,0,rendering
+27,Site-24C9,26/04/2024,,"Body part: left shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",3,0,shipping
+28,Site-24C9,11/07/2024,Leg(s),"Body part: right knee. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Right knee pain,3,0,cut
+29,Site-24C9,22/07/2024,"Hand(s), finger(s)","Body part: right middle finger and right arm. Contact: machine (cut). Task: lifting or moving material. Outcome: laceration, right middle finger and right arm.","Body part: middle finger. Outcome: laceration, middle finger.",3,0,bacon
+30,Site-24C9,26/07/2024,"Hand(s), finger(s)","Body part: body. Contact: knife. Outcome: injury, type not stated.",2nd degree burn,3,0,dirty kill
+31,Site-24C9,26/07/2024,"Ear(s), facial region","Body part: neck. Contact: knife (cut). Task: lifting or moving material. Outcome: laceration, neck.","Body part: body. Outcome: laceration, body.",3,0,cut
+32,Site-24C9,26/07/2024,Leg(s),"Body part: right knee and right leg. Outcome: laceration, right knee and right leg.","Body part: right leg. Outcome: laceration, right leg.",3,0,maintenance
+33,Site-24C9,31/07/2024,Leg(s),"Body part: left foot and left knee. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Fractured left patella,2,84,tool crib
+34,Site-24C9,04/08/2024,"Hand(s), finger(s)","Body part: fingers and finger. Outcome: burn, fingers and finger.","Body part: fingers and finger. Outcome: burn, fingers and finger.",4,0,maintenance
+35,Site-24C9,05/08/2024,Arm(s),"Body part: right elbow. Contact: truck. Outcome: injury, type not stated.","Body part: elbow. Outcome: injury, type not stated.",3,0,dirty kill
+36,Site-24C9,06/08/2024,"Hand(s), finger(s)","Body part: right ring finger and right hand. Contact: valve (crushed). Outcome: crush injury, right ring finger and right hand.","Body part: right hand. Outcome: fracture, right hand.",4,0,kill
+37,Site-24C9,14/08/2024,Upper and lower extremities,"Body part: right wrist and right hip. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Walking standing restrictions,3,0,bacon
+38,Site-24C9,15/08/2024,"Chest--including ribs, internal organs","Body part: left foot and left ribs. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: left ribs. Outcome: fracture, left ribs.",3,0,rendering
+39,Site-24C9,20/08/2024,"Hand(s), finger(s)","Body part: hand. Contact: blade. Task: walking. Outcome: injury, type not stated.","Body part: right index finger. Outcome: laceration, right index finger.",4,0,maintenance
+40,Site-24C9,22/08/2024,"Hand(s), finger(s)","Body part: right hand. Contact: knife (cut). Outcome: laceration, right hand.","Body part: right hand. Outcome: laceration, right hand.",3,0,conversion
+41,Site-24C9,05/09/2024,"Ear(s), facial region","Body part: right eye. Outcome: injury, type not stated.","Body part: right eye. Outcome: chemical exposure, right eye.",4,0,qa
+42,Site-24C9,12/09/2024,"Hand(s), finger(s)","Body part: little finger. Contact: knife. Outcome: injury, type not stated.","Body part: little finger. Outcome: injury, type not stated.",3,0,ham bone
+43,Site-24C9,12/09/2024,"Hand(s), finger(s)","Body part: right index finger. Contact: conveyor (struck). Task: operating equipment. Outcome: fracture, right index finger.","Body part: right index finger. Outcome: fracture, right index finger.",3,0,cut
+44,Site-24C9,17/09/2024,"Hand(s), finger(s)","Body part: right index finger. Outcome: laceration, right index finger.","Body part: right index finger and right hand. Outcome: laceration, right index finger and right hand.",3,0,maintenance
+45,Site-24C9,24/09/2024,"Hand(s), finger(s)","Body part: right middle finger. Contact: knife (cut). Outcome: laceration, right middle finger.","Body part: right middle finger. Outcome: laceration, right middle finger.",3,0,kil
+46,Site-24C9,24/09/2024,"Hand(s), finger(s)","Body part: left index finger. Contact: knife (cut). Outcome: laceration, left index finger.","Body part: left index finger. Outcome: laceration, left index finger.",4,0,dirty kill
+47,Site-24C9,26/09/2024,"Hand(s), finger(s)","Body part: right hand. Contact: knife (cut). Outcome: laceration, right hand.","Body part: left ring finger. Outcome: laceration, left ring finger.",2,1,training
+48,Site-24C9,01/10/2024,"Hand(s), finger(s)","Body part: left hand. Contact: blade (cut). Task: operating equipment. Outcome: laceration, left hand.","Body part: left hand. Outcome: laceration, left hand.",4,0,bacon
+49,Site-24C9,10/10/2024,Leg(s),"Body part: leg. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Right leg pain.,2,2,bacon
+50,Site-24C9,16/10/2024,Leg(s),"Body part: left knee and left leg. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Tibular fracture,3,0,livestock
+51,Site-24C9,13/10/2024,"Chest--including ribs, internal organs","Body part: left ribs. Contact: equipment (struck). Task: walking. Outcome: fracture, left ribs.","Body part: left ribs. Outcome: fracture, left ribs.",4,0,rendering
+52,Site-24C9,21/10/2024,"Hand(s), finger(s)","Body part: thumb. Outcome: puncture, thumb.",Puncture requiring antibiotics,4,0,kill
+53,Site-24C9,23/10/2024,Arm(s),"Body part: left elbow. Contact: pallet. Task: walking. Outcome: injury, type not stated.","Body part: elbow. Outcome: injury, type not stated.",3,0,loin bone
+54,Site-24C9,24/10/2024,"Hand(s), finger(s)","Body part: left ring finger. Contact: equipment (caught). Task: walking. Outcome: partial amputation, left ring finger.",Amputation,3,0,cut
+55,Site-24C9,28/10/2024,,"Body part: left ankle. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: body. Outcome: sprain or strain, body.",3,0,Kill
+56,Site-24C9,30/10/2024,Leg(s),"Body part: knee. Contact: pallet. Task: walking. Outcome: injury, type not stated.","Body part: knee. Outcome: injury, type not stated.",3,0,Loin bone
+57,Site-24C9,02/11/2024,"Hand(s), finger(s)","Body part: left hand. Contact: saw (cut). Task: operating equipment. Outcome: laceration, left hand.","Body part: left hand. Outcome: laceration, left hand.",4,0,Maintenance
+58,Site-24C9,06/11/2024,Arm(s),"Body part: left elbow. Outcome: injury, type not stated.",Epicondylitis left elbow,3,0,Conversion
+59,Site-24C9,15/11/2024,"Hand(s), finger(s)","Body part: left index finger and left ring finger. Contact: saw (cut). Task: cutting. Outcome: laceration, left index finger and left ring finger.","Body part: left index finger. Outcome: laceration, left index finger.",3,0,Cut
+60,Site-24C9,18/11/2024,"Ear(s), facial region","Body part: eye and face. Outcome: injury, type not stated.","Body part: eye. Outcome: injury, type not stated.",4,0,Kill
+61,Site-24C9,20/11/2024,"Hand(s), finger(s)","Body part: right ring finger. Outcome: injury, type not stated.",Trigger finger,3,0,Cut
+62,Site-24C9,25/11/2024,,"Body part: ring finger and wrist. Contact: equipment (struck). Task: walking. Outcome: fracture, ring finger and wrist.",Fractured wrist,3,0,Kill
+63,Site-24C9,26/11/2024,"Hand(s), finger(s)","Body part: right ring finger and right hand. Contact: machine. Outcome: injury, type not stated.","Body part: right ring finger. Outcome: injury, type not stated.",3,0,cut
+64,Site-24C9,27/11/2024,"Hand(s), finger(s)","Body part: left ring finger and left hand. Contact: conveyor (cut). Task: operating equipment. Outcome: laceration, left ring finger and left hand.","Body part: left ring finger. Outcome: laceration, left ring finger.",3,0,conversion
+65,Site-24C9,03/12/2024,Multiple lower extremities locations,"Body part: right knee and right hip. Contact: equipment (strained). Task: walking. Outcome: sprain or strain, right knee and right hip.","Body part: right knee and right hip. Outcome: sprain or strain, right knee and right hip.",3,0,Kill
+66,Site-24C9,06/12/2024,Cranial region,"Body part: hand and head. Contact: chain (cut). Task: walking. Outcome: laceration, hand and head.","Body part: head. Outcome: laceration, head.",4,0,Cut
+67,Site-24C9,03/12/2024,,"Body part: right arm and right shoulder. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Torn rotator cuff,3,0,Shipping
+68,Site-24C9,30/12/2024,Leg(s),"Body part: left foot and left knee. Contact: stairs (strained). Task: operating equipment. Outcome: sprain or strain, left foot and left knee.","Body part: left knee. Outcome: sprain or strain, left knee.",3,0,Loin Boning
+69,Site-24C9,19/12/2024,"Ear(s), facial region","Body part: right ring finger and right face. Contact: equipment (burned). Task: clearing a jam. Outcome: burn, right ring finger and right face.","Body part: right face. Outcome: burn, right face.",4,0,Rendering
+24,Site-24C9,19/06/2024,Cranial region,"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",3,0,Shipping
+OW24-01,Site-3E92,08/01/2024,"Hand(s), finger(s)","Body part: ring finger. Outcome: injury, type not stated.","Body part: hand. Outcome: laceration, hand.",3,0,Maintenance Technician
+OW24-02,Site-3E92,22/01/2024,Arm(s),"Body part: ring finger. Outcome: chemical exposure, ring finger.","Body part: left forearm. Outcome: burn, left forearm.",3,0,Floor Person
+OW24-03,Site-3E92,12/02/2024,"Hand(s), finger(s)","Body part: hand. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",laceration requiring sutures,3,0,Utility
+OW24-04,Site-3E92,06/02/2024,,"Body part: body. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.","Body part: right shoulder. Outcome: sprain or strain, right shoulder.",2,14,Maintenance Technician
+OW24-05,Site-3E92,18/03/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine (cut). Outcome: laceration, finger.",laceration needing sutures,3,0,TSizer Operator
+OW24-06,Site-3E92,10/05/2024,"Hand(s), finger(s)","Body part: right hand. Contact: door. Outcome: injury, type not stated.","Body part: right hand. Outcome: contusion, right hand.",3,0,General Labor
+OW24-07,Site-3E92,30/05/2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: machine (strained). Outcome: sprain or strain, back.",Upper back strain,3,0,Machine Operator
+OW24-08,Site-3E92,07/06/2024,,"Body part: hand and wrist. Outcome: sprain or strain, hand and wrist.",strain to wrist,3,0,Ham Bagger
+OW24-09,Site-3E92,24/06/2024,"Hand(s), finger(s)","Body part: finger. Contact: machine (struck). Task: operating equipment. Outcome: fracture, finger.","Body part: ring finger. Outcome: fracture, ring finger.",3,0,Sealer Operator
+OW24-10,Site-3E92,19/07/2024,Multiple upper extremities locations,"Body part: body. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.","Body part: right wrist and right shoulder. Outcome: sprain or strain, right wrist and right shoulder.",3,0,Automation Technician
+OW24-11,Site-3E92,24/07/2024,Leg(s),"Body part: right knee. Contact: pallet (strained). Task: operating equipment. Outcome: sprain or strain, right knee.","Body part: right knee. Outcome: sprain or strain, right knee.",3,0,Utility
+OW24-12,Site-3E92,09/08/2024,Arm(s),"Body part: body. Contact: pallet. Outcome: injury, type not stated.",right arm fracture,3,0,Quality Technician
+OW24-13,Site-3E92,20/08/2024,,"Body part: right shoulder. Contact: hammer. Outcome: injury, type not stated.",right Shoulder strain,3,0,Industrial Mechanic
+OW24-14,Site-3E92,31/08/2024,"Ear(s), facial region","Body part: face. Contact: pallet. Task: walking. Outcome: injury, type not stated.","Body part: ring finger and face. Outcome: laceration, ring finger and face.",3,0,Red Coat Utility
+OW24-15,Site-3E92,13/09/2024,"Foot (feet), toe(s)","Body part: foot. Contact: pallet (struck). Task: operating equipment. Outcome: fracture, foot.","Body part: foot. Outcome: fracture, foot.",3,0,Order Picker
+OW24-16,Site-3E92,05/10/2024,"Ear(s), facial region","Body part: face. Contact: equipment (cut). Task: operating equipment. Outcome: laceration, face.","Body part: face. Outcome: laceration, face.",3,0,Jack Driver
+OW24-17,Site-3E92,10/10/2024,,"Body part: body. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",Multiple head fractures,2,82,Refrigeration Technician
+OW24-18,Site-3E92,14/11/2024,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment (strained). Task: operating equipment. Outcome: sprain or strain, lower back and back.",Lower back strain,3,0,Hot Dog Hang Off
+OW24-19,Site-3E92,12/11/2024,"Hand(s), finger(s)","Body part: right hand. Contact: door. Outcome: injury, type not stated.","Body part: right hand. Outcome: laceration, right hand.",3,0,Smokehouse Operator
+OW24-20,Site-3E92,16/11/2024,"Hand(s), finger(s)","Body part: right hand. Contact: truck. Outcome: injury, type not stated.","Body part: fingers and finger. Outcome: fracture, fingers and finger.",3,0,Boxer
+1,Site-E444,14/04/2024,"Hand(s), finger(s)","Body part: body. Outcome: injury, type not stated.",Laceration right hand,4,0,Maintenance
+2,Site-E444,23/04/2024,,"Body part: body. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",Sprain,4,0,Backrib
+3,Site-E444,24/04/2024,Arm(s),"Body part: body. Contact: knife. Outcome: injury, type not stated.",Right lateral epicondylitis,4,0,Deboner
+4,Site-E444,29/10/2024,"Hand(s), finger(s)","Body part: body. Contact: saw. Outcome: injury, type not stated.","Body part: left index finger. Outcome: laceration, left index finger.",4,0,Maintenance
+5,Site-E444,29/08/2024,"Hand(s), finger(s)","Body part: ring finger. Contact: knife. Outcome: injury, type not stated.","Body part: right ring finger. Outcome: injury, type not stated.",4,0,Deboner

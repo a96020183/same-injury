@@ -1,0 +1,14 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,20241017,Site-9D90,"Body part: ring finger and hand. Contact: slicer. Task: clearing a jam. Outcome: injury, type not stated.",low
+NM002,20240413,Site-865B,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",low
+NM003,20240821,Site-669D,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",low
+NM004,20240317,Site-71B5,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",low
+NM005,20240801,Site-865B,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",med
+NM006,20240217,Site-D58A,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",med
+NM007,20240203,Site-669D,"Body part: body. Contact: machine. Outcome: injury, type not stated.",low
+NM008,20240217,Site-865B,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM009,20240428,Site-32F6,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",low
+NM010,20240829,Site-338E,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",low
+NM011,20241231,Site-A7CA,"Body part: ring finger and arm. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",med
+NM012,20240211,Site-104C,"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM013,20241125,Site-71B5,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",low

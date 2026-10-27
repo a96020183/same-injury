@@ -1,0 +1,26 @@
+wo_id,asset,opened,site,problem,status
+WO14205,packaging line,08/23/2024,Site-ED39,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO29648,band saw,08/14/2024,Site-AC59,"Body part: body. Contact: band saw. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO69003,packaging line,09/25/2024,Site-C1A7,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO42910,slicer,09/18/2024,Site-960E,"Body part: body. Contact: slicer. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO98037,oven loader,02/26/2024,Site-ED39,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO76324,slicer,10/06/2024,Site-6867,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",open
+WO48126,packaging line,05/21/2024,Site-960E,"Body part: body. Contact: machine. Outcome: injury, type not stated.",open
+WO40112,oven loader,07/06/2024,Site-9709,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",open
+WO38371,line 3 conveyor,02/12/2024,Site-AC59,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO42124,oven loader,02/29/2024,Site-ED39,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",open
+WO93128,oven loader,12/11/2024,Site-960E,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO52590,slicer,06/21/2024,Site-C1A7,Sensor fault slicer,open
+WO52304,grinder,09/24/2024,Site-FED4,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",open
+WO26336,oven loader,09/11/2024,Site-509B,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO73230,mixer,07/01/2024,Site-C1A7,Sensor fault mixer,closed
+WO56638,packaging line,09/25/2024,Site-FED4,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO54763,line 3 conveyor,06/16/2024,Site-509B,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",closed
+WO13477,mixer,11/12/2024,Site-D582,"Body part: body. Contact: belt and pulley. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO48818,line 3 conveyor,06/07/2024,Site-6867,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO18142,oven loader,11/29/2024,Site-2C83,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO84956,packaging line,05/06/2024,Site-6867,"Body part: body. Contact: machine. Outcome: injury, type not stated.",open
+WO48212,band saw,03/03/2024,Site-B915,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",open
+WO23663,slicer,06/02/2024,Site-6867,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",closed
+WO25212,band saw,02/10/2024,Site-D582,"Body part: body. Contact: band saw. Task: doing maintenance. Outcome: injury, type not stated.",open
+WO51494,band saw,04/25/2024,Site-F9F6,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",open

@@ -1,0 +1,137 @@
+{
+ "note": "Every plant in this sample. real: false = an invented plant (Site-SYN...): invented name, address, town, ZIP and 300A row; the only place synthetic records live. The output gate (app/gate.ts) shows a real plant only as found, written differently or State Plan.",
+ "plants": [
+  {
+   "site": "Site-081D",
+   "real": true
+  },
+  {
+   "site": "Site-104C",
+   "real": true
+  },
+  {
+   "site": "Site-1566",
+   "real": true
+  },
+  {
+   "site": "Site-1A5E",
+   "real": true
+  },
+  {
+   "site": "Site-2181",
+   "real": true
+  },
+  {
+   "site": "Site-2B64",
+   "real": true
+  },
+  {
+   "site": "Site-32F6",
+   "real": true
+  },
+  {
+   "site": "Site-338E",
+   "real": true
+  },
+  {
+   "site": "Site-4EDD",
+   "real": true
+  },
+  {
+   "site": "Site-6046",
+   "real": true
+  },
+  {
+   "site": "Site-626C",
+   "real": true
+  },
+  {
+   "site": "Site-669D",
+   "real": true
+  },
+  {
+   "site": "Site-6DFD",
+   "real": true
+  },
+  {
+   "site": "Site-7085",
+   "real": true
+  },
+  {
+   "site": "Site-71B5",
+   "real": true
+  },
+  {
+   "site": "Site-7613",
+   "real": true
+  },
+  {
+   "site": "Site-7FC5",
+   "real": true
+  },
+  {
+   "site": "Site-865B",
+   "real": true
+  },
+  {
+   "site": "Site-8C58",
+   "real": true
+  },
+  {
+   "site": "Site-9D90",
+   "real": true
+  },
+  {
+   "site": "Site-A7CA",
+   "real": true
+  },
+  {
+   "site": "Site-AADE",
+   "real": true
+  },
+  {
+   "site": "Site-B175",
+   "real": true
+  },
+  {
+   "site": "Site-B544",
+   "real": true
+  },
+  {
+   "site": "Site-B67C",
+   "real": true
+  },
+  {
+   "site": "Site-BCD4",
+   "real": true
+  },
+  {
+   "site": "Site-D58A",
+   "real": true
+  },
+  {
+   "site": "Site-FCAB",
+   "real": true
+  },
+  {
+   "site": "Site-SYN5",
+   "real": false
+  },
+  {
+   "site": "Site-SYN6",
+   "real": false
+  },
+  {
+   "site": "Site-SYN7",
+   "real": false
+  },
+  {
+   "site": "Site-SYN8",
+   "real": false
+  },
+  {
+   "site": "Site-SYN9",
+   "real": false
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,2024-05-21,Site-9EE2,"Body part: ring finger and hand. Contact: grinder. Task: clearing a jam. Outcome: injury, type not stated.",med
+NM002,2024-08-23,Site-9EE2,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",high
+NM003,2024-12-07,Site-E7D7,"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM004,2024-03-06,Site-E7D7,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM005,2024-12-24,Site-2DC0,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM006,2024-04-24,Site-2DC0,"Body part: ring finger and foot. Contact: grinder. Task: cleaning. Outcome: injury, type not stated.",med
+NM007,2024-01-16,Site-E7D7,"Body part: ring finger. Contact: band saw. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM008,2024-07-27,Site-04C9,"Body part: ring finger. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM009,2024-08-23,Site-2DC0,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",high
+NM010,2024-11-20,Site-2DC0,"Body part: ring finger and foot. Contact: pallet. Task: clearing a jam. Outcome: injury, type not stated.",med
+NM011,2024-05-01,Site-2DC0,"Body part: ring finger and hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",low
+NM012,2024-02-20,Site-E7D7,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",high
+NM013,2024-11-14,Site-2DC0,"Body part: body. Contact: machine. Outcome: injury, type not stated.",high
+NM014,2024-11-19,Site-9EE2,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",high
+NM015,2024-11-12,Site-04C9,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",high
+NM016,2024-11-28,Site-9EE2,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",med
+NM017,2024-01-29,Site-E7D7,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",med
+NM018,2024-04-14,Site-2DC0,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",high
+NM019,2024-12-07,Site-E7D7,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM020,2024-12-04,Site-04C9,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",med
+NM021,2024-05-29,Site-04C9,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",high
+NM022,2024-07-11,Site-2DC0,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",high
+NM023,2024-11-07,Site-E7D7,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",med
+NM024,2024-06-10,Site-9EE2,"Body part: body. Contact: mixer. Outcome: injury, type not stated.",low

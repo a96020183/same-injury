@@ -1,0 +1,97 @@
+{
+ "note": "Every plant in this sample. real: false = an invented plant (Site-SYN...): invented name, address, town, ZIP and 300A row; the only place synthetic records live. The output gate (app/gate.ts) shows a real plant only as found, written differently or State Plan.",
+ "plants": [
+  {
+   "site": "Site-014F",
+   "real": true
+  },
+  {
+   "site": "Site-1AE5",
+   "real": true
+  },
+  {
+   "site": "Site-2B33",
+   "real": true
+  },
+  {
+   "site": "Site-2CAC",
+   "real": true
+  },
+  {
+   "site": "Site-30F7",
+   "real": true
+  },
+  {
+   "site": "Site-3F99",
+   "real": true
+  },
+  {
+   "site": "Site-515A",
+   "real": true
+  },
+  {
+   "site": "Site-52D1",
+   "real": true
+  },
+  {
+   "site": "Site-6C93",
+   "real": true
+  },
+  {
+   "site": "Site-778B",
+   "real": true
+  },
+  {
+   "site": "Site-8385",
+   "real": true
+  },
+  {
+   "site": "Site-99C6",
+   "real": true
+  },
+  {
+   "site": "Site-B7DD",
+   "real": true
+  },
+  {
+   "site": "Site-BA55",
+   "real": true
+  },
+  {
+   "site": "Site-C271",
+   "real": true
+  },
+  {
+   "site": "Site-D717",
+   "real": true
+  },
+  {
+   "site": "Site-F014",
+   "real": true
+  },
+  {
+   "site": "Site-F226",
+   "real": true
+  },
+  {
+   "site": "Site-F8D8",
+   "real": true
+  },
+  {
+   "site": "Site-FE4B",
+   "real": true
+  },
+  {
+   "site": "Site-SYN1",
+   "real": false
+  },
+  {
+   "site": "Site-SYN2",
+   "real": false
+  },
+  {
+   "site": "Site-SYN3",
+   "real": false
+  }
+ ]
+}

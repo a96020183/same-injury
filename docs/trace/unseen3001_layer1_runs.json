@@ -1,0 +1,167 @@
+{
+ "note": "Every live Layer-1 run on the unseen company (seed 3001), in order, scored from its own trace by scripts/score_layer1_traces.ts. The code changed between runs. Runs before 2026-10-24 12:56 UTC were appended to one trace file at the time and are split per run in docs/trace/unseen3001_layer1_runs/.",
+ "runs": [
+  {
+   "n": 1,
+   "run": "exam",
+   "started": "2026-10-23T20:58:50.456Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run1_trace.jsonl",
+   "logs": "4/4",
+   "fields": "16/16",
+   "fields_given": 16
+  },
+  {
+   "n": 2,
+   "run": "exam",
+   "started": "2026-10-24T02:22:51.209Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run2_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 3,
+   "run": "exam",
+   "started": "2026-10-24T03:34:13.356Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run3_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 4,
+   "run": "exam",
+   "started": "2026-10-24T04:29:34.588Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run4_trace.jsonl",
+   "logs": "4/4",
+   "fields": "16/16",
+   "fields_given": 16
+  },
+  {
+   "n": 5,
+   "run": "exam",
+   "started": "2026-10-24T06:07:03.512Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run5_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 15
+  },
+  {
+   "n": 6,
+   "run": "exam",
+   "started": "2026-10-24T06:47:29.591Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run6_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 7,
+   "run": "exam",
+   "started": "2026-10-24T10:43:49.426Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run7_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 8,
+   "run": "exam",
+   "started": "2026-10-24T11:36:09.093Z",
+   "trace": "docs/trace/unseen3001_layer1_runs/run8_trace.jsonl",
+   "logs": "4/4",
+   "fields": "14/16",
+   "fields_given": 15
+  },
+  {
+   "n": 9,
+   "run": "exam-20261024T125609-477c",
+   "started": "2026-10-24T12:56:09.635Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261024T125609-477c_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 10,
+   "run": "exam-20261024T145323-47cd",
+   "started": "2026-10-24T14:53:23.368Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261024T145323-47cd_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 11,
+   "run": "exam-20261026T141145-2477",
+   "started": "2026-10-26T14:11:45.298Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261026T141145-2477_trace.jsonl",
+   "logs": "4/4",
+   "fields": "16/16",
+   "fields_given": 16
+  },
+  {
+   "n": 12,
+   "run": "exam-20261026T160208-50c6",
+   "started": "2026-10-26T16:02:08.258Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261026T160208-50c6_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 13,
+   "run": "exam-20261026T191418-17f9",
+   "started": "2026-10-26T19:14:18.178Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261026T191418-17f9_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 14,
+   "run": "exam-20261026T205538-f012",
+   "started": "2026-10-26T20:55:38.519Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261026T205538-f012_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 15,
+   "run": "exam-20261026T215113-dc8c",
+   "started": "2026-10-26T21:51:13.905Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261026T215113-dc8c_trace.jsonl",
+   "logs": "4/4",
+   "fields": "16/16",
+   "fields_given": 16
+  },
+  {
+   "n": 16,
+   "run": "exam-20261027T004036-34e8",
+   "started": "2026-10-27T00:40:36.010Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261027T004036-34e8_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 17,
+   "run": "exam-20261027T011203-16be",
+   "started": "2026-10-27T01:12:03.133Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261027T011203-16be_trace.jsonl",
+   "logs": "4/4",
+   "fields": "15/16",
+   "fields_given": 16
+  },
+  {
+   "n": 18,
+   "run": "exam-20261027T024847-37c6",
+   "started": "2026-10-27T02:48:47.957Z",
+   "trace": "docs/trace/unseen3001_layer1_exam-20261027T024847-37c6_trace.jsonl",
+   "logs": "4/4",
+   "fields": "16/16",
+   "fields_given": 16
+  }
+ ]
+}

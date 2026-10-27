@@ -1,0 +1,24 @@
+{
+ "scan_D1.jpg": {
+  "case_no": "SYN-D1",
+  "injury_date": "2024-08-14",
+  "time_began_work": "06:30",
+  "time_of_event": "10:05",
+  "job_title": "Line Technician",
+  "er_visit": "yes",
+  "inpatient_overnight": "no",
+  "side": "right",
+  "body_part": "index finger"
+ },
+ "scan_D2.jpg": {
+  "case_no": "SYN-D2",
+  "injury_date": "2024-05-21",
+  "time_began_work": "15:00",
+  "time_of_event": "18:40",
+  "job_title": "Press Operator",
+  "er_visit": "no",
+  "inpatient_overnight": "yes",
+  "side": "left",
+  "body_part": "little finger"
+ }
+}

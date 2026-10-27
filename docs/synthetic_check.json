@@ -1,0 +1,27 @@
+{
+ "fields": [
+  "house_state",
+  "case",
+  "job",
+  "page",
+  "date",
+  "narrative"
+ ],
+ "threshold": "a synthetic row fails if it shares 2 or more of these fields with one real row",
+ "companies": {
+  "seed1003": {
+   "rows": 8,
+   "max_shared": 1,
+   "rows_sharing_2_or_more": 0,
+   "invented_plants": 3,
+   "invented_plants_at_a_real_address_or_zip": []
+  },
+  "unseen3001": {
+   "rows": 8,
+   "max_shared": 1,
+   "rows_sharing_2_or_more": 0,
+   "invented_plants": 5,
+   "invented_plants_at_a_real_address_or_zip": []
+  }
+ }
+}

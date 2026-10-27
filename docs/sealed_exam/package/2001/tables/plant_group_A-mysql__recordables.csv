@@ -1,0 +1,379 @@
+incident_id,establishment,Incident Date,bp,descr,nature_of_injury,result_cd,days_away,Job Title
+1,Site-332E,20240111,,"Body part: body. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",RT WRIST STRAIN,3,0,MACHINE OPERATOR
+2,Site-332E,20240131,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",BACK STRAIN KNEE PAIN,3,0,MACHINE OPERATOR
+3,Site-332E,20240125,,"Body part: body. Contact: machine. Outcome: injury, type not stated.",HEADACHES,4,0,IT
+4,Site-332E,20240213,,"Body part: right wrist. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",RT WRIST STRAIN,4,0,MACHINE OPERATOR
+5,Site-332E,20240216,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",FELT POP IN POP,3,0,MACHINE OPERATOR
+6,Site-332E,20240217,Leg(s),"Body part: body. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",LACERATION RT THIGH,3,0,MACHINE OPERATOR
+7,Site-332E,20240217,,"Body part: right shoulder. Contact: equipment. Task: walking. Outcome: injury, type not stated.",SHOULDER CONTUSION STRAIN,3,0,MAINTENANCE
+8,Site-332E,20240220,"Body part: neck. Outcome: injury, type not stated.","Body part: shoulder and neck. Contact: conveyor. Outcome: injury, type not stated.",NECK SHOULDER STRAIN,2,180,MACHINE OPERATOR
+9,Site-332E,20240301,"Hand(s), finger(s)","Body part: index finger. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.","Body part: left index finger and left middle finger. Outcome: partial amputation, left index finger and left middle finger.",3,0,MACHINE OPERATOR
+10,Site-332E,20240205,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: mixer. Task: operating equipment. Outcome: injury, type not stated.",BACK STRAIN,3,0,MACHINE OPERATOR
+11,Site-332E,20240311,"Body part: body. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",BACK AND RT SHOULDER STRAIN,3,0,MACHINE OPERATOR
+12,Site-332E,20240315,"Hand(s), finger(s)","Body part: left middle finger. Contact: valve. Outcome: injury, type not stated.",FRACTURE OF LEFT MIDDLE FINGER,2,20,MAINTENANCE
+13,Site-332E,20240301,"Hand(s), finger(s)","Body part: right thumb and right hand. Contact: door. Outcome: injury, type not stated.",RT THUMB CONTUSION TRIGGER THUMB,2,92,MACHINE OPERATOR
+14,Site-332E,20240322,,"Body part: left wrist. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",LEFT WRIST STRAIN,2,134,MACHINE OPERATOR
+15,Site-332E,20240414,,"Body part: neck. Outcome: sprain or strain, neck.",NECK STRAIN,3,0,MACHINE OPERATOR
+16,Site-332E,20240516,"Hand(s), finger(s)","Body part: body. Contact: blade. Task: cleaning. Outcome: injury, type not stated.",RT INDEX FINGER CUT,3,0,MACHINE OPERATOR
+17,Site-332E,20240515,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: pump. Task: cleaning. Outcome: injury, type not stated.",BACK STRAIN,2,1,MACHINE OPERATOR
+18,Site-332E,20240519,"Ear(s), facial region","Body part: right eye. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",RIGHT EYE IRRITATION,4,0,SANITATION
+19,Site-332E,20240605,"Body part: back. Outcome: injury, type not stated.","Body part: back. Outcome: injury, type not stated.",BACK STRAIN,3,0,MACHINE OPERATOR
+20,Site-332E,20240708,Cranial region,"Body part: head. Contact: valve. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",4,0,MACHINE OPERATOR
+21,Site-332E,20240717,,"Body part: head. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",HEAD CONTUSION LOSS OF CONSCIOUSNESS,4,0,ENGINEERING ASSOCIATE
+22,Site-332E,20240719,,"Body part: right shoulder. Outcome: injury, type not stated.",RT SHOULDER STRAIN,3,0,MACHINE OPERATOR
+23,Site-332E,20240809,Cranial region,"Body part: head. Contact: truck. Task: cleaning. Outcome: injury, type not stated.",HEAD CONTUSIONS CONCUSSION,2,30,MACHINE OPERATOR
+24,Site-332E,20240810,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: valve. Task: lifting or moving material. Outcome: injury, type not stated.",BACK STRAIN,2,119,MAINTENANCE
+25,Site-332E,20240823,"Hand(s), finger(s)","Body part: hand. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",LEFT HAND CONTUSION,3,0,MACHINE OPERATOR
+26,Site-332E,20240823,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: walking. Outcome: injury, type not stated.",BACK STRAIN,3,0,MACHINE OPERATOR
+27,Site-332E,20240913,"Body part: body. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",[Redacted],4,0,MACHINE OPERATOR
+28,Site-332E,20240927,,"Body part: foot and ankle. Contact: forklift (struck). Task: lifting or moving material. Outcome: contusion, foot and ankle.",LEFT ANKLE SPRAIN,3,0,MACHINE OPERATOR
+29,Site-332E,20241006,"Ear(s), facial region","Body part: left eye and left face. Contact: equipment (burned). Task: operating equipment. Outcome: burn, left eye and left face.",LEFT EYE MINOR CHEMICAL BURN,4,0,MACHINE OPERATOR
+30,Site-332E,20241025,,"Body part: left arm. Contact: machine. Task: walking. Outcome: injury, type not stated.",LEFT SHOULDER CONTUSION,3,0,MACHINE OPERATOR
+31,Site-332E,20241105,"Hand(s), finger(s)","Body part: hand. Contact: equipment (struck). Task: operating equipment. Outcome: fracture, hand.",RASH ON HANDS,4,0,MACHINE OPERATOR
+32,Site-332E,20241108,"Foot (feet), toe(s)","Body part: body. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",LEFT FOOT FRACTURED,2,53,MACHINE OPERATOR
+33,Site-332E,20241110,,"Body part: body. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",RIGHT SHOULDER STRAIN,3,0,MACHINE OPERATOR
+34,Site-332E,20241214,"Hand(s), finger(s)","Body part: right hand. Contact: conveyor. Task: clearing a jam. Outcome: injury, type not stated.",RT HAND CONTUSION,3,0,MACHINE OPERATOR
+35,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+36,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+37,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+38,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+39,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+40,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+41,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MAINTENANCE
+42,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+43,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+44,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MAINTENANCE
+45,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+46,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+47,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,STOREROOM
+48,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,MACHINE OPERATOR
+49,Site-332E,20240905,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,ENGINEERING
+50,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,SANITATION
+51,Site-332E,20240905,,"Body part: ring finger. Outcome: injury, type not stated.",HEARING LOSS,4,0,QUALITY
+25_6200,Site-1800,20241229,Leg(s),"Body part: left knee. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_6174,Site-1800,20241222,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: door. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),2,3,Sanitation Operator
+25_6199,Site-1800,20241221,,"Body part: body. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Heat Stress Heat Stroke,2,2,Machine Operator
+24_6168,Site-1800,20241212,,"Body part: left ring finger and left shoulder. Contact: equipment (burned). Task: clearing a jam. Outcome: burn, left ring finger and left shoulder.",Strain (muscle),3,0,Lead Person Group D
+24_6150,Site-1800,20241210,Upper and lower extremities,"Body part: ring finger and shoulder. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",Strain (muscle),3,0,Machine Operator
+24_6152,Site-1800,20241203,,"Body part: eye. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Sanitation Operator
+25_6317,Site-1800,20241126,,"Body part: ankle. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Warehouse Forklift Operator
+25_6311,Site-1800,20241115,,"Body part: hand. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_6134,Site-1800,20241112,,"Body part: left ring finger and left wrist. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Contusion Bruise,3,0,Machine Operator
+24_6113,Site-1800,20241107,Arm(s),"Body part: arm. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sanitation Operator
+24_6104,Site-1800,20241107,,"Body part: wrist. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",Fracture,2,91,Sanitation Operator
+24_6112,Site-1800,20241104,Multiple upper extremities locations,"Body part: arm and shoulder. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_6074,Site-1800,20241024,Multiple upper extremities locations,"Body part: left hand and left wrist. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sanitation Operator
+24_6120,Site-1800,20241022,,"Body part: left hand and left shoulder. Contact: pallet (struck). Task: operating equipment. Outcome: fracture, left hand and left shoulder.",Strain (muscle),3,0,Machine Operator
+24_6138,Site-1800,20241019,,"Body part: foot and ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),2,70,Warehouse Forklift Operator
+24_6110,Site-1800,20241016,,"Body part: ring finger and eye. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Foreign Body,4,0,Sanitation Operator
+24_6111,Site-1800,20241015,"Ear(s), facial region","Body part: right elbow and right eye. Outcome: injury, type not stated.",Contusion Bruise,4,0,Warehouse Forklift Operator
+24_6047,Site-1800,20241002,"Hand(s), finger(s)","Body part: finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Cuts Laceration Puncture,4,0,Machine Operator
+24_6025,Site-1800,20240930,"Hand(s), finger(s)","Body part: left thumb. Contact: door. Task: operating equipment. Outcome: injury, type not stated.",Cuts Laceration Puncture,4,0,Palletizing Operator
+24_6045,Site-1800,20240928,Leg(s),"Body part: knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Sanitation Operator
+24_6027,Site-1800,20240927,,"Body part: ankle and head. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sanitation Operator
+24_6011,Site-1800,20240924,,"Body part: body. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Rupture,2,128,Sanitation Operator
+24_6003,Site-1800,20240917,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),2,1,Sanitation Operator
+24_6013,Site-1800,20240916,,"Body part: ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),2,3,Machine Operator
+24_5985,Site-1800,20240911,"Hand(s), finger(s)","Body part: finger. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sanitation Operator
+24_5976,Site-1800,20240910,"Hand(s), finger(s)","Body part: right index finger and right ring finger. Contact: truck (cut). Task: lifting or moving material. Outcome: laceration, right index finger and right ring finger.",Cuts Laceration Puncture,4,0,Construction Technician
+24_5977,Site-1800,20240909,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,Sanitation Operator
+24_5967,Site-1800,20240906,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_5968,Site-1800,20240902,,"Body part: shoulder. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Building
+24_5964,Site-1800,20240825,Leg(s),"Body part: leg. Contact: equipment (exposed). Task: cleaning. Outcome: chemical exposure, leg.",Burns (Other),4,0,Sanitation Operator
+24_5978,Site-1800,20240821,Multiple upper extremities locations,"Body part: left hand and left forearm. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Machine Operator
+24_5955,Site-1800,20240820,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Foreign Body,2,3,Extruder Operator
+24_5943,Site-1800,20240813,,"Body part: left hand and left wrist. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Sanitation Operator
+24_5929,Site-1800,20240809,"Hand(s), finger(s)","Body part: left index finger and left ring finger. Contact: hammer. Task: doing maintenance. Outcome: injury, type not stated.",Cuts Laceration Puncture,2,2,Maintenance Technician
+24_5940,Site-1800,20240807,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Warehouse Forklift Operator
+24_5901,Site-1800,20240803,Abdomen,"Body part: right abdomen and right ribs. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_5917,Site-1800,20240802,"Foot (feet), toe(s)","Body part: right back. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,Machine Operator
+24_5918,Site-1800,20240724,,"Body part: ankle and leg. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Maintenance Technician
+24_5876,Site-1800,20240718,"Hand(s), finger(s)","Body part: finger and head. Contact: knife (cut). Task: clearing a jam. Outcome: laceration, finger and head.",Cuts Laceration Puncture,3,0,Sanitation Operator
+24_5871,Site-1800,20240710,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Dermatitis Skin Disorder,4,0,Waste Plant Operator
+25_6338,Site-1800,20240707,"Hand(s), finger(s)","Body part: left index finger and left hand. Contact: equipment (caught). Task: operating equipment. Outcome: avulsion, left index finger and left hand.",Avulsion,3,0,Sanitation Operator
+24_5834,Site-1800,20240625,,"Body part: ankle. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Maintenance Technician
+24_5840,Site-1800,20240621,"Hand(s), finger(s)","Body part: hand and face. Contact: pump (struck). Task: cleaning. Outcome: contusion, hand and face.",Contusion Bruise,2,3,Warehouse Forklift Operator
+24_5826,Site-1800,20240620,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Strain (muscle),3,0,Extruder Operator
+24_5816,Site-1800,20240607,Leg(s),"Body part: foot and leg. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Burn (Thermal),3,0,Sanitation Operator
+24_5807,Site-1800,20240606,Arm(s),"Body part: right hand and right arm. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Warehouse Forklift Operator
+24_5789,Site-1800,20240603,"Hand(s), finger(s)","Body part: left ring finger. Contact: truck. Task: doing maintenance. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Maintenance Lead
+24_5788,Site-1800,20240530,"Hand(s), finger(s)","Body part: finger. Contact: equipment (cut). Task: cutting. Outcome: laceration, finger.",Cuts Laceration Puncture,3,0,Sanitation Operator
+24_5766,Site-1800,20240424,,"Body part: wrist and eye. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",Contusion Bruise,3,0,Extruder Operator
+24_5735,Site-1800,20240424,,"Body part: wrist. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Machine Operator
+24_5681,Site-1800,20240325,"Body part: back. Outcome: injury, type not stated.","Body part: right leg and right lower back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),2,3,Sanitation Operator
+24_5668,Site-1800,20240319,,"Body part: ankle. Contact: ladder. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),2,5,Sanitation Operator
+24_5653,Site-1800,20240312,Leg(s),"Body part: knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Inflammation,3,0,Sanitation Operator
+24_5718,Site-1800,20240307,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_5636,Site-1800,20240302,,"Body part: back. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",Contusion Bruise,3,0,Machine Operator
+24_5622,Site-1800,20240226,Leg(s),"Body part: right hand and right knee. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,2,15,Sanitation Worker
+24_5601,Site-1800,20240221,Cranial region,"Body part: head. Contact: equipment (strained). Task: operating equipment. Outcome: sprain or strain, head.",Concussion,3,0,Sanitation Operator
+24_5571,Site-1800,20240201,Leg(s),"Body part: ring finger and leg. Contact: pallet. Task: clearing a jam. Outcome: injury, type not stated.",Strain (muscle),3,0,Machine Operator
+24_5580,Site-1800,20240128,,"Body part: wrist. Contact: door. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_5521,Site-1800,20240119,"Hand(s), finger(s)","Body part: hand. Contact: auger. Task: operating equipment. Outcome: injury, type not stated.",Amputation,2,18,Extruder Operator
+24_5515,Site-1800,20240110,Leg(s),"Body part: right hand and right knee. Contact: equipment (strained). Task: walking. Outcome: sprain or strain, right hand and right knee.",Contusion Bruise,3,0,Sanitation Operator
+24_5500,Site-1800,20240108,,"Body part: shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Sanitation Operator
+24_5488,Site-1800,20240103,"Foot (feet), toe(s)","Body part: foot. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sanitation Operator
+24_5630,Site-1800,20240219,"Body part: back. Outcome: injury, type not stated.","Body part: right back. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Sanitation Operator
+24_5502,Site-BBF6,20240109,,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Repetitive motion soreness,4,0,Skilled Production Freezer
+24_5693,Site-BBF6,20240402,,"Body part: body. Contact: press. Task: walking. Outcome: injury, type not stated.",strain,2,4,General Production
+24_5702,Site-BBF6,20240401,"Chest--including ribs, internal organs","Body part: chest. Outcome: injury, type not stated.",Chest pain,4,0,General Production
+24_5717,Site-BBF6,20240329,Leg(s),"Body part: back. Contact: door. Task: cleaning. Outcome: injury, type not stated.",knee strain,2,15,Skilled Production Operator
+24_5741,Site-BBF6,20240505,,"Body part: wrist. Contact: press. Outcome: injury, type not stated.",strain,3,0,General Production
+24-5822,Site-BBF6,20240404,Leg(s),"Body part: right foot and right knee. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",strain,3,0,General Production
+24_5827,Site-BBF6,20240623,,"Body part: body. Outcome: injury, type not stated.",skin irritation,4,0,General Production
+24_5839,Site-BBF6,20240627,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: blade. Task: clearing a jam. Outcome: injury, type not stated.","Body part: right hand. Contact: equipment (struck). Task: lifting or moving material. Outcome: fracture, right hand.",2,29,Maintenance Tech
+24_5854,Site-BBF6,20240708,,"Body part: body. Contact: machine. Outcome: injury, type not stated.","Body part: body. Outcome: sprain or strain, body.",4,0,Skilled Production Operator
+24_5941,Site-BBF6,20240808,"Foot (feet), toe(s)","Body part: foot. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Bruising,4,0,Skilled Production Freezer
+24_5623,Site-22D8,20240217,,"Body part: left wrist. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",small puncture wound to wrist,3,0,Tube Team
+25_5624,Site-22D8,20240215,"Hand(s), finger(s)","Body part: left little finger and left hand. Contact: knife. Task: cleaning. Outcome: injury, type not stated.",Laceration to left Pinky,4,0,Multi pack team Line
+24_5648,Site-22D8,20240304,Arm(s),"Body part: left ring finger and left forearm. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain to left forearm,2,66,Material Handling Inbound
+24-5650,Site-22D8,20240229,"Foot (feet), toe(s)","Body part: foot. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Bruise contusion to right heel,2,56,Processing
+24_5651,Site-22D8,20240124,"Foot (feet), toe(s)","Body part: toe. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",fracture to right big toe,2,54,Multi pack team Line
+24_5667,Site-22D8,20240308,,"Body part: right shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Right shoulder rotator cuff tear,3,0,Processing
+25_5707,Site-22D8,20240409,,"Body part: left wrist. Contact: grinder. Task: operating equipment. Outcome: injury, type not stated.",strain to left wrist,2,5,Material Handling Inbound
+24_5748,Site-22D8,20240429,,"Body part: left ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",fractured left ankle,2,17,Material Handling Outbound
+24_5757,Site-22D8,20240519,,"Body part: left shoulder. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",muscle strain left shoulder,3,0,Processor
+24_5790,Site-22D8,20240531,"Chest--including ribs, internal organs","Body part: body. Contact: equipment (burned). Task: operating equipment. Outcome: burn, body.",chest strain in the sternum,2,38,Material Handling Inbound
+24_5868,Site-22D8,20240709,,"Body part: right shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.","Body part: right shoulder. Outcome: injury, type not stated.",2,180,Processing
+24_5869,Site-22D8,20240618,Leg(s),"Body part: right knee. Contact: equipment. Task: walking. Outcome: injury, type not stated.",strain to right knee,2,122,Milk Plant Technician
+24_5896,Site-22D8,20240723,Cranial region,"Body part: ring finger and head. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.","Body part: body. Contact: machine. Outcome: injury, type not stated.",2,108,Material Handling Outbound
+24_5897,Site-22D8,20240723,"Ear(s), facial region","Body part: body. Contact: machine (exposed). Task: operating equipment. Outcome: chemical exposure, body.",chemical burn to lower lip,4,0,Processor
+24_5936,Site-22D8,20240804,"Hand(s), finger(s)","Body part: ring finger. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.","Body part: left fingers and left finger. Outcome: contusion, left fingers and left finger.",2,18,Skilled Utility
+24_5945,Site-22D8,20240602,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",sprained bruised right knee,2,130,Glass Team
+24_5958,Site-22D8,20240829,"Ear(s), facial region","Body part: left eye. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",laceration above left eye,4,0,Milk Plant Technician
+24_5963,Site-22D8,20240124,,"Body part: right arm and right shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",right rotator cuff tear,2,177,Glass Team
+24_6101,Site-22D8,20241101,"Hand(s), finger(s)","Body part: right finger and right hand. Contact: blade (cut). Task: doing maintenance. Outcome: laceration, right finger and right hand.","Body part: right thumb. Outcome: laceration, right thumb.",4,0,Journeyman mechanic
+24_6102,Site-22D8,20241030,,"Body part: left wrist. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",left wrist strain,2,93,Vercon Team
+24_6127,Site-22D8,20241118,"Hand(s), finger(s)","Body part: fingers and finger. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Broken finger on left hand,2,39,Material Handling Outbound
+24_6195,Site-22D8,20241212,,"Body part: both shoulders. Contact: pump. Task: doing maintenance. Outcome: injury, type not stated.","Body part: both shoulders. Outcome: injury, type not stated.",3,0,Journeyman Utility Technician
+25_6222,Site-22D8,20240401,Multiple upper extremities locations,"Body part: thumb. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.","Body part: right thumb and right wrist. Outcome: sprain or strain, right thumb and right wrist.",2,18,Processor
+24_5722,Site-22D8,20240404,,"Body part: right ring finger and right wrist. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",tendon strain to right wrist,2,100,Glass Team
+24_6165,Site-9DB9,20241216,,"Body part: wrist. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_6156,Site-9DB9,20241211,"Hand(s), finger(s)","Body part: right thumb and right wrist. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_6158,Site-9DB9,20241207,Arm(s),"Body part: left arm. Contact: sealer. Task: lifting or moving material. Outcome: injury, type not stated.",Contusion Bruise,4,0,Packaging Operator
+25_6197,Site-9DB9,20241203,"Hand(s), finger(s)","Body part: finger. Contact: truck. Task: doing maintenance. Outcome: injury, type not stated.",Contusion Bruise,4,0,Operator
+24_6137,Site-9DB9,20241118,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Operator
+24_6132,Site-9DB9,20241112,,"Body part: right shoulder. Contact: ladder (strained). Task: operating equipment. Outcome: sprain or strain, right shoulder.",Strain (muscle),3,0,Operator
+24_6108,Site-9DB9,20241102,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: mixer. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,3,0,Operator
+24_6092,Site-9DB9,20241030,"Hand(s), finger(s)","Body part: left middle finger and left ring finger. Contact: cutter. Task: cleaning. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Production Utility
+24_6122,Site-9DB9,20241029,,"Body part: body. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",Respiratory Disorders,4,0,Operator
+24_6107,Site-9DB9,20241028,,"Body part: right shoulder. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_6086,Site-9DB9,20241028,Leg(s),"Body part: knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Ops Tech II
+24_6099,Site-9DB9,20241027,,"Body part: right ankle. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Utility Tech
+24_6100,Site-9DB9,20241022,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_6058,Site-9DB9,20241018,,"Body part: foot. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",Sprain (joint or tendon),2,1,Forklift Operator
+24_6060,Site-9DB9,20241011,Arm(s),"Body part: arm. Contact: machine (exposed). Task: cleaning. Outcome: chemical exposure, arm.",Dermatitis Skin Disorder,4,0,Production Utility
+24_6039,Site-9DB9,20241009,"Body part: back. Outcome: injury, type not stated.","Body part: left leg and left back. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Operator
+24_6031,Site-9DB9,20241006,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Operator
+24_6065,Site-9DB9,20241001,,"Body part: wrist. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Operator
+24_6022,Site-9DB9,20240926,Leg(s),"Body part: knee. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,3,0,Operator
+24_6001,Site-9DB9,20240923,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Sheeter Operator
+24_6024,Site-9DB9,20240911,Arm(s),"Body part: right elbow. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_5969,Site-9DB9,20240824,Arm(s),"Body part: right elbow. Contact: pallet. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Mixer Operator
+24_5950,Site-9DB9,20240821,"Body part: back. Outcome: injury, type not stated.","Body part: right middle finger and right ring finger. Contact: conveyor (strained). Task: clearing a jam. Outcome: sprain or strain, right middle finger and right ring finger.",Strain (muscle),3,0,Operator
+24_5952,Site-9DB9,20240819,,"Body part: neck. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),4,0,Logistics Process Lead
+24_5920,Site-9DB9,20240731,"Foot (feet), toe(s)","Body part: hand and foot. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Utility
+24_5888,Site-9DB9,20240721,"Hand(s), finger(s)","Body part: finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Production Utility
+24_5885,Site-9DB9,20240717,,"Body part: body. Contact: equipment (exposed). Task: cleaning. Outcome: chemical exposure, body.",Vision Impairment or Loss,4,0,Operator
+24_5887,Site-9DB9,20240629,,"Body part: head and lower back. Contact: stairs. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Operator
+24_5835,Site-9DB9,20240623,,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Operator
+24_5795,Site-9DB9,20240523,Arm(s),"Body part: elbow. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,2,4,Production Utility
+24_5737,Site-9DB9,20240430,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Inflammation,3,0,Production Utility
+24_5726,Site-9DB9,20240412,,"Body part: right ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Packaging Operator
+24_5715,Site-9DB9,20240412,"Foot (feet), toe(s)","Body part: right foot. Contact: ladder. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Sheeter Operator
+24_5710,Site-9DB9,20240404,"Hand(s), finger(s)","Body part: ring finger. Contact: knife (cut). Task: operating equipment. Outcome: laceration, ring finger.",Cuts Laceration Puncture,4,0,Production Utility
+24_5699,Site-9DB9,20240401,Leg(s),"Body part: right knee. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),2,3,Forktruck Operator
+24_5694,Site-9DB9,20240401,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_5674,Site-9DB9,20240325,Leg(s),"Body part: toe and foot. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Fracture,2,114,Palletizer Operator
+24_5673,Site-9DB9,20240324,Pelvic region,"Body part: body. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Contusion Bruise,3,0,Sheeter Operator
+24_5678,Site-9DB9,20240323,"Hand(s), finger(s)","Body part: thumb. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Production Utility
+24_5669,Site-9DB9,20240319,,"Body part: body. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Utility
+24_5671,Site-9DB9,20240318,,"Body part: forearm. Contact: mixer. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,Operator
+24_5663,Site-9DB9,20240316,"Hand(s), finger(s)","Body part: right middle finger and right hand. Contact: knife (cut). Task: cutting. Outcome: laceration, right middle finger and right hand.",Cuts Laceration Puncture,4,0,Production Utility
+24_5647,Site-9DB9,20240228,"Body part: back. Outcome: injury, type not stated.","Body part: left middle finger and left ring finger. Contact: machine (strained). Task: operating equipment. Outcome: sprain or strain, left middle finger and left ring finger.",Strain (muscle),3,0,Production Utility
+24_5645,Site-9DB9,20240224,,"Body part: ring finger and wrist. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Utility
+24_5640,Site-9DB9,20240220,,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),2,8,Production Utility
+24_5596,Site-9DB9,20240217,,"Body part: wrist. Contact: mixer. Task: cleaning. Outcome: injury, type not stated.",Burns (Other),4,0,Sanitarian
+24_5592,Site-9DB9,20240217,"Body part: back. Outcome: injury, type not stated.","Body part: middle finger and back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Utility
+24_5579,Site-9DB9,20240207,Multiple lower extremities locations,"Body part: left foot and left ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_5581,Site-9DB9,20240207,Leg(s),"Body part: knee. Contact: machine. Task: lifting or moving material. Outcome: injury, type not stated.",Dislocation,3,0,Production Utility
+24_5559,Site-9DB9,20240129,"Hand(s), finger(s)","Body part: left ring finger. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Dislocation,3,0,Ops Tech
+24_5557,Site-9DB9,20240126,Abdomen,"Body part: abdomen. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_5518,Site-9DB9,20240118,"Body part: back. Outcome: injury, type not stated.","Body part: foot and back. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Strain (muscle),3,0,Forklift Operator
+24_5503,Site-9DB9,20240108,,"Body part: ankle. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Operator
+24_5498,Site-9DB9,20240104,"Hand(s), finger(s)","Body part: hand. Contact: belt and pulley. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Utility
+24_6171,Site-9DB9,20241213,,"Body part: ring finger and shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_6157,Site-9DB9,20241205,,"Body part: left wrist. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Utility
+24_6072,Site-9DB9,20241028,"Hand(s), finger(s)","Body part: left thumb and left hand. Contact: knife (cut). Task: clearing a jam. Outcome: laceration, left thumb and left hand.",Cuts Laceration Puncture,4,0,Production Utility
+24_6059,Site-9DB9,20241018,"Hand(s), finger(s)","Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Dermatitis Skin Disorder,4,0,Production Utility
+24_6094,Site-9DB9,20241002,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: mixer. Outcome: injury, type not stated.",Strain (muscle),3,0,Operator
+24_6030,Site-9DB9,20241002,,"Body part: neck. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Burns (Other),4,0,Operator
+24_6002,Site-9DB9,20240923,,"Body part: shoulder and back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_5990,Site-9DB9,20240917,"Body part: back. Outcome: injury, type not stated.","Body part: ring finger and back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,3,0,Production Utility
+24_5949,Site-9DB9,20240810,,"Body part: body. Contact: pallet (strained). Task: lifting or moving material. Outcome: sprain or strain, body.",Strain (muscle),3,0,Production Utility
+24_5928,Site-9DB9,20240808,Arm(s),"Body part: left hand and left elbow. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Irritation (other than skin),3,0,Production Utility
+24_5922,Site-9DB9,20240727,"Chest--including ribs, internal organs","Body part: ribs. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Irritation (other than skin),4,0,Production Utility
+24_5898,Site-9DB9,20240724,Arm(s),"Body part: forearm and elbow. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),3,0,Operator
+24_5872,Site-9DB9,20240713,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Bagger Operator
+24_5859,Site-9DB9,20240710,,"Body part: right ankle. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Operator
+24_5921,Site-9DB9,20240701,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Utility
+24_5804,Site-9DB9,20240607,,"Body part: wrist. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",Inflammation,2,3,Ops Tech
+24_5798,Site-9DB9,20240606,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Packaging Operator
+24_5771,Site-9DB9,20240521,"Hand(s), finger(s)","Body part: left middle finger and left ring finger. Contact: machine (crushed). Task: operating equipment. Outcome: crush injury, left middle finger and left ring finger.",Cuts Laceration Puncture,4,0,Operations Specialist
+24_5700,Site-9DB9,20240403,,"Body part: body. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Operator
+24_5701,Site-9DB9,20240329,,"Body part: wrist. Contact: equipment (cut). Task: cleaning. Outcome: laceration, wrist.",Cuts Laceration Puncture,3,0,Production Utility
+24_5582,Site-9DB9,20240206,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Other Injury Type,3,0,Operator
+24_5497,Site-9DB9,20240102,"Hand(s), finger(s)","Body part: fingertip. Contact: knife. Task: cutting. Outcome: injury, type not stated.",Cuts Laceration Puncture,4,0,Production Utility
+24_6187,Site-E2F0,20241217,,"Body part: hand and head. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,4,0,Production Technician
+24_6188,Site-E2F0,20241214,Abdomen,"Body part: right abdomen. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Technician
+24_6191,Site-E2F0,20241122,Leg(s),"Body part: right knee. Contact: pallet (struck). Task: lifting or moving material. Outcome: fracture, right knee.",Inflammation,4,0,Production Technician
+24_6193,Site-E2F0,20241112,,"Body part: body. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Technician
+24_6052,Site-E2F0,20241016,,"Body part: left head. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Operations Lead
+24_6035,Site-E2F0,20241007,"Hand(s), finger(s)","Body part: left ring finger and left hand. Contact: door. Task: operating equipment. Outcome: injury, type not stated.",Fracture,3,0,Production Technician
+24_6184,Site-E2F0,20241001,Arm(s),"Body part: left arm. Contact: mixer. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Technician
+24_6185,Site-E2F0,20240930,"Body part: back. Outcome: injury, type not stated.","Body part: left back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),4,0,Production Technician
+24_6175,Site-E2F0,20240927,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Logistics Technician
+24_6180,Site-E2F0,20240925,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Production Technician
+24_6178,Site-E2F0,20240925,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Sanitation Specialist
+24_6176,Site-E2F0,20240925,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Line Lead
+24_6177,Site-E2F0,20240925,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Process Lead
+24_6179,Site-E2F0,20240924,"Ear(s), facial region","Body part: ring finger. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Hearing Loss,4,0,Production Technician
+24_6186,Site-E2F0,20240924,,"Body part: both hands and shoulders. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Technician
+24_6182,Site-E2F0,20240903,Pelvic region,"Body part: right back. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Technician
+24_6181,Site-E2F0,20240829,,"Body part: ring finger. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Technician
+25_6241,Site-E2F0,20240814,"Body part: back. Outcome: injury, type not stated.","Body part: right back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),2,105,Production Technician
+25_6243,Site-E2F0,20240812,,"Body part: hand and wrist. Contact: door (strained). Outcome: sprain or strain, hand and wrist.",Sprain (joint or tendon),4,0,Logistics Technician
+25_6238,Site-E2F0,20240806,"Hand(s), finger(s)","Body part: finger. Contact: mixer (strained). Task: operating equipment. Outcome: sprain or strain, finger.",Contusion Bruise,3,0,Production Technician
+25_6242,Site-E2F0,20240731,,"Body part: ankle. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Technician
+24_5909,Site-E2F0,20240626,"Foot (feet), toe(s)","Body part: foot. Contact: equipment (strained). Task: operating equipment. Outcome: sprain or strain, foot.",Other Injury Type,3,0,Production Technician
+24_5910,Site-E2F0,20240626,"Foot (feet), toe(s)","Body part: left foot. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Technician
+24_5908,Site-E2F0,20240623,Leg(s),"Body part: both elbows and knees. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Technician
+24_5907,Site-E2F0,20240614,Leg(s),"Body part: hand and knee. Contact: belt and pulley. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,2,181,Production Technician
+24_5906,Site-E2F0,20240613,Leg(s),"Body part: right knee. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),2,48,Production Technician
+24_5792,Site-E2F0,20240516,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: roller (struck). Task: cleaning. Outcome: contusion, ring finger and hand.",Contusion Bruise,3,0,Production Technician
+24_5787,Site-E2F0,20240509,"Hand(s), finger(s)","Body part: left little finger. Contact: mixer (crushed). Task: lifting or moving material. Outcome: crush injury, left little finger.",Cuts Laceration Puncture,2,22,Production Technician
+24_5695,Site-E2F0,20240403,,"Body part: ankle. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.",Fracture,2,87,Logistics Technician
+24_5690,Site-E2F0,20240312,,"Body part: shoulder. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Strain (muscle),2,49,Production Technician
+25_6227,Site-E2F0,20240219,,"Body part: left hip. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Inflammation,3,0,Production Technician
+24_5547,Site-E2F0,20240122,"Hand(s), finger(s)","Body part: left index finger and left hand. Contact: machine (cut). Task: doing maintenance. Outcome: laceration, left index finger and left hand.",Cuts Laceration Puncture,4,0,General Mechanic
+24_5605,Site-E2F0,20240119,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Production Technician
+24_5543,Site-E2F0,20240117,"Body part: neck. Outcome: injury, type not stated.","Body part: ring finger and lower back. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Strain (muscle),2,37,Production Technician
+24_5565,Site-E2F0,20240102,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Technician
+24_6194,Site-E2F0,20241106,,"Body part: right hand and right wrist. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Production Technician
+24_5913,Site-E2F0,20240612,"Body part: neck. Outcome: injury, type not stated.","Body part: right ring finger and right hand. Contact: blade. Task: clearing a jam. Outcome: injury, type not stated.",Other Injury Type,3,0,Operations Lead
+24_5791,Site-E2F0,20240519,"Hand(s), finger(s)","Body part: right fingers and right finger. Contact: pallet (strained). Task: operating equipment. Outcome: sprain or strain, right fingers and right finger.",Strain (muscle),3,0,Production Technician
+24_5564,Site-E2F0,20240119,,"Body part: right shoulder. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain (muscle),3,0,Production Technician
+24_6162,Site-69D0,20241213,"Foot (feet), toe(s)","Body part: right foot. Contact: equipment (strained). Task: operating equipment. Outcome: sprain or strain, right foot.",Sprain (joint or tendon),3,0,Cartoner Operator
+25_6201,Site-69D0,20241213,"Foot (feet), toe(s)","Body part: left foot. Contact: pump. Task: operating equipment. Outcome: injury, type not stated.",Irritation (other than skin),2,32,Production Technician
+24_6095,Site-69D0,20241023,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: equipment (burned). Task: operating equipment. Outcome: burn, ring finger and hand.",Burn (Thermal),3,0,Production Technician
+24_6085,Site-69D0,20241023,,"Body part: right foot and right ankle. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Sprain (joint or tendon),3,0,Cartoner Operator
+24_6049,Site-69D0,20240930,Arm(s),"Body part: body. Contact: door. Outcome: injury, type not stated.",Strain (muscle),2,9,Maintenance Technician
+24_6050,Site-69D0,20240924,"Hand(s), finger(s)","Body part: right hand. Contact: knife (burned). Task: operating equipment. Outcome: burn, right hand.",Burn (Thermal),3,0,Production Technician
+24_6028,Site-69D0,20240920,Leg(s),"Body part: knee. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",Inflammation,3,0,Traffic Clerk
+24_5975,Site-69D0,20240909,Arm(s),"Body part: right hand and right forearm. Contact: truck. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,2,14,Production Technician
+24_5935,Site-69D0,20240808,,"Body part: right foot and right back. Contact: mixer. Task: operating equipment. Outcome: injury, type not stated.",Strain (muscle),3,0,Ingredient Handler
+24_5775,Site-69D0,20240424,,"Body part: left shoulder. Contact: pallet. Outcome: injury, type not stated.",Strain (muscle),3,0,Facility Maintenance
+25_6279,Site-69D0,20240326,"Hand(s), finger(s)","Body part: hand and back. Contact: equipment. Task: doing maintenance. Outcome: injury, type not stated.",Contusion Bruise,3,0,Facility Maintenance
+24_5824,Site-69D0,20240220,,"Body part: right hand and right shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Sprain (joint or tendon),2,140,Blender Operator
+137378,Site-A758,20240229,,"Body part: right hand and right wrist. Outcome: injury, type not stated.",wrist contusion,3,0,Building Engineer
+140823,Site-A758,20240604,,"Body part: ankle. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",sprained ankle,4,0,Account Executive
+141051,Site-A758,20240626,Multiple upper extremities locations,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",bilateral wrist and hand strain,3,0,Cyber Security Engineer
+141267,Site-A758,20240627,Upper and lower extremities,"Body part: back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",bruised knee wrist and ankle,3,0,Customer Account Specialist
+145591,Site-A758,20241030,"Ear(s), facial region","Body part: ring finger and arm. Contact: truck. Task: doing maintenance. Outcome: injury, type not stated.","Body part: arm. Contact: truck. Task: lifting or moving material. Outcome: injury, type not stated.",4,0,Technical Engineer
+24_5546,Site-3DF3,20240118,"Body part: back. Outcome: injury, type not stated.","Body part: hand and lower back. Contact: equipment. Task: doing maintenance. Outcome: injury, type not stated.",Musculoskeletal disorder,3,0,Building Engineer
+24-5714,Site-3DF3,20240413,"Hand(s), finger(s)","Body part: ring finger and hand. Outcome: injury, type not stated.",Bone fracture,3,0,ITQ Technologist
+24_6023,Site-3DF3,20241001,,"Body part: neck. Outcome: burn, neck.",Reaction to insect bite.,4,0,Pilot Plant Technologist
+24_6054,Site-3DF3,20241017,"Body part: back. Outcome: injury, type not stated.","Body part: back. Outcome: sprain or strain, back.",Musculoskeletal disorder,2,4,ITQ Technologist
+24_6057,Site-3DF3,20241018,"Foot (feet), toe(s)","Body part: left foot. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Contusion bruise,3,0,Construction Lead Senior Technologist
+25_6273,Site-3DF3,20240326,"Ear(s), facial region","Body part: eye. Outcome: injury, type not stated.",Chemical exposure,4,0,Senior ITQ Technologist Pilot Plant
+25_6275,Site-3DF3,20240311,"Hand(s), finger(s)","Body part: left finger and left foot. Contact: valve. Task: walking. Outcome: injury, type not stated.",Contusion bruise,4,0,ITQ Technologist
+25_6276,Site-3DF3,20241028,"Hand(s), finger(s)","Body part: right thumb. Outcome: fracture, right thumb.",Cut laceration,4,0,ITQ Research Specialist
+25_6278,Site-3DF3,20241106,"Hand(s), finger(s)","Body part: ring finger. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Contusion to left hand,4,0,Sr ITQ Research Specialist
+25_6277,Site-3DF3,20240930,"Ear(s), facial region","Body part: body. Outcome: injury, type not stated.",Hearing loss,4,0,ITQ Technician
+25_6282,Site-3DF3,20240930,"Ear(s), facial region","Body part: body. Outcome: injury, type not stated.",Hearing loss,4,0,Quality Engineer II
+24-5593,Site-24D1,20240216,Multiple lower extremities locations,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.","Body part: knee and hip. Outcome: injury, type not stated.",2,117,Team Lead
+24-5611,Site-24D1,20240227,,"Body part: body. Contact: stairs. Outcome: injury, type not stated.",Spained Ankle,2,12,General Production
+24-5759,Site-24D1,20240517,"Foot (feet), toe(s)","Body part: toe. Contact: pallet. Outcome: injury, type not stated.","Body part: toe and back. Outcome: injury, type not stated.",2,11,General Production
+24-5818,Site-24D1,20240430,,"Body part: body. Outcome: injury, type not stated.",Sprained right shoulder,3,0,Team Lead
+24-5820,Site-24D1,20240405,Arm(s),"Body part: body. Outcome: injury, type not stated.",Elbow pain,3,0,Skilled Prod Oper
+24-5848,Site-24D1,20240625,"Hand(s), finger(s)","Body part: hand. Contact: pallet. Outcome: injury, type not stated.",Inflamation,2,25,General Production
+24-5849,Site-24D1,20240624,"Chest--including ribs, internal organs","Body part: body. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",Bruising to ribs,2,36,Maintenance Tech
+24-5914,Site-24D1,20240727,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Contusion to lower back,2,23,General Production
+24-5919,Site-24D1,20240715,"Hand(s), finger(s)","Body part: hand. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Cut to finger,4,0,Skilled Prod Oper
+24-5953,Site-24D1,20240814,,"Body part: body. Outcome: injury, type not stated.",Strain to left shoulder,4,0,General Production
+24-5972,Site-24D1,20240805,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain on Right shoulder.,2,14,Safety Manager
+24-6109,Site-24D1,20241105,"Chest--including ribs, internal organs","Body part: body. Outcome: injury, type not stated.",Displaced Fractured Rib,4,0,General Production
+24-6117,Site-24D1,20241030,Multiple upper extremities locations,"Body part: wrist. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Inflalmmation,2,19,General Production
+24-6118,Site-24D1,20240707,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Some swelling and pain,2,20,Skilled Prod Oper
+24-6172,Site-24D1,20241127,"Hand(s), finger(s)","Body part: right finger and right lungs. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.","Body part: body. Contact: machine (struck). Outcome: fracture, body.",4,0,Maintenance Tech
+24-5821,Site-24D1,20240619,,"Body part: body. Outcome: injury, type not stated.",Right Should inflamation,4,0,Skilled Prod Oper
+24-5971,Site-24D1,20240819,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Pain to knees,2,31,General Production
+24_6153,Site-617E,20241205,"Body part: back. Outcome: injury, type not stated.","Body part: head and lower back. Contact: pallet (burned). Task: lifting or moving material. Outcome: burn, head and lower back.",Strain muscle,3,0,Bars L Processing
+24 _6170,Site-617E,20241205,Arm(s),"Body part: right arm and right foot. Contact: rack. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,4,0,Seasonings Blender
+24 _6141,Site-617E,20241123,"Hand(s), finger(s)","Body part: right hand and right back. Contact: equipment (exposed). Task: cleaning. Outcome: chemical exposure, right hand and right back.",Burn Thermal,3,0,Soup Kettle Operator
+24 _6135,Site-617E,20241119,"Chest--including ribs, internal organs","Body part: left arm and left ribs. Contact: pallet. Task: cleaning. Outcome: injury, type not stated.",Dislocation,3,0,Soup L Process Relief
+24 _6131,Site-617E,20241119,,"Body part: left wrist and left arm. Contact: equipment (burned). Task: clearing a jam. Outcome: burn, left wrist and left arm.",Burn Thermal,3,0,Sauce Filler Operator
+24 _6115,Site-617E,20241113,,"Body part: left shoulder. Contact: equipment. Task: doing maintenance. Outcome: injury, type not stated.",Strain muscle,4,0,Maintenance Mechanic
+24 _6125,Site-617E,20241112,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: door. Task: cleaning. Outcome: injury, type not stated.",Strain muscle,2,61,Bars Line L Processing
+24 _6124,Site-617E,20241104,Leg(s),"Body part: left knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,Bars L Packaging
+24 _6033,Site-617E,20241004,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Bars L Packaging
+24 _6015,Site-617E,20240921,"Body part: back. Outcome: injury, type not stated.","Body part: left back. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Shells Packaging IP
+24 _6032,Site-617E,20240921,Multiple upper extremities locations,"Body part: hand and wrist. Contact: belt and pulley. Task: cleaning. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Thermal Backup Prep
+24 _5992,Site-617E,20240918,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Soup Traypacker Operator
+24 _6016,Site-617E,20240915,Arm(s),"Body part: right hand and right elbow. Contact: door (struck). Task: operating equipment. Outcome: fracture, right hand and right elbow.",Contusion Bruise,3,0,Tortilla Cartoner Operator
+24 _6017,Site-617E,20240915,,"Body part: body. Contact: machine. Task: doing maintenance. Outcome: injury, type not stated.",Strain muscle,3,0,Maintenance Mechanic
+24 _6018,Site-617E,20240910,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Contusion Bruise,3,0,Bars L Packaging
+24 _6019,Site-617E,20240906,"Hand(s), finger(s)","Body part: left index finger. Contact: conveyor. Task: clearing a jam. Outcome: injury, type not stated.",Cuts Laceration Puncture,3,0,Bars L Packaging
+24 _5981,Site-617E,20240904,"Hand(s), finger(s)","Body part: left hand. Contact: machine. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,Soup Traypacker Operator
+24 _5961,Site-617E,20240827,"Hand(s), finger(s)","Body part: left hand. Contact: equipment (burned). Task: lifting or moving material. Outcome: burn, left hand.",Burns Other,4,0,Soup Traypacker Operator
+24 _5937,Site-617E,20240809,Multiple upper extremities locations,"Body part: right hand and right wrist. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,2,6,Bars L Packaging
+24 _5938,Site-617E,20240806,,"Body part: right shoulder. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",Strain muscle,2,16,Maintenance Mechanic
+24 _5905,Site-617E,20240804,Arm(s),"Body part: ring finger and forearm. Contact: blade. Task: operating equipment. Outcome: injury, type not stated.",Cuts Laceration Puncture,4,0,Bars L Procesing
+24 _5904,Site-617E,20240802,Leg(s),"Body part: left knee. Contact: equipment (cut). Task: operating equipment. Outcome: laceration, left knee.",Contusion Bruise,3,0,Bars L Processing
+24 _5894,Site-617E,20240727,,"Body part: ankle. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Soup Process Relief
+24 _5880,Site-617E,20240719,"Hand(s), finger(s)","Body part: left middle finger and left ring finger. Contact: chain (caught). Task: doing maintenance. Outcome: amputation, left middle finger and left ring finger.",Amputation,2,45,Maintenance Mechanic
+24 _5878,Site-617E,20240713,"Body part: back. Outcome: injury, type not stated.","Body part: ring finger and back. Contact: conveyor (exposed). Task: clearing a jam. Outcome: chemical exposure, ring finger and back.",Strain muscle,3,0,Soup Processing Operator
+24 _5877,Site-617E,20240712,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Shells Packaging IP
+24  5879,Site-617E,20240710,"Body part: back. Outcome: injury, type not stated.","Body part: right back. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Strain muscle,3,0,MMSD Operator
+24  5837,Site-617E,20240624,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Heat Stress Heat Stroke,3,0,WH Driver
+24  5842,Site-617E,20240623,,"Body part: fingers and finger. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,3,0,Bars L Packaging
+24  5841,Site-617E,20240620,Leg(s),"Body part: knee and back. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,2,20,MMSD Operator
+24  5836,Site-617E,20240620,Leg(s),"Body part: left knee. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Line  Packaging
+24  5864,Site-617E,20240612,"Body part: back. Outcome: injury, type not stated.","Body part: ring finger. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain muscle,3,0,L Processing
+24  5811,Site-617E,20240608,,"Body part: ring finger. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,3,0,Soup Kettle Operator
+24  5812,Site-617E,20240607,,"Body part: left arm and left shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Shells Nester
+24  5797,Site-617E,20240603,"Hand(s), finger(s)","Body part: right little finger and right hand. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Contusion Bruise,3,0,Soup Process Supply
+24  5796,Site-617E,20240601,,"Body part: right arm and right shoulder. Contact: roller. Task: cleaning. Outcome: injury, type not stated.",Strain muscle,2,16,Bars Line  Packaging
+24  5783,Site-617E,20240520,Leg(s),"Body part: right foot and right knee. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Other Injury Type,3,0,M and I Freezer
+24  5763,Site-617E,20240520,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,3,0,L Ingredient Transfer
+24  5768,Site-617E,20240513,"Hand(s), finger(s)","Body part: little finger. Contact: pallet. Task: operating equipment. Outcome: injury, type not stated.",Fracture,4,0,Blender Operator
+24  5784,Site-617E,20240513,Arm(s),"Body part: right forearm and right arm. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.",Other Injury Type,3,0,DC Rotation
+24  5750,Site-617E,20240513,Cranial region,"Body part: body. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.",Concussion,2,21,Soup L Hopper Operator
+24  5752,Site-617E,20240512,,"Body part: wrist. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Bars Line  Casepacker Op
+24  5755,Site-617E,20240509,,"Body part: left shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Tortilla L Casepacker
+24  5745,Site-617E,20240507,Multiple upper extremities locations,"Body part: left shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,4,0,WH Driver
+24  5865,Site-617E,20240422,,"Body part: right ring finger and right shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,2,13,Principal Systems Engineer
+24  5729,Site-617E,20240417,"Body part: back. Outcome: injury, type not stated.","Body part: leg. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,L Packaging
+24  5709,Site-617E,20240404,"Hand(s), finger(s)","Body part: hand. Contact: machine. Task: clearing a jam. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Soup Labeler Operator
+24  5708,Site-617E,20240328,"Foot (feet), toe(s)","Body part: ring finger and foot. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Soup Line  Filler Closer Op
+24  5670,Site-617E,20240317,Leg(s),"Body part: right knee. Contact: truck. Task: cleaning. Outcome: injury, type not stated.",Other Injury Type,3,0,Soup Line  labeler
+24  5656,Site-617E,20240311,Arm(s),"Body part: ring finger and arm. Outcome: injury, type not stated.",Strain muscle,3,0,Bars Line  Packaging
+24  5655,Site-617E,20240307,,"Body part: left hand and left wrist. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Shells Processing IP
+24  5644,Site-617E,20240301,Arm(s),"Body part: left arm. Contact: equipment (burned). Task: cleaning. Outcome: burn, left arm.",Strain muscle,3,0,Bars L Processing
+24  5704,Site-617E,20240220,,"Body part: left ring finger and left shoulder. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Strain muscle,3,0,Bars L Packaging
+24  5585,Site-617E,20240213,Multiple lower extremities locations,"Body part: middle finger and foot. Contact: equipment (burned). Task: operating equipment. Outcome: burn, middle finger and foot.",Burns Other,3,0,Soup Line  Seamer
+24  5589,Site-617E,20240208,"Body part: back. Outcome: injury, type not stated.","Body part: lower back and back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,3,0,Soup Kettle Operator
+24  5658,Site-617E,20240207,,"Body part: shoulder. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,2,31,Soup L Can Stem Teardown
+24  5632,Site-617E,20240205,,"Body part: head and neck. Contact: door. Task: clearing a jam. Outcome: injury, type not stated.",Strain muscle,3,0,Bars Aagard
+24  5566,Site-617E,20240129,"Hand(s), finger(s)","Body part: left thumb and left hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Contusion Bruise,3,0,Thermal Backup Packaging
+24  5562,Site-617E,20240128,,"Body part: foot. Contact: stairs. Task: operating equipment. Outcome: injury, type not stated.",Contusion Bruise,3,0,Soup Alvey Op
+24  5939,Site-617E,20240125,Multiple upper extremities locations,"Body part: both elbows and shoulders. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,APS Blender Operator
+24  5519,Site-617E,20240116,Multiple lower extremities locations,"Body part: right toe and right foot. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Sprain joint or tendon,3,0,Shells Processing IP
+24  5509,Site-617E,20240110,Arm(s),"Body part: arm and elbow. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Strain muscle,3,0,Bars L Processing
+24  5507,Site-617E,20240110,Leg(s),"Body part: left ring finger and left hand. Contact: truck (struck). Task: lifting or moving material. Outcome: fracture, left ring finger and left hand.",Strain muscle,3,0,Thermal Backup Packaging
+24  5501,Site-617E,20240104,Arm(s),"Body part: left forearm. Contact: knife (cut). Task: cutting. Outcome: laceration, left forearm.",Cuts Laceration Puncture,4,0,Bars L Processing
+24  5863,Site-617E,20240626,,"Body part: shoulder. Contact: equipment (strained). Task: cleaning. Outcome: sprain or strain, shoulder.",Strain muscle,3,0,Bars L Processing
+24  5561,Site-617E,20240126,,"Body part: back. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",Contusion Bruise,3,0,MEA ECD
+24  5810,Site-617E,20240609,Arm(s),"Body part: elbow. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Irritation other than skin,3,0,Soup Pasta Dump Operator
+24  5828,Site-617E,20240624,,"Body part: left ring finger and left eye. Contact: machine (exposed). Task: cleaning. Outcome: chemical exposure, left ring finger and left eye.",Vision Impairment or Loss,2,1,Soup Kettle Operator
+24 _6014,Site-617E,20240926,,"Body part: ring finger and shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Strain muscle,3,0,Warehouse Driver

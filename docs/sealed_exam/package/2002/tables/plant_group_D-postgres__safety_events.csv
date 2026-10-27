@@ -1,0 +1,48 @@
+f3,f6,f4,f8,f1,f7,f5,f9,f2
+1,Site-B5E5,2024-09-28,Leg(s),"Body part: leg. Contact: rack. Outcome: injury, type not stated.",Broken Lower Leg,2,117,AutoGuided Vehicle Operator
+100963,Site-EB47,2024-05-07,Leg(s),"Body part: knee. Contact: door. Task: walking. Outcome: injury, type not stated.","Body part: right knee. Outcome: contusion, right knee.",2,4,Janitor
+13179,Site-EB47,2024-07-18,"Body part: neck. Outcome: injury, type not stated.","Body part: right shoulder and right neck. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: right shoulder and right neck. Outcome: injury, type not stated.",3,0,Demold
+15581,Site-EB47,2024-12-26,Leg(s),"Body part: ring finger. Contact: pallet. Outcome: injury, type not stated.",Contusion,3,0,Demold
+9181,Site-9E6F,2024-01-12,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: shoulder. Contact: equipment (struck). Task: walking. Outcome: contusion, shoulder.",3,0,Pen to Butina
+9318,Site-9E6F,2024-01-22,Upper and lower extremities,"Body part: body. Contact: equipment (cut). Task: walking. Outcome: laceration, body.","Body part: shoulder and hip. Contact: equipment (struck). Task: walking. Outcome: contusion, shoulder and hip.",3,0,Grade Bag Pack
+9319,Site-9E6F,2024-01-17,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: shoulder. Contact: equipment (strained). Task: walking. Outcome: sprain or strain, shoulder.",3,0,Jack Operator
+9948,Site-9E6F,2024-02-27,Upper and lower extremities,"Body part: body. Contact: door. Task: walking. Outcome: injury, type not stated.","Body part: shoulder and hip. Contact: equipment (struck). Task: walking. Outcome: contusion, shoulder and hip.",3,0,Scrape Lard
+9969,Site-9E6F,2024-03-06,,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.","Body part: shoulder. Contact: equipment (struck). Task: walking. Outcome: contusion, shoulder.",4,0,Trim UDEs
+10310,Site-9E6F,2024-03-27,"Hand(s), finger(s)","Body part: ring finger. Contact: chain. Outcome: injury, type not stated.","Body part: ring finger. Outcome: sprain or strain, ring finger.",4,0,Pen to Butina
+10399,Site-9E6F,2024-02-27,"Hand(s), finger(s)","Body part: middle finger and hand. Outcome: injury, type not stated.","Body part: middle finger and ring finger. Outcome: injury, type not stated.",3,0,Stick Hogs
+10928,Site-9E6F,2024-05-06,"Hand(s), finger(s)","Body part: finger. Outcome: injury, type not stated.","Body part: middle finger. Outcome: laceration, middle finger.",3,0,Janitor
+11079,Site-9E6F,2024-04-24,"Hand(s), finger(s)","Body part: hand. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: hand. Outcome: contusion, hand.",3,0,Jack Operator
+11313,Site-9E6F,2024-01-08,"Hand(s), finger(s)","Body part: body. Contact: equipment. Task: cutting. Outcome: injury, type not stated.","Body part: middle finger and ring finger. Outcome: injury, type not stated.",3,0,Tender Pullers
+13025,Site-9E6F,2024-06-24,"Hand(s), finger(s)","Body part: little finger. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Contusion R Pinky,3,0,Machine Line Operator
+13219,Site-9E6F,2024-07-12,,"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Repetitive L Shoulder,4,0,General Box Room
+13245,Site-9E6F,2024-07-23,"Hand(s), finger(s)","Body part: finger. Contact: belt and pulley. Outcome: injury, type not stated.","Body part: ring finger. Outcome: crush injury, ring finger.",4,0,Maintenance Apprentice Technician
+13542,Site-9E6F,2024-08-12,Arm(s),"Body part: forearm. Contact: knife (cut). Task: operating equipment. Outcome: laceration, forearm.","Body part: forearm. Outcome: laceration, forearm.",4,0,Production Service Specialist G
+13624,Site-9E6F,2024-08-17,"Hand(s), finger(s)","Body part: finger. Contact: roller. Task: walking. Outcome: injury, type not stated.","Body part: little finger. Outcome: amputation, little finger.",3,0,Mechanic
+13664,Site-9E6F,2024-08-20,"Ear(s), facial region","Body part: body. Outcome: injury, type not stated.",Contusion Chin,4,0,Shackle Hogs
+13773,Site-9E6F,2024-08-28,Leg(s),"Body part: hand and shoulder. Contact: knife (cut). Outcome: laceration, hand and shoulder.","Body part: leg. Outcome: laceration, leg.",4,0,Debo Flex Boner
+14151,Site-9E6F,2024-08-13,,"Body part: shoulder. Outcome: injury, type not stated.","Body part: shoulder. Outcome: sprain or strain, shoulder.",4,0,Production Supervisor
+14211,Site-9E6F,2024-06-04,"Hand(s), finger(s)","Body part: finger. Outcome: injury, type not stated.","Body part: middle finger. Outcome: injury, type not stated.",3,0,Carlisle System Attendant
+14663,Site-9E6F,2024-10-23,,"Body part: wrist. Outcome: injury, type not stated.",Smash L Wrist,4,0,Pen to Butina
+14671,Site-9E6F,2024-10-23,Leg(s),"Body part: knee. Contact: pump. Task: lifting or moving material. Outcome: injury, type not stated.",Strain L Knee,4,0,Mechanic
+14911,Site-9E6F,2024-10-01,Arm(s),"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.",Repetitive R Elbow,4,0,Hog Barn Supervisor
+15335,Site-9E6F,2024-12-07,,"Body part: shoulder. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Contusion L Shoulder,3,0,Powerhouse Technician
+15668,Site-9E6F,2024-12-18,,"Body part: arm. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: shoulder. Contact: equipment (strained). Task: walking. Outcome: sprain or strain, shoulder.",4,0,Plant Maintenance Supervisor
+14841,Site-9E6F,2024-11-01,,"Body part: ankle. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: ankle. Outcome: avulsion, ankle.",4,0,Plant Maintenance  Purchasing Clerk
+9219,Site-FC92,2024-01-16,"Foot (feet), toe(s)","Body part: foot. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: right foot. Outcome: contusion, right foot.",3,0,Janitor
+9873,Site-FC92,2024-02-28,,"Body part: right ankle. Contact: stairs. Task: walking. Outcome: injury, type not stated.","Body part: right ankle. Outcome: fracture, right ankle.",2,29,Multivac Operator
+9888,Site-FC92,2024-02-29,,"Body part: ring finger and arm. Outcome: burn, ring finger and arm.","Body part: right arm and right neck. Outcome: burn, right arm and right neck.",4,0,Sanitation
+12582,Site-FC92,2024-06-14,"Hand(s), finger(s)","Body part: finger. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.","Body part: tip of the right little finger. Outcome: fracture, tip of the right little finger.",3,0,Sanitation
+13678,Site-FC92,2024-08-21,"Hand(s), finger(s)","Body part: both thumbs. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: both thumbs. Outcome: burn, both thumbs.",4,0,General Labor  Catcher
+14169,Site-FC92,2024-09-23,"Hand(s), finger(s)","Body part: both hands. Outcome: injury, type not stated.","Body part: hand. Outcome: injury, type not stated.",4,0,General Labor  Catcher
+14356,Site-FC92,2024-10-03,Upper and lower extremities,"Body part: left middle finger and left ring finger. Contact: ladder (cut). Task: walking. Outcome: laceration, left middle finger and left ring finger.","Body part: left hand. Outcome: laceration, left hand.",4,0,SB Operator
+14588,Site-FC92,2024-10-16,,"Body part: body. Contact: equipment. Task: operating equipment. Outcome: injury, type not stated.","Body part: both wrists and knees. Outcome: injury, type not stated.",4,0,General Labor
+14704,Site-FC92,2024-10-24,Multiple upper extremities locations,"Body part: left ring finger and left wrist. Contact: pallet. Task: walking. Outcome: injury, type not stated.","Body part: left wrist and left arm. Outcome: injury, type not stated.",3,0,General Labor  Packoff
+15045,Site-FC92,2024-11-17,Multiple upper extremities locations,"Body part: body. Contact: equipment (burned). Task: cleaning. Outcome: burn, body.","Body part: both wrists. Outcome: burn, both wrists.",3,0,Sanitation
+15436,Site-FC92,2024-12-14,"Hand(s), finger(s)","Body part: left thumb and left back. Outcome: laceration, left thumb and left back.","Body part: left thumb. Outcome: laceration, left thumb.",4,0,Operations Lead
+15452,Site-FC92,2024-12-16,,"Body part: right ankle. Outcome: injury, type not stated.","Body part: right ankle. Outcome: sprain or strain, right ankle.",3,0,General Labor  Sizing
+9622,Site-E250,2024-02-09,Arm(s),"Body part: body. Contact: knife. Task: cutting. Outcome: injury, type not stated.","Body part: right forearm. Outcome: laceration, right forearm.",4,0,Aitch Boner
+10918,Site-E250,2024-05-03,,"Body part: shoulder. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.",Right Shoulder pain,2,1,Hides cut and Trim
+12932,Site-E250,2024-07-03,,"Body part: right foot. Contact: forklift. Task: cleaning. Outcome: injury, type not stated.",Right ankle fracture,3,0,Go Shipping Palletize Boxes Forklift
+14326,Site-E250,2024-09-30,"Hand(s), finger(s)","Body part: right ring finger. Outcome: injury, type not stated.","Body part: right ring finger. Outcome: injury, type not stated.",4,0,Remove Spreader Hooks
+14348,Site-E250,2024-10-03,,"Body part: foot and ribs. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",Right shoulder pain,2,3,Cold Side Pickup
+14843,Site-E250,2024-11-02,Arm(s),"Body part: left elbow and left neck. Contact: knife. Task: cutting. Outcome: injury, type not stated.","Body part: left elbow. Outcome: laceration, left elbow.",4,0,Remove Neck Bones

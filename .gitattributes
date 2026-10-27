@@ -1,0 +1,6 @@
+# hashed files: keep their bytes exactly as hashed (no line-ending conversion on any OS)
+docs/sealed_exam/** -text
+scripts/gen_composite.py -text
+scripts/score_discovery.py -text
+*.sh text eol=lf
+README.md text eol=lf

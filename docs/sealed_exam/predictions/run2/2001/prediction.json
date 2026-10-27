@@ -1,0 +1,103 @@
+{
+ "models": [
+  "live:nvidia/nemotron-3-ultra-550b-a55b"
+ ],
+ "calls": [
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 6230
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 18784
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 43052
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 16652
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 15673
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 21294
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 13616
+  }
+ ],
+ "tables": {
+  "plant_group_A:mysql/facility_dim": "site_master",
+  "plant_group_A:mysql/nm_detail": "distractor",
+  "plant_group_A:mysql/recordables": "incident",
+  "plant_group_A:mysql/tbl_ehs_02": "distractor",
+  "plant_group_A:mysql/training_completions": "distractor",
+  "plant_group_C:scan/facility_dim": "site_master",
+  "plant_group_C:scan/first_aid_log": "distractor",
+  "plant_group_C:scan/scanned_log_transcribed": "incident",
+  "plant_group_C:scan/tbl_ehs_02": "distractor",
+  "plant_group_C:scan/trn_rec": "distractor",
+  "plant_group_D:postgres/EHS_Export_2024": "incident",
+  "plant_group_D:postgres/fa_visits": "distractor",
+  "plant_group_D:postgres/facility_dim": "site_master",
+  "plant_group_D:postgres/lms_export": "distractor",
+  "plant_group_D:postgres/tbl_mx_02": "distractor",
+  "minio:csv/yr_totals": "summary",
+  "plant_group_B:csv/EHS_Export_2024": "incident",
+  "plant_group_B:csv/hazard_obs": "distractor",
+  "plant_group_B:csv/lms_export": "distractor",
+  "plant_group_B:csv/loc_master": "site_master"
+ },
+ "field_map": {
+  "plant_group_A:mysql/recordables": {
+   "date": "Incident Date",
+   "body_part": "bp",
+   "narrative": "descr",
+   "site": "establishment"
+  },
+  "plant_group_C:scan/scanned_log_transcribed": {
+   "date": "transcribed_text",
+   "narrative": "transcribed_text",
+   "site": "site"
+  },
+  "plant_group_D:postgres/EHS_Export_2024": {
+   "date": "dt",
+   "body_part": "body_pt",
+   "narrative": "Description of Incident",
+   "site": "facility_code"
+  },
+  "plant_group_B:csv/EHS_Export_2024": {
+   "date": "f3",
+   "body_part": "f6",
+   "narrative": "f4",
+   "site": "f5"
+  }
+ }
+}

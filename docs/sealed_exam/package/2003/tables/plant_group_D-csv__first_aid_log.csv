@@ -1,0 +1,16 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,11/22/24,Site-22D5,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",bandage
+FA002,05/06/24,Site-992C,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",ice pack
+FA003,05/03/24,Site-8E8C,foot,"Headache, rested 15 min",ice pack
+FA004,09/09/24,Site-8E8C,foot,"Dust in eye, flushed",eye wash
+FA005,02/05/24,Site-22D5,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",none
+FA006,02/24/24,Site-992C,arm,"Headache, rested 15 min",cold compress
+FA007,03/26/24,Site-8E8C,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",eye wash
+FA008,06/03/24,Site-22D5,finger,"Headache, rested 15 min",eye wash
+FA009,09/17/24,Site-8E8C,hand,"Body part: hand. Outcome: laceration, hand.",cold compress
+FA010,04/07/24,Site-8E8C,foot,"Dust in eye, flushed",cold compress
+FA011,03/26/24,Site-22D5,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",none
+FA012,10/27/24,Site-22D5,hand,"Dust in eye, flushed",ice pack
+FA013,11/22/24,Site-8E8C,arm,"Dust in eye, flushed",cold compress
+FA014,07/03/24,Site-8E8C,hand,"Dust in eye, flushed",cold compress
+FA015,08/18/24,Site-992C,foot,Splinter in foot,eye wash

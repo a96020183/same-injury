@@ -1,0 +1,11 @@
+wo_id,asset,opened,site,problem,status
+WO99565,band saw,08-Apr-2024,Site-EF0E,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",closed
+WO27453,line 3 conveyor,06-Oct-2024,Site-1A2C,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",open
+WO44039,oven loader,31-Dec-2024,Site-2B52,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO96120,grinder,23-May-2024,Site-2B52,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",open
+WO78073,oven loader,20-May-2024,Site-1A2C,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",closed
+WO61069,grinder,14-Jul-2024,Site-EF0E,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",open
+WO60719,palletizer,09-Jan-2024,Site-1A2C,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",open
+WO33090,grinder,30-Sep-2024,Site-1A2C,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",closed
+WO33951,palletizer,05-Jan-2024,Site-EF0E,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",closed
+WO92539,line 3 conveyor,24-Feb-2024,Site-2B52,"Body part: body. Contact: conveyor. Task: doing maintenance. Outcome: injury, type not stated.",open

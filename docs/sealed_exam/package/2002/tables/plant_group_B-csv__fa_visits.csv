@@ -1,0 +1,11 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,20241207,Site-8EFD,arm,"Headache, rested 15 min",ice pack
+FA002,20240910,Site-0CAE,arm,Splinter in arm,cold compress
+FA003,20240819,Site-EA79,hand,"Headache, rested 15 min",eye wash
+FA004,20240421,Site-1964,hand,"Dust in eye, flushed",ice pack
+FA005,20240101,Site-B45F,finger,"Body part: finger. Outcome: laceration, finger.",none
+FA006,20240411,Site-B45F,arm,Splinter in arm,none
+FA007,20240529,Site-EA79,finger,Splinter in finger,eye wash
+FA008,20241223,Site-1964,hand,Splinter in hand,ice pack
+FA009,20241106,Site-EA79,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",none
+FA010,20241203,Site-0CAE,hand,Splinter in hand,cold compress

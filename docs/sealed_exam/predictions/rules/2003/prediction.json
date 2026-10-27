@@ -1,0 +1,83 @@
+{
+ "models": [
+  "offline-stub:offline-stub"
+ ],
+ "calls": [
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "offline-stub",
+   "source": "offline-stub",
+   "latencyMs": 0
+  }
+ ],
+ "tables": {
+  "plant_group_A:postgres/nm_detail": "distractor",
+  "plant_group_A:postgres/people_dim": "distractor",
+  "plant_group_A:postgres/sites": "site_master",
+  "plant_group_A:postgres/tbl_ehs_01": "incident",
+  "plant_group_A:postgres/tbl_mx_02": "distractor",
+  "plant_group_B:scan/fa_visits": "distractor",
+  "plant_group_B:scan/scanned_log_transcribed": "incident",
+  "plant_group_B:scan/sites": "site_master",
+  "plant_group_B:scan/training_completions": "distractor",
+  "plant_group_C:mysql/inc_rpt": "distractor",
+  "plant_group_C:mysql/nurse_log": "distractor",
+  "plant_group_C:mysql/plants": "site_master",
+  "plant_group_C:mysql/training_completions": "distractor",
+  "minio:csv/form300a": "summary",
+  "plant_group_D:csv/first_aid_log": "distractor",
+  "plant_group_D:csv/hr_roster": "distractor",
+  "plant_group_D:csv/inc_rpt": "distractor",
+  "plant_group_D:csv/sites": "site_master",
+  "plant_group_D:csv/training_completions": "distractor"
+ },
+ "field_map": {
+  "plant_group_A:postgres/tbl_ehs_01": {
+   "date": "Incident Date",
+   "body_part": "Body Part Affected",
+   "narrative": "what_happened",
+   "site": "site"
+  },
+  "plant_group_B:scan/scanned_log_transcribed": {
+   "date": "transcribed_text",
+   "narrative": "transcribed_text",
+   "site": "site"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,16/05/2024,Site-5AE3,arm,"Body part: arm. Outcome: laceration, arm.",bandage
+FA002,09/06/2024,Site-AAB4,finger,"Body part: eye. Outcome: injury, type not stated.",cold compress
+FA003,28/06/2024,Site-0446,finger,Splinter in finger,none
+FA004,24/04/2024,Site-EDE6,hand,"Body part: eye. Outcome: injury, type not stated.",cold compress
+FA005,08/07/2024,Site-918E,arm,"Body part: head. Outcome: injury, type not stated.",eye wash
+FA006,21/09/2024,Site-0446,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",cold compress
+FA007,24/01/2024,Site-8F8E,finger,"Body part: eye. Outcome: injury, type not stated.",bandage
+FA008,11/09/2024,Site-0446,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",bandage
+FA009,18/03/2024,Site-0446,arm,"Body part: arm. Contact: door (burned). Outcome: burn, arm.",ice pack
+FA010,22/04/2024,Site-5AE3,arm,"Body part: eye. Outcome: injury, type not stated.",eye wash
+FA011,08/08/2024,Site-918E,foot,Splinter in foot,cold compress
+FA012,24/12/2024,Site-5AE3,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",cold compress
+FA013,20/02/2024,Site-0446,arm,Splinter in arm,cold compress
+FA014,09/07/2024,Site-5AE3,finger,Splinter in finger,bandage

@@ -1,0 +1,129 @@
+{
+ "zetaris": [
+  "zetaris"
+ ],
+ "queries": 57,
+ "models": [
+  "live:nvidia/nemotron-3-ultra-550b-a55b",
+  "live:nvidia/nemotron-3.5-super-vl-120b-a12b"
+ ],
+ "calls": [
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 6285
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 37723
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 23347
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 9456
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "latencyMs": 43976
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "latencyMs": 42937
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 4081
+  },
+  {
+   "lane": "fast",
+   "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "latencyMs": 22164
+  }
+ ],
+ "tables": {
+  "plant_group_C:mysql/inc_rpt": "incident",
+  "plant_group_C:mysql/nurse_log": "distractor",
+  "plant_group_C:mysql/plants": "site_master",
+  "plant_group_C:mysql/training_completions": "distractor",
+  "plant_group_B:scan/fa_visits": "distractor",
+  "plant_group_B:scan/scanned_log_transcribed": "incident",
+  "plant_group_B:scan/sites": "site_master",
+  "plant_group_B:scan/training_completions": "distractor",
+  "plant_group_A:postgres/nm_detail": "distractor",
+  "plant_group_A:postgres/people_dim": "distractor",
+  "plant_group_A:postgres/sites": "site_master",
+  "plant_group_A:postgres/tbl_ehs_01": "incident",
+  "plant_group_A:postgres/tbl_mx_02": "distractor",
+  "plant_group_D:csv/first_aid_log": "distractor",
+  "plant_group_D:csv/hr_roster": "distractor",
+  "plant_group_D:csv/inc_rpt": "incident",
+  "plant_group_D:csv/sites": "site_master",
+  "plant_group_D:csv/training_completions": "distractor",
+  "minio:csv/form300a": "summary"
+ },
+ "field_map": {
+  "plant_group_C:mysql/inc_rpt": {
+   "date": "f4",
+   "body_part": "f5",
+   "narrative": "f8",
+   "site": "f2"
+  },
+  "plant_group_B:scan/scanned_log_transcribed": {
+   "date": "transcribed_text",
+   "body_part": "transcribed_text",
+   "narrative": "transcribed_text",
+   "site": "site"
+  },
+  "plant_group_A:postgres/tbl_ehs_01": {
+   "date": "Incident Date",
+   "body_part": "Body Part Affected",
+   "narrative": "what_happened",
+   "site": "site"
+  },
+  "plant_group_D:csv/inc_rpt": {
+   "date": "f3",
+   "body_part": "f5",
+   "narrative": "f6",
+   "site": "f1"
+  }
+ },
+ "score": {
+  "table_precision": 1,
+  "table_recall": 1,
+  "field_precision": 1,
+  "field_recall": 1
+ },
+ "counts": {
+  "logsFound": 4,
+  "logs": 4,
+  "logsPicked": 4,
+  "fieldsRight": 16,
+  "fields": 16,
+  "fieldsGiven": 16
+ }
+}

@@ -1,0 +1,17 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,2024-02-23,Site-04C9,arm,"Headache, rested 15 min",eye wash
+FA002,2024-10-25,Site-04C9,hand,"Dust in eye, flushed",ice pack
+FA003,2024-07-14,Site-9EE2,arm,"Body part: arm. Outcome: laceration, arm.",cold compress
+FA004,2024-08-14,Site-04C9,finger,"Dust in eye, flushed",eye wash
+FA005,2024-06-05,Site-E7D7,foot,Splinter in foot,ice pack
+FA006,2024-10-20,Site-2DC0,finger,"Body part: finger. Outcome: laceration, finger.",ice pack
+FA007,2024-12-06,Site-2DC0,foot,"Dust in eye, flushed",none
+FA008,2024-07-14,Site-E7D7,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",ice pack
+FA009,2024-10-23,Site-E7D7,arm,"Headache, rested 15 min",cold compress
+FA010,2024-10-20,Site-9EE2,finger,"Headache, rested 15 min",eye wash
+FA011,2024-03-18,Site-04C9,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",ice pack
+FA012,2024-10-17,Site-9EE2,arm,"Dust in eye, flushed",ice pack
+FA013,2024-07-05,Site-04C9,finger,"Headache, rested 15 min",bandage
+FA014,2024-02-03,Site-2DC0,hand,"Body part: hand. Outcome: laceration, hand.",none
+FA015,2024-01-20,Site-2DC0,arm,"Dust in eye, flushed",eye wash
+FA016,2024-08-30,Site-9EE2,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",none

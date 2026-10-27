@@ -1,0 +1,36 @@
+{
+ "scan_D1.jpg": {
+  "requested": "meterless/vision",
+  "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "tokens": 46920,
+  "fields": {
+   "case_no": "SYN-D1",
+   "injury_date": "2024-08-14",
+   "time_began_work": "06:30",
+   "time_of_event": "10:05",
+   "job_title": "Line Technician",
+   "er_visit": "yes",
+   "inpatient_overnight": "no",
+   "side": "right",
+   "body_part": "index finger"
+  },
+  "recorded": "2026-10-26 live run (parsed fields)"
+ },
+ "scan_D2.jpg": {
+  "requested": "meterless/vision",
+  "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "tokens": 47098,
+  "fields": {
+   "case_no": "SYN-D2",
+   "injury_date": "2024-05-21",
+   "time_began_work": "15:00",
+   "time_of_event": "18:40",
+   "job_title": "Press Operator",
+   "er_visit": "no",
+   "inpatient_overnight": "yes",
+   "side": "left",
+   "body_part": "little finger"
+  },
+  "recorded": "2026-10-26 live run (parsed fields)"
+ }
+}

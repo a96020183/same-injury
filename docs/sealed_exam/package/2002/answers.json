@@ -1,0 +1,75 @@
+{
+ "seed": 2002,
+ "tables": {
+  "plant_group_A:scan/sites": "site_master",
+  "plant_group_A:scan/scanned_log_transcribed": "incident",
+  "plant_group_A:scan/training_completions": "distractor",
+  "plant_group_A:scan/hazard_obs": "distractor",
+  "plant_group_B:csv/loc_master": "site_master",
+  "plant_group_B:csv/tbl_ehs_01": "incident",
+  "plant_group_B:csv/tbl_ehs_02": "distractor",
+  "plant_group_B:csv/emp_master": "distractor",
+  "plant_group_B:csv/fa_visits": "distractor",
+  "plant_group_C:mysql/plants": "site_master",
+  "plant_group_C:mysql/recordables": "incident",
+  "plant_group_C:mysql/maint_orders": "distractor",
+  "plant_group_C:mysql/hazard_obs": "distractor",
+  "plant_group_D:postgres/plants": "site_master",
+  "plant_group_D:postgres/safety_events": "incident",
+  "plant_group_D:postgres/trn_rec": "distractor",
+  "plant_group_D:postgres/hr_roster": "distractor",
+  "plant_group_D:postgres/hazard_obs": "distractor",
+  "minio:csv/annual_summary_300A": "summary"
+ },
+ "field_map": {
+  "plant_group_A:scan/scanned_log_transcribed": {
+   "site": "site",
+   "narrative": "transcribed_text",
+   "date": "transcribed_text",
+   "body_part": "transcribed_text"
+  },
+  "plant_group_B:csv/tbl_ehs_01": {
+   "case_id": "case_number",
+   "site": "Site Name",
+   "date": "evt_date",
+   "body_part": "body_pt",
+   "narrative": "descr",
+   "injury": "Injury Type",
+   "outcome": "Case Classification",
+   "days_away": "dafw",
+   "job_title": "role",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_C:mysql/recordables": {
+   "case_id": "case_number",
+   "site": "loc",
+   "date": "Incident Date",
+   "body_part": "part_of_body",
+   "narrative": "notes",
+   "injury": "nature_of_injury",
+   "outcome": "classif",
+   "days_away": "lost_days",
+   "job_title": "Job Title",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_D:postgres/safety_events": {
+   "case_id": "f3",
+   "site": "f6",
+   "date": "f4",
+   "body_part": "f8",
+   "narrative": "f1",
+   "injury": "f7",
+   "outcome": "f5",
+   "days_away": "f9",
+   "job_title": "f2",
+   "_date_format": "%Y-%m-%d"
+  }
+ },
+ "systems": {
+  "A": "scan",
+  "B": "csv",
+  "C": "mysql",
+  "D": "postgres"
+ },
+ "n_establishments": 25
+}

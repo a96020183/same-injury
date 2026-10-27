@@ -1,0 +1,21 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,20240921,Site-BCD4,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",med
+NM002,20240610,Site-1A5E,"Body part: ring finger. Contact: mixer. Task: cleaning. Outcome: injury, type not stated.",low
+NM003,20241221,Site-1A5E,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",med
+NM004,20240830,Site-1A5E,"Body part: ring finger and arm. Contact: pallet. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM005,20241213,Site-8C58,"Body part: ring finger and arm. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",med
+NM006,20240405,Site-BCD4,"Body part: ring finger. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",high
+NM007,20241031,Site-1A5E,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM008,20240823,Site-1566,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",low
+NM009,20240611,Site-BCD4,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",high
+NM010,20241223,Site-BCD4,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",med
+NM011,20241112,Site-BCD4,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",high
+NM012,20240316,Site-1566,"Body part: body. Contact: pallet. Outcome: injury, type not stated.",low
+NM013,20240422,Site-1A5E,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM014,20240217,Site-1A5E,"Body part: ring finger and arm. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",low
+NM015,20240325,Site-BCD4,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",med
+NM016,20240121,Site-1566,"Body part: ring finger and arm. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",low
+NM017,20240811,Site-BCD4,"Body part: ring finger and arm. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",med
+NM018,20240501,Site-8C58,"Body part: ring finger and arm. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",med
+NM019,20240831,Site-1A5E,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",high
+NM020,20241129,Site-1A5E,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",low

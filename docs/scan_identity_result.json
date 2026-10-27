@@ -1,0 +1,32 @@
+{
+ "working_tree_hits": 0,
+ "history_hits": 0,
+ "sensitive_conclusions": 11,
+ "sensitive_tied": 0,
+ "generated_tied_by_ita_subset_only": 9,
+ "other_conclusions": 17,
+ "other_tied": 12,
+ "scanned_form_entries": 7,
+ "scanned_forms_tied": 0,
+ "selection_scripts": 0,
+ "negatives_report_set_failed": 0,
+ "employer_codes_identified": {
+  "seed1003": "27 of 250",
+  "unseen3001": "17 of 130"
+ },
+ "synthetic_rows": 16,
+ "synthetic_rows_derived": 0,
+ "synthetic_max_shared_fields": {
+  "seed1003": 1,
+  "unseen3001": 1
+ },
+ "plants": 56,
+ "plants_published_300a": 0,
+ "real_plants": 48,
+ "real_plants_singled_out_by_counts": 14,
+ "synthetic_or_negative_in_real_plants": 0,
+ "gate_units": 23073,
+ "gate_files": 362,
+ "gate_real_plant_non_neutral": 0,
+ "hardcoded_real_values": 0
+}

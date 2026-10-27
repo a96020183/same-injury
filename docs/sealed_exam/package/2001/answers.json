@@ -1,0 +1,76 @@
+{
+ "seed": 2001,
+ "tables": {
+  "plant_group_A:mysql/facility_dim": "site_master",
+  "plant_group_A:mysql/recordables": "incident",
+  "plant_group_A:mysql/training_completions": "distractor",
+  "plant_group_A:mysql/tbl_ehs_02": "distractor",
+  "plant_group_A:mysql/nm_detail": "distractor",
+  "plant_group_B:csv/loc_master": "site_master",
+  "plant_group_B:csv/EHS_Export_2024": "incident",
+  "plant_group_B:csv/lms_export": "distractor",
+  "plant_group_B:csv/hazard_obs": "distractor",
+  "plant_group_C:scan/facility_dim": "site_master",
+  "plant_group_C:scan/scanned_log_transcribed": "incident",
+  "plant_group_C:scan/tbl_ehs_02": "distractor",
+  "plant_group_C:scan/trn_rec": "distractor",
+  "plant_group_C:scan/first_aid_log": "distractor",
+  "plant_group_D:postgres/facility_dim": "site_master",
+  "plant_group_D:postgres/EHS_Export_2024": "incident",
+  "plant_group_D:postgres/lms_export": "distractor",
+  "plant_group_D:postgres/tbl_mx_02": "distractor",
+  "plant_group_D:postgres/fa_visits": "distractor",
+  "minio:csv/yr_totals": "summary"
+ },
+ "field_map": {
+  "plant_group_A:mysql/recordables": {
+   "case_id": "incident_id",
+   "site": "establishment",
+   "date": "Incident Date",
+   "body_part": "bp",
+   "narrative": "descr",
+   "injury": "nature_of_injury",
+   "outcome": "result_cd",
+   "days_away": "days_away",
+   "job_title": "Job Title",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_B:csv/EHS_Export_2024": {
+   "case_id": "f7",
+   "site": "f5",
+   "date": "f3",
+   "body_part": "f6",
+   "narrative": "f4",
+   "injury": "f8",
+   "outcome": "f2",
+   "days_away": "f9",
+   "job_title": "f1",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_C:scan/scanned_log_transcribed": {
+   "site": "site",
+   "narrative": "transcribed_text",
+   "date": "transcribed_text",
+   "body_part": "transcribed_text"
+  },
+  "plant_group_D:postgres/EHS_Export_2024": {
+   "case_id": "log_line",
+   "site": "facility_code",
+   "date": "dt",
+   "body_part": "body_pt",
+   "narrative": "Description of Incident",
+   "injury": "nature",
+   "outcome": "severity",
+   "days_away": "dafw",
+   "job_title": "Job Title",
+   "_date_format": "%Y-%m-%d"
+  }
+ },
+ "systems": {
+  "A": "mysql",
+  "B": "csv",
+  "C": "scan",
+  "D": "postgres"
+ },
+ "n_establishments": 42
+}

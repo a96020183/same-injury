@@ -1,0 +1,27 @@
+{
+ "note": "The six-field check (scripts/synthetic_compare.py) run once on the synthetic rows of the previous version (QA round 8), which were edited from real cases. Counts only.",
+ "sample": {
+  "seed1003": {
+   "rows": 8,
+   "rows_sharing_2_or_more": 3,
+   "invented_plants": 3,
+   "invented_plants_at_a_real_address_or_zip": 3
+  },
+  "unseen3001": {
+   "rows": 8,
+   "rows_sharing_2_or_more": 0,
+   "invented_plants": 5,
+   "invented_plants_at_a_real_address_or_zip": 3
+  }
+ },
+ "public": {
+  "seed1003": {
+   "rows": 8,
+   "rows_sharing_2_or_more": 2
+  },
+  "unseen3001": {
+   "rows": 8,
+   "rows_sharing_2_or_more": 1
+  }
+ }
+}

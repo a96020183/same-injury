@@ -1,0 +1,25 @@
+emp_id,hire_date,job_title,site,shift
+E3589,2024-05-01,Packer,Site-FC92,3rd
+E1140,2024-02-13,Maintenance Tech,Site-9E6F,1st
+E9617,2024-08-17,Maintenance Tech,Site-EB47,2nd
+E4311,2024-04-01,Packer,Site-FC92,1st
+E1868,2024-11-20,Maintenance Tech,Site-B5E5,3rd
+E2725,2024-10-23,Sanitation,Site-FC92,2nd
+E5533,2024-10-03,Maintenance Tech,Site-E250,2nd
+E7436,2024-08-23,Operator,Site-9E6F,3rd
+E3906,2024-11-12,Sanitation,Site-E250,2nd
+E1950,2024-01-11,Operator,Site-FC92,3rd
+E6384,2024-10-30,Operator,Site-EB47,2nd
+E9472,2024-06-28,Operator,Site-9E6F,2nd
+E6793,2024-06-20,Operator,Site-B5E5,3rd
+E1688,2024-06-26,Sanitation,Site-FC92,1st
+E8281,2024-10-31,Sanitation,Site-FC92,2nd
+E2244,2024-03-11,Operator,Site-E250,3rd
+E9673,2024-05-23,Packer,Site-EB47,1st
+E2325,2024-04-13,Maintenance Tech,Site-EB47,1st
+E8408,2024-08-23,Packer,Site-B5E5,3rd
+E7917,2024-04-24,Packer,Site-B5E5,3rd
+E6055,2024-05-17,Operator,Site-FC92,3rd
+E4008,2024-12-26,Sanitation,Site-EB47,1st
+E8613,2024-09-08,Sanitation,Site-E250,2nd
+E2402,2024-04-20,Packer,Site-9E6F,1st

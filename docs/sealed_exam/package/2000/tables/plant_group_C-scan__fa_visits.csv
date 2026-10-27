@@ -1,0 +1,10 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,12/16/2024,Site-B207,arm,"Body part: eye. Outcome: injury, type not stated.",ice pack
+FA002,10/28/2024,Site-DF0B,foot,"Body part: foot. Outcome: laceration, foot.",eye wash
+FA003,04/24/2024,Site-A56E,foot,Splinter in foot,eye wash
+FA004,07/15/2024,Site-A56E,finger,"Body part: head. Outcome: injury, type not stated.",eye wash
+FA005,03/03/2024,Site-B207,hand,Splinter in hand,eye wash
+FA006,01/04/2024,Site-6B34,hand,"Body part: hand. Outcome: laceration, hand.",none
+FA007,01/18/2024,Site-DF0B,arm,Splinter in arm,cold compress
+FA008,09/01/2024,Site-B207,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",none
+FA009,11/02/2024,Site-B207,hand,"Body part: head. Outcome: injury, type not stated.",eye wash

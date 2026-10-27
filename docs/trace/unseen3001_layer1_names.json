@@ -1,0 +1,26 @@
+{
+ "names": {
+  "unseen3001_hq.yr_totals": "minio:csv/yr_totals",
+  "unseen3001_paper.good_catch": "plant_group_A:scan/good_catch",
+  "unseen3001_paper.loc_master": "plant_group_A:scan/loc_master",
+  "unseen3001_paper.nm_detail": "plant_group_A:scan/nm_detail",
+  "unseen3001_paper.people_dim": "plant_group_A:scan/people_dim",
+  "unseen3001_paper.scanned_log_transcribed": "plant_group_A:scan/scanned_log_transcribed",
+  "unseen3001_my.hazard_obs": "plant_group_B:mysql/hazard_obs",
+  "unseen3001_my.nm_log": "plant_group_B:mysql/nm_log",
+  "unseen3001_my.plants": "plant_group_B:mysql/plants",
+  "unseen3001_my.recordables": "plant_group_B:mysql/recordables",
+  "unseen3001_pg.ehs_export_2024": "plant_group_C:postgres/EHS_Export_2024",
+  "unseen3001_pg.fa_visits": "plant_group_C:postgres/fa_visits",
+  "unseen3001_pg.people_dim": "plant_group_C:postgres/people_dim",
+  "unseen3001_pg.sites": "plant_group_C:postgres/sites",
+  "unseen3001_pg.training_completions": "plant_group_C:postgres/training_completions",
+  "unseen3001_files.facility_dim": "plant_group_D:csv/facility_dim",
+  "unseen3001_files.good_catch": "plant_group_D:csv/good_catch",
+  "unseen3001_files.inc_rpt": "plant_group_D:csv/inc_rpt",
+  "unseen3001_files.nm_detail": "plant_group_D:csv/nm_detail",
+  "unseen3001_files.training_completions": "plant_group_D:csv/training_completions",
+  "unseen3001_extra.injury_log": "synthetic:csv/injury_log",
+  "unseen3001_extra.sites": "synthetic:csv/sites"
+ }
+}

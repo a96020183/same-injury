@@ -1,0 +1,87 @@
+{
+  "headline": "One injury. Three records.\nNo shared key from the log to OSHA.",
+  "records": [
+    {
+      "who": "Plant log",
+      "plain": "an invented plant's injury log, in the synthetic test system (its own source, apart from every real plant system), with a scanned OSHA 301 form",
+      "id": "Site-SYN2 · case S8753",
+      "date": "04/30/2024",
+      "text": "SYNTHETIC test record. Injured: two fingertips. Equipment: slicer, crushed. Activity: wiping down. Result: two fingertips amputated.",
+      "mark": "two fingertips amputated",
+      "scan": "301_Site-SYN2_caseS8753.jpg"
+    },
+    {
+      "who": "Phone report",
+      "plain": "OSHA Severe Injury Report, public file",
+      "id": "SIR-SYN002",
+      "subIds": [
+        "referral REF-SYN002",
+        "employer masked by Zetaris policy"
+      ],
+      "date": "4/30/2024 · hospitalized",
+      "text": "SYNTHETIC test record. Injured: two fingertips. Equipment: slicer, cut. Activity: wiping down. Result: two fingertips lacerated.",
+      "mark": "two fingertips lacerated"
+    },
+    {
+      "who": "Inspection record",
+      "plain": "DOL enforcement database",
+      "unknown": true,
+      "text": "The plant log does not point here. The agents reach it from OSHA's report through its referral number."
+    }
+  ],
+  "featured": {
+    "site": "Site-SYN2",
+    "case": "S8753"
+  },
+  "note": "The plant log and OSHA's report share no ID: the agents match them by place and week. OSHA's report leads to DOL's inspection through its referral number (the report's Inspection field also carries the inspection number once one is open, in another format). This opening pair is SYNTHETIC, generated from a seed by scripts/gen_synthetic.py, which reads no file: an invented plant (Site-SYN2, in a synthetic test system of its own), log line, OSHA report, referral and DOL inspection, on a pattern common in the public files (the phone report says laceration and hospitalized, the log says amputation). {{synthetic_check}} The two log lines with no matching report and the pair sent to a person are generated the same way, in invented plants (Site-SYN1 to Site-SYN3, in the synthetic test system); every other record has its dates shifted and its state swapped; on the public data, 60 of the 60 hard cases whose OSHA report carries an inspection field lead to a DOL inspection through the referral number.",
+  "systems": [
+    {
+      "group": "A",
+      "kind": "Postgres",
+      "what": "EHS database"
+    },
+    {
+      "group": "B",
+      "kind": "MySQL",
+      "what": "incident reports, day-first dates"
+    },
+    {
+      "group": "C",
+      "kind": "CSV export",
+      "what": "spreadsheet columns"
+    },
+    {
+      "group": "D",
+      "kind": "Paper log",
+      "what": "scanned 301 forms, typed into a table"
+    },
+    {
+      "group": "S",
+      "kind": "Test system",
+      "what": "invented plants only (SYNTHETIC)"
+    }
+  ],
+  "composite": "A composite company built from public OSHA records, de-identified: names, addresses, towns, ZIPs and record numbers are replaced by codes, every narrative is rewritten, and the 300A employee counts and hours are invented. Plants' case counts and their published reports can still point to the real companies behind them (see README, Secrets and names); every negative case is an invented record in an invented plant.",
+  "governance": {
+    "one": "The agents query Zetaris as a non-admin role that sees employer and plant names as *****; only you, the reviewer, see names, and only you can compile the unified model."
+  },
+  "external": [
+    {
+      "label": "Unseen companies (main score)",
+      "value": "73/80 · 79/80",
+      "sub": "fields mapped right (date, body part, narrative, site) in two full runs on 5 sealed companies the agent had never seen; injury logs found 19/20 and 20/20, no false picks. 95% intervals: run 1 0.83–0.96, run 2 0.93–1.00. Rule baseline 39/80, keyword baseline 32/80. Re-check: python -I scripts/verify_exam.py"
+    },
+    {
+      "label": "Why this matters (public OSHA data, 2024)",
+      "value": "145 of 504",
+      "sub": "2024 amputation reports to OSHA that can be tied to a plant filing its injury log with OSHA, yet that plant's log shows no amputation within 7 days of it (2,425 amputation reports in 2024 overall). Our own count, from OSHA's Severe Injury Reports and the ITA 2024 case detail (scripts/hardcases.py). The ITA case-detail file is not in the repository (it names employers) and osha.gov did not serve it to us again on 2026-10-24, so this number cannot be re-run from the repo."
+    }
+  ],
+  "externalNote": "DOL inspection records: for 60 of the 60 hard cases whose OSHA report carries an inspection field, the agents' route through OSHA's referral number reaches a DOL inspection (it confirms the site, not the injury).",
+  "impact": {
+    "value": "145 of 504",
+    "text": "2024 amputation reports to OSHA that can be tied to a plant filing its injury log, yet that plant's log shows no amputation within 7 days. Finding them means matching a plant log to OSHA's file, which share no key.",
+    "source": "Our own count, from OSHA's Severe Injury Reports and the ITA 2024 case detail (scripts/hardcases.py). The ITA case-detail file is not in the repository (it names employers) and osha.gov did not serve it to us again on 2026-10-24, so this number cannot be re-run from the repo. The demo company's negative cases are invented records in invented plants; the 145 are public cases."
+  },
+  "compositeNote": "SYNTHETIC: an invented record in an invented plant"
+}

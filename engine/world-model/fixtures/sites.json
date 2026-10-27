@@ -1,0 +1,163 @@
+{
+ "source": "OSHA ITA case detail 2024 & 2025, OSHA SIR Jan2015–Nov2025 (public files); names pseudonymized (scripts/pseudonymize_fixtures.py)",
+ "counts": {
+  "changed_total": 5463,
+  "same_total": 31410
+ },
+ "pairs": [
+  {
+   "y2024": {
+    "year": 2024,
+    "establishment_id": "EST-002215",
+    "name": "Kebidero DC 092",
+    "company": "DEJED FITAT",
+    "ein": "EIN-4",
+    "street": "1795 Weir Rd",
+    "zip": "00183",
+    "state": "OR",
+    "streetno": "1795"
+   },
+   "y2025": {
+    "year": 2025,
+    "establishment_id": "EST-128547",
+    "name": "Kebidero DC #092",
+    "company": "DEJED FITAT",
+    "ein": "EIN-4",
+    "street": "1795 Weir Rd",
+    "zip": "00183",
+    "state": "OR",
+    "streetno": "1795"
+   },
+   "id_changed": true
+  },
+  {
+   "y2024": {
+    "year": 2024,
+    "establishment_id": "EST-964784",
+    "name": "Lima of Peduhi",
+    "company": "Lima of Peduhi",
+    "ein": "EIN-5",
+    "street": "3217 Weir Dr",
+    "zip": "00402",
+    "state": "MN",
+    "streetno": "3217"
+   },
+   "y2025": {
+    "year": 2025,
+    "establishment_id": "EST-790837",
+    "name": "Lima of Peduhi",
+    "company": "Lima of Peduhi",
+    "ein": "EIN-5",
+    "street": "3217 Weir Dr",
+    "zip": "00402",
+    "state": "MN",
+    "streetno": "3217"
+   },
+   "id_changed": true
+  },
+  {
+   "y2024": {
+    "year": 2024,
+    "establishment_id": "EST-505288",
+    "name": "Bicuv 424",
+    "company": "Zesepo Mupovib, Nedulogacigo",
+    "ein": "EIN-6",
+    "street": "3643 Turbine Pkwy",
+    "zip": "00286",
+    "state": "GA",
+    "streetno": "3643"
+   },
+   "y2025": {
+    "year": 2025,
+    "establishment_id": "EST-360358",
+    "name": "BICUV 424",
+    "company": "ZESEPO MUPOVIB NEDULOGACIGO",
+    "ein": "EIN-6",
+    "street": "3643 Turbine Pkwy",
+    "zip": "00286",
+    "state": "GA",
+    "streetno": "3643"
+   },
+   "id_changed": true
+  },
+  {
+   "y2024": {
+    "year": 2024,
+    "establishment_id": "EST-092088",
+    "name": "WM 5148",
+    "company": "Vuh-Bemo Kimeba Bihu, LP",
+    "ein": "EIN-7",
+    "street": "1691 TANNERY WAY",
+    "zip": "00266",
+    "state": "TN",
+    "streetno": "1691"
+   },
+   "y2025": {
+    "year": 2025,
+    "establishment_id": "EST-092088",
+    "name": "WM 5148",
+    "company": "Vuh-Bemo Kimeba Bihu, LP",
+    "ein": "EIN-7",
+    "street": "1691 TANNERY WAY",
+    "zip": "00266",
+    "state": "TN",
+    "streetno": "1691"
+   },
+   "id_changed": false
+  },
+  {
+   "y2024": {
+    "year": 2024,
+    "establishment_id": "EST-959704",
+    "name": "766 ZIJIMI HUZ PUMIPODOB JUVIVEF - C080783",
+    "company": "766 ZIJIMI HUZ PUMIPODOB JUVIVEF - C080783",
+    "ein": "EIN-8",
+    "street": "8346 Granary St",
+    "zip": "00114",
+    "state": "IL",
+    "streetno": "8346"
+   },
+   "y2025": {
+    "year": 2025,
+    "establishment_id": "EST-959704",
+    "name": "766 ZIJIMI HUZ PUMIPODOB JUVIVEF - C080783",
+    "company": "766 ZIJIMI HUZ PUMIPODOB JUVIVEF - C080783",
+    "ein": "EIN-8",
+    "street": "8346 Granary St",
+    "zip": "00114",
+    "state": "IL",
+    "streetno": "8346"
+   },
+   "id_changed": false
+  }
+ ],
+ "sir": [
+  {
+   "sir_id": "SIR-T00013",
+   "upa": "REF-T00014",
+   "event_date": "7/29/2024",
+   "employer": "Polu Gugaf Gatusum",
+   "address": "Turbine Rd",
+   "zip": "00286",
+   "amputation": false
+  },
+  {
+   "sir_id": "SIR-T00015",
+   "upa": "REF-T00016",
+   "event_date": "4/29/2024",
+   "employer": "Pifup Fucud Bopidosebasa",
+   "address": "9079 Alder Pkwy",
+   "zip": "00114",
+   "amputation": false
+  },
+  {
+   "sir_id": "SIR-T00017",
+   "upa": "REF-T00018",
+   "event_date": "6/3/2024",
+   "employer": "Comute Vuhofu Zenuc Kivabetelet - Jepopuj Lima Dakar",
+   "address": "5882 Packard Pkwy",
+   "zip": "00114",
+   "amputation": false
+  }
+ ]
+}

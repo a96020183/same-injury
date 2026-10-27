@@ -1,0 +1,25 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,10/29/2024,Site-081D,"Body part: ring finger and foot. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",high
+NM002,10/29/2024,Site-7FC5,"Body part: body. Contact: conveyor. Outcome: injury, type not stated.",low
+NM003,03/08/2024,Site-7FC5,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",med
+NM004,07/08/2024,Site-7085,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",med
+NM005,09/16/2024,Site-7FC5,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",high
+NM006,04/27/2024,Site-7FC5,"Body part: ring finger and hand. Contact: band saw. Task: cleaning. Outcome: injury, type not stated.",med
+NM007,01/14/2024,Site-2B64,"Body part: body. Contact: grinder. Task: walking. Outcome: injury, type not stated.",low
+NM008,12/28/2024,Site-B67C,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM009,07/07/2024,Site-081D,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM010,12/29/2024,Site-B67C,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",high
+NM011,02/11/2024,Site-7FC5,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM012,04/22/2024,Site-081D,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM013,10/21/2024,Site-2B64,"Body part: ring finger. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM014,06/02/2024,Site-081D,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",high
+NM015,12/18/2024,Site-B67C,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",high
+NM016,12/23/2024,Site-081D,"Body part: ring finger and arm. Contact: grinder. Task: clearing a jam. Outcome: injury, type not stated.",low
+NM017,09/26/2024,Site-7085,"Body part: ring finger. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.",low
+NM018,01/18/2024,Site-2B64,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",low
+NM019,12/29/2024,Site-7FC5,"Body part: ring finger. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",high
+NM020,10/27/2024,Site-2B64,"Body part: body. Contact: machine. Task: walking. Outcome: injury, type not stated.",low
+NM021,03/24/2024,Site-B67C,"Body part: ring finger. Contact: mixer. Task: clearing a jam. Outcome: injury, type not stated.",low
+NM022,08/19/2024,Site-7FC5,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM023,02/06/2024,Site-2B64,"Body part: ring finger and hand. Contact: slicer. Task: clearing a jam. Outcome: injury, type not stated.",low
+NM024,07/02/2024,Site-7FC5,"Body part: ring finger. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",med

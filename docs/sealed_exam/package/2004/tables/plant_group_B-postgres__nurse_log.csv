@@ -1,0 +1,26 @@
+visit_id,visit_date,site,body_part,complaint,treatment
+FA001,08/09/24,Site-F0EB,finger,Splinter in finger,ice pack
+FA002,12/22/24,Site-482E,foot,Splinter in foot,ice pack
+FA003,07/27/24,Site-83B6,foot,"Dust in eye, flushed",bandage
+FA004,03/01/24,Site-83B6,foot,"Body part: foot. Outcome: laceration, foot.",none
+FA005,04/17/24,Site-F45C,finger,"Dust in eye, flushed",cold compress
+FA006,06/22/24,Site-F0EB,hand,"Body part: hand. Outcome: laceration, hand.",cold compress
+FA007,07/01/24,Site-D597,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",eye wash
+FA008,12/11/24,Site-E3B5,hand,"Body part: hand. Outcome: laceration, hand.",bandage
+FA009,09/09/24,Site-F0EB,arm,"Dust in eye, flushed",ice pack
+FA010,11/26/24,Site-55FD,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",eye wash
+FA011,05/19/24,Site-D597,hand,Splinter in hand,eye wash
+FA012,05/11/24,Site-590D,finger,Splinter in finger,bandage
+FA013,03/27/24,Site-55FD,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",eye wash
+FA014,02/10/24,Site-590D,finger,"Body part: finger. Contact: door (burned). Outcome: burn, finger.",cold compress
+FA015,11/01/24,Site-590D,hand,"Headache, rested 15 min",eye wash
+FA016,12/25/24,Site-590D,arm,"Body part: arm. Outcome: laceration, arm.",none
+FA017,11/28/24,Site-0BE3,arm,"Headache, rested 15 min",none
+FA018,05/29/24,Site-55FD,hand,"Headache, rested 15 min",none
+FA019,11/07/24,Site-F0EB,foot,"Headache, rested 15 min",bandage
+FA020,01/06/24,Site-590D,hand,"Body part: hand. Contact: door (burned). Outcome: burn, hand.",eye wash
+FA021,01/05/24,Site-D597,foot,"Body part: foot. Outcome: laceration, foot.",ice pack
+FA022,05/23/24,Site-005D,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",cold compress
+FA023,06/26/24,Site-005D,foot,"Body part: foot. Contact: door (burned). Outcome: burn, foot.",cold compress
+FA024,07/31/24,Site-0BC7,foot,"Headache, rested 15 min",eye wash
+FA025,02/22/24,Site-F45C,arm,"Headache, rested 15 min",none

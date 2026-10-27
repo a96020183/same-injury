@@ -1,0 +1,18 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,20240707,Site-1EA2,"Body part: ring finger and hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",high
+NM002,20240629,Site-D33D,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",low
+NM003,20240304,Site-0CAE,"Body part: ring finger. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",low
+NM004,20240414,Site-F272,"Body part: ring finger. Contact: conveyor. Task: clearing a jam. Outcome: injury, type not stated.",med
+NM005,20241231,Site-D33D,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",high
+NM006,20241021,Site-EA79,"Body part: ring finger and foot. Contact: mixer. Task: clearing a jam. Outcome: injury, type not stated.",high
+NM007,20240414,Site-EA79,"Body part: ring finger. Contact: slicer. Task: cleaning. Outcome: injury, type not stated.",low
+NM008,20241105,Site-1EA2,"Body part: ring finger and arm. Contact: grinder. Task: cleaning. Outcome: injury, type not stated.",med
+NM009,20240930,Site-A523,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",med
+NM010,20240902,Site-B45F,"Body part: body. Contact: machine. Outcome: injury, type not stated.",low
+NM011,20241206,Site-D33D,"Body part: body. Contact: grinder. Task: walking. Outcome: injury, type not stated.",high
+NM012,20240407,Site-D728,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",med
+NM013,20240319,Site-6102,"Body part: ring finger and arm. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",high
+NM014,20240914,Site-8EFD,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",med
+NM015,20240916,Site-A523,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",high
+NM016,20240404,Site-0CAE,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",med
+NM017,20240902,Site-BF1D,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",high

@@ -1,0 +1,25 @@
+case_no,establishment,evt_date,body_pt,notes,nature,outcome,dafw,role
+1,Site-E0CB,01-Feb-2024,,"Body part: arm. Contact: rack. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: right shoulder. Outcome: sprain or strain, right shoulder.",2,3,Production
+2,Site-E0CB,29-Feb-2024,,"Body part: arm. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",Shoulder Sprain,2,60,Production
+3,Site-E0CB,13-Mar-2024,,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Fractured wrist.,2,49,Maintenance
+4,Site-E0CB,05-Jun-2024,"Hand(s), finger(s)","Body part: hand and foot. Contact: rack. Task: walking. Outcome: injury, type not stated.",Fractured right hand.,2,180,Production
+5,Site-E0CB,29-Apr-2024,"Foot (feet), toe(s)","Body part: toe and foot. Contact: truck. Task: walking. Outcome: injury, type not stated.",Left foot contusion.,4,0,Maintenance
+6,Site-E0CB,18-Nov-2024,Cranial region,"Body part: foot. Contact: ladder. Task: cleaning. Outcome: injury, type not stated.",Headache,2,2,Processor
+7,Site-E0CB,21-Nov-2024,"Hand(s), finger(s)","Body part: finger. Contact: rack. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: left index finger. Outcome: contusion, left index finger.",2,1,Production
+1,Site-22E6,02-Jan-2024,"Hand(s), finger(s)","Body part: left thumb. Contact: cutter (cut). Task: lifting or moving material. Outcome: laceration, left thumb.",left thumb laceration,4,0,Forklift Operator
+2,Site-22E6,27-Feb-2024,,"Body part: right shoulder and right foot. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: right shoulder. Outcome: sprain or strain, right shoulder.",3,0,Mixer
+3,Site-22E6,04-Mar-2024,Arm(s),"Body part: left ring finger and left forearm. Contact: forklift. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: left forearm. Outcome: contusion, left forearm.",2,2,Forklift Operator
+4,Site-22E6,28-Apr-2024,Upper and lower extremities,"Body part: body. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.","Body part: both hands and knees. Outcome: contusion, both hands and knees.",3,0,Quality Assurance Analyst
+5,Site-22E6,13-May-2024,Arm(s),"Body part: left elbow. Contact: pump. Task: doing maintenance. Outcome: injury, type not stated.","Body part: left elbow. Outcome: injury, type not stated.",2,72,Maintenance Mechanic
+6,Site-22E6,04-Jun-2024,"Hand(s), finger(s)","Body part: right thumb and right hand. Contact: mixer (cut). Task: cutting. Outcome: laceration, right thumb and right hand.","Body part: left thumb. Outcome: puncture, left thumb.",4,0,Mixer
+7,Site-22E6,07-Oct-2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: mixer. Task: lifting or moving material. Outcome: injury, type not stated.",back strain,2,1,Mixer
+8,Site-22E6,03-Oct-2024,"Body part: back. Outcome: injury, type not stated.","Body part: back. Contact: truck. Task: cleaning. Outcome: injury, type not stated.",Contusion to back.,2,76,Sanitation
+1,Site-744A,21-Jun-2024,"Hand(s), finger(s)","Body part: hand. Contact: pallet (cut). Task: lifting or moving material. Outcome: laceration, hand.",RT Hand Laceration,2,68,Hassia
+2,Site-744A,16-Jul-2024,Cranial region,"Body part: head. Contact: machine. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",2,168,Hassia
+3,Site-744A,31-Aug-2024,"Hand(s), finger(s)","Body part: left index finger. Contact: cutter (cut). Task: cutting. Outcome: laceration, left index finger.","Body part: left index finger. Outcome: laceration, left index finger.",3,0,Stacker
+4,Site-744A,25-Nov-2024,"Hand(s), finger(s)","Body part: ring finger and hand. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",Finger Laceration,2,1,Operator
+1,Site-D8BD,09-May-2024,"Hand(s), finger(s)","Body part: finger. Contact: belt and pulley. Outcome: injury, type not stated.","Body part: finger. Outcome: partial amputation, finger.",2,15,Maintenance Tech
+2,Site-D8BD,01-Nov-2024,"Hand(s), finger(s)","Body part: hand. Contact: truck. Task: walking. Outcome: injury, type not stated.","Body part: hand. Outcome: fracture, hand.",4,0,Sanitation
+1,Site-AC18,05-Jun-2024,"Body part: back. Outcome: injury, type not stated.","Body part: ring finger and lower back. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",Lower back strain,4,0,Processor
+2,Site-AC18,18-Oct-2024,"Hand(s), finger(s)","Body part: finger. Contact: door. Task: clearing a jam. Outcome: injury, type not stated.","Body part: fingertip. Outcome: fracture, fingertip.",4,0,Maintenance technician
+3,Site-AC18,23-Oct-2024,"Hand(s), finger(s)","Body part: finger. Contact: conveyor. Task: clearing a jam. Outcome: injury, type not stated.","Body part: fingertip. Outcome: avulsion, fingertip.",2,69,Utility

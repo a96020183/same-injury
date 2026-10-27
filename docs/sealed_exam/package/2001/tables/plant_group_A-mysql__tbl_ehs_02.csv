@@ -1,0 +1,19 @@
+nm_id,reported_on,site,what_could_have_happened,potential
+NM001,20240229,Site-69D0,"Body part: body. Contact: slicer. Outcome: injury, type not stated.",high
+NM002,20240804,Site-9DB9,"Body part: body. Contact: machine. Outcome: injury, type not stated.",high
+NM003,20240312,Site-BBF6,"Body part: ring finger and hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",low
+NM004,20241112,Site-A758,"Body part: body. Contact: band saw. Task: walking. Outcome: injury, type not stated.",med
+NM005,20240331,Site-69D0,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",high
+NM006,20240128,Site-24D1,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",high
+NM007,20240830,Site-69D0,"Body part: ring finger. Contact: mixer. Task: cleaning. Outcome: injury, type not stated.",med
+NM008,20240728,Site-A758,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",high
+NM009,20240610,Site-24D1,"Body part: body. Contact: mixer. Task: walking. Outcome: injury, type not stated.",med
+NM010,20240930,Site-1800,"Body part: body. Contact: machine. Outcome: injury, type not stated.",med
+NM011,20240320,Site-332E,"Body part: body. Contact: conveyor. Task: walking. Outcome: injury, type not stated.",low
+NM012,20240128,Site-9DB9,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",low
+NM013,20240418,Site-617E,"Body part: body. Contact: band saw. Outcome: injury, type not stated.",high
+NM014,20241106,Site-22D8,"Body part: body. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.",high
+NM015,20240115,Site-9DB9,"Body part: body. Contact: slicer. Task: walking. Outcome: injury, type not stated.",low
+NM016,20241024,Site-22D8,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",med
+NM017,20241001,Site-9DB9,"Body part: body. Contact: grinder. Outcome: injury, type not stated.",high
+NM018,20241211,Site-1800,"Body part: ring finger and hand. Contact: grinder. Task: cleaning. Outcome: injury, type not stated.",med

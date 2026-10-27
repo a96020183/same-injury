@@ -1,0 +1,81 @@
+rec_id,establishment,date_of_injury,bp,event_text,nature_of_injury,outcome,lost_days,job_title
+1,Site-F0EB,04/20/24,"Hand(s), finger(s)","Body part: right index finger and right middle finger. Contact: conveyor. Task: operating equipment. Outcome: injury, type not stated.","Body part: body. Outcome: laceration, body.",3,0,Associate
+1,Site-D236,05/03/24,Leg(s),"Body part: right knee. Contact: valve. Outcome: injury, type not stated.","Body part: right knee. Outcome: sprain or strain, right knee.",2,107,Stationary Engineer
+1,Site-482E,01/23/24,,"Body part: right hand and right wrist. Outcome: injury, type not stated.","Body part: right wrist. Outcome: injury, type not stated.",4,0,Team Member
+2,Site-482E,01/29/24,,"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: right wrist. Outcome: contusion, right wrist.",3,0,Team Member
+3,Site-482E,02/05/24,"Ear(s), facial region","Body part: ring finger. Contact: truck. Task: clearing a jam. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",4,0,Team Member
+4,Site-482E,04/28/24,Leg(s),"Body part: body. Contact: pallet. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: left knee. Outcome: fracture, left knee.",3,0,Team Member
+5,Site-482E,05/18/24,Cranial region,"Body part: head. Contact: truck. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",2,3,Team Member
+6,Site-482E,07/05/24,,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.","Body part: right ankle. Outcome: fracture, right ankle.",2,2,QCC Associate
+7,Site-482E,07/29/24,Leg(s),"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.","Body part: right leg. Outcome: fracture, right leg.",2,123,Team Member
+8,Site-482E,10/22/24,"Hand(s), finger(s)","Body part: left index finger. Outcome: injury, type not stated.","Body part: left index finger. Outcome: contusion, left index finger.",3,0,Team Member
+1,Site-005D,01/06/24,"Hand(s), finger(s)","Body part: finger. Contact: truck (crushed). Task: walking. Outcome: crush injury, finger.","Body part: tip of the left little finger. Outcome: partial amputation, tip of the left little finger.",2,9,Jockey Driver  Contractor
+2,Site-005D,05/19/24,,"Body part: body. Contact: roller. Task: operating equipment. Outcome: injury, type not stated.","Body part: neck. Contact: roller. Outcome: injury, type not stated.",4,0,Process Coordinator
+3,Site-005D,06/18/24,"Ear(s), facial region","Body part: ring finger and eye. Contact: valve. Task: lifting or moving material. Outcome: injury, type not stated.",Conjunctivitis of eyes,4,0,Team Member
+4,Site-005D,07/09/24,Multiple lower extremities locations,"Body part: right foot and right ankle. Contact: equipment (struck). Task: lifting or moving material. Outcome: fracture, right foot and right ankle.","Body part: right foot and right ankle. Outcome: sprain or strain, right foot and right ankle.",3,0,Team Member
+5,Site-005D,10/17/24,,"Body part: foot and ankle. Contact: stairs. Outcome: injury, type not stated.",Sprained right ankle,3,0,Maintenance Technician
+6,Site-005D,11/14/24,Leg(s),"Body part: knee. Contact: equipment. Task: walking. Outcome: injury, type not stated.",right knee sprain,3,0,Team Member
+7,Site-005D,12/19/24,"Hand(s), finger(s)","Body part: hand. Contact: truck. Task: operating equipment. Outcome: injury, type not stated.","Body part: left index finger and left hand. Outcome: laceration, left index finger and left hand.",3,0,CVS Project Lead
+1,Site-D597,01/08/24,,"Body part: left shoulder. Outcome: injury, type not stated.","Body part: body. Outcome: injury, type not stated.",2,96,Team Member
+2,Site-D597,03/15/24,Leg(s),"Body part: knee. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Bilateral knee contusions,4,0,Team Member
+3,Site-D597,04/22/24,,"Body part: body. Outcome: injury, type not stated.",Right hip strain,3,0,Team Member
+4,Site-D597,05/09/24,"Hand(s), finger(s)","Body part: hand. Contact: conveyor. Outcome: injury, type not stated.",Right hand laceraction,4,0,Team Member
+5,Site-D597,08/16/24,"Hand(s), finger(s)","Body part: right hand. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.","Body part: right index finger and right middle finger. Outcome: fracture, right index finger and right middle finger.",3,0,Team Member
+6,Site-D597,08/29/24,"Body part: body. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: right knee and right hip. Outcome: injury, type not stated.",3,0,Team Member
+7,Site-D597,09/15/24,"Body part: neck. Outcome: injury, type not stated.","Body part: right arm. Contact: truck. Outcome: injury, type not stated.","Body part: right wrist and right arm. Outcome: injury, type not stated.",3,0,Team Member
+1,Site-F45C,01/23/24,"Ear(s), facial region","Body part: face. Outcome: injury, type not stated.","Body part: both eyes. Outcome: injury, type not stated.",4,0,Team Member
+2,Site-F45C,02/05/24,"Hand(s), finger(s)","Body part: finger. Contact: roller. Outcome: injury, type not stated.","Body part: left ring finger. Contact: roller (struck). Task: walking. Outcome: fracture, left ring finger.",4,0,Team Member
+3,Site-F45C,01/28/24,Arm(s),"Body part: body. Contact: conveyor. Outcome: injury, type not stated.","Body part: left arm. Outcome: injury, type not stated.",3,0,Team Member
+5,Site-F45C,04/29/24,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Right knee strain,3,0,Team Member
+6,Site-F45C,06/16/24,"Hand(s), finger(s)","Body part: body. Outcome: injury, type not stated.",Right Hand Laceration,3,0,Team Member
+7,Site-F45C,07/28/24,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Back Injury,3,0,Team Member
+8,Site-F45C,07/29/24,"Hand(s), finger(s)","Body part: body. Outcome: injury, type not stated.",Left Finger Laceration,4,0,Team Member
+9,Site-F45C,07/31/24,"Chest--including ribs, internal organs","Body part: hand. Contact: equipment. Task: walking. Outcome: injury, type not stated.",Left Rib Fracture,3,0,Team Member
+10,Site-F45C,09/09/24,"Hand(s), finger(s)","Body part: hand. Contact: equipment. Task: cleaning. Outcome: injury, type not stated.",Left Thumb Laceration,4,0,Team Member
+11,Site-F45C,08/17/24,Cranial region,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.",Acute Head Injury,4,0,Team Member
+12,Site-F45C,10/01/24,Abdomen,"Body part: body. Outcome: injury, type not stated.","Body part: body. Outcome: sprain or strain, body.",3,0,Team Member
+13,Site-F45C,11/09/24,"Hand(s), finger(s)","Body part: hand. Contact: belt and pulley. Outcome: injury, type not stated.","Body part: tip of the right middle finger. Outcome: partial amputation, tip of the right middle finger.",2,1,Team Member
+14,Site-F45C,12/11/24,"Hand(s), finger(s)","Body part: right index finger and right ring finger. Contact: knife (cut). Outcome: laceration, right index finger and right ring finger.","Body part: right index finger. Outcome: laceration, right index finger.",4,0,Team  Member
+15,Site-F45C,08/23/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: left ear. Outcome: injury, type not stated.",4,0,Team Member
+16,Site-F45C,08/06/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: right ear. Outcome: injury, type not stated.",4,0,Team Member
+17,Site-F45C,08/23/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: right ear. Outcome: injury, type not stated.",4,0,Team Member
+18,Site-F45C,08/09/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: left ear. Outcome: injury, type not stated.",4,0,Team Member
+19,Site-F45C,08/07/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: right ear. Outcome: injury, type not stated.",4,0,Team Member
+20,Site-F45C,08/23/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: left ear. Outcome: injury, type not stated.",4,0,Team Member
+21,Site-F45C,08/06/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: right ear. Outcome: injury, type not stated.",4,0,Team Member
+22,Site-F45C,08/07/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: left ear. Outcome: injury, type not stated.",4,0,Team Member
+23,Site-F45C,08/23/24,"Ear(s), facial region","Body part: ring finger. Outcome: injury, type not stated.","Body part: right ear. Outcome: injury, type not stated.",4,0,Team Member
+4,Site-F45C,04/20/24,Leg(s),"Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: right knee. Outcome: injury, type not stated.",3,0,Team Member
+1,Site-590D,04/15/24,"Body part: back. Outcome: injury, type not stated.","Body part: knee. Contact: mixer. Task: cleaning. Outcome: injury, type not stated.",Back strain,2,121,Mixing Operator
+2,Site-590D,04/24/24,,"Body part: right fingers and right finger. Outcome: injury, type not stated.",Bilateral Carpel Tunnel,3,0,HIS Utility Worker
+3,Site-590D,05/22/24,"Body part: head. Outcome: injury, type not stated.","Body part: back. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: head and back. Outcome: contusion, head and back.",2,180,Chunk Wrap Machine Operator
+4,Site-590D,06/29/24,,"Body part: right ankle. Contact: truck. Task: walking. Outcome: injury, type not stated.","Body part: right ankle. Outcome: laceration, right ankle.",3,0,Operator
+5,Site-590D,07/10/24,"Body part: head. Outcome: injury, type not stated.","Body part: ring finger. Contact: equipment. Task: clearing a jam. Outcome: injury, type not stated.","Body part: head and back. Outcome: contusion, head and back.",2,180,Operator
+6,Site-590D,11/25/24,Leg(s),"Body part: right knee and right leg. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: right knee. Outcome: sprain or strain, right knee.",3,0,Operator
+1,Site-E3B5,02/20/24,,"Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Strained ankle,3,0,Machine Operator  Altoids
+2,Site-E3B5,10/16/24,Leg(s),"Body part: left knee. Contact: truck. Outcome: injury, type not stated.",Contusion,3,0,Machine Operator  Bagger
+3,Site-E3B5,07/24/24,"Ear(s), facial region","Body part: body. Outcome: injury, type not stated.",Hearing Loss,4,0,Facility Coordinator
+1,Site-55FD,04/17/24,,"Body part: foot. Contact: pallet. Task: walking. Outcome: injury, type not stated.",fracture right shoulder,2,96,Sr Warehouse Associate
+2,Site-55FD,07/10/24,,"Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.","Body part: body. Contact: stairs. Task: walking. Outcome: injury, type not stated.",3,0,Processing Operator
+3,Site-55FD,08/01/24,,"Body part: ankle. Contact: conveyor. Outcome: injury, type not stated.","Body part: body. Contact: equipment. Task: walking. Outcome: injury, type not stated.",3,0,Processing Operator
+4,Site-55FD,04/08/24,"Hand(s), finger(s)","Body part: body. Contact: conveyor. Outcome: injury, type not stated.","Body part: fingertip. Outcome: crush injury, fingertip.",3,0,Machine Operator
+5,Site-55FD,04/26/24,"Body part: head. Outcome: injury, type not stated.","Body part: body. Contact: stairs. Outcome: injury, type not stated.","Body part: hand and face. Contact: truck. Outcome: injury, type not stated.",3,0,Processing Operator
+6,Site-55FD,04/08/24,,"Body part: body. Contact: conveyor. Task: clearing a jam. Outcome: injury, type not stated.",Sprain left shoulder,3,0,Machine Operator
+7,Site-55FD,09/21/24,"Body part: back. Outcome: injury, type not stated.","Body part: body. Contact: pallet. Task: walking. Outcome: injury, type not stated.",Back Contussion,3,0,Supply Worker
+8,Site-55FD,10/04/24,Arm(s),"Body part: foot. Contact: pallet. Outcome: injury, type not stated.",Fx left arm,2,6,Base Logistics Coodinator
+9,Site-55FD,11/15/24,"Hand(s), finger(s)","Body part: body. Outcome: injury, type not stated.","Body part: thumb and hand. Contact: equipment. Task: walking. Outcome: injury, type not stated.",3,0,Processing Operator
+10,Site-55FD,10/21/24,,"Body part: ring finger. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: ankle. Contact: equipment. Task: walking. Outcome: injury, type not stated.",3,0,Processing Operator
+11,Site-55FD,11/18/24,"Hand(s), finger(s)","Body part: finger. Contact: machine. Task: cleaning. Outcome: injury, type not stated.",contusion,3,0,Machine Operator
+1,Site-83B6,12/03/24,"Hand(s), finger(s)","Body part: tip of the right index finger. Outcome: injury, type not stated.","Body part: right index finger. Outcome: injury, type not stated.",3,0,Team Member
+1,Site-0BE3,01/07/24,,"Body part: shoulder. Contact: equipment. Task: lifting or moving material. Outcome: injury, type not stated.","Body part: left shoulder. Outcome: injury, type not stated.",2,12,Associate
+2,Site-0BE3,02/07/24,,"Body part: body. Contact: stairs. Task: cleaning. Outcome: injury, type not stated.","Body part: right shoulder. Contact: equipment (injured). Task: walking. Outcome: dislocation, right shoulder.",3,0,Associate
+3,Site-0BE3,02/24/24,Leg(s),"Body part: body. Contact: machine. Task: cleaning. Outcome: injury, type not stated.","Body part: right knee. Outcome: sprain or strain, right knee.",2,67,Associate
+4,Site-0BE3,04/12/24,Cranial region,"Body part: head and back. Contact: equipment. Task: walking. Outcome: injury, type not stated.","Body part: body. Outcome: laceration, body.",2,5,Associate
+5,Site-0BE3,04/20/24,"Body part: back. Outcome: injury, type not stated.","Body part: back. Outcome: sprain or strain, back.","Body part: right back. Outcome: injury, type not stated.",3,0,Associate
+6,Site-0BE3,07/31/24,"Body part: back. Outcome: injury, type not stated.","Body part: back. Outcome: injury, type not stated.","Body part: left back. Outcome: injury, type not stated.",3,0,Associate
+7,Site-0BE3,10/10/24,Cranial region,"Body part: head. Contact: door. Task: clearing a jam. Outcome: injury, type not stated.",Concussion,3,0,Associate
+8,Site-0BE3,11/20/24,"Hand(s), finger(s)","Body part: finger. Contact: conveyor (cut). Task: doing maintenance. Outcome: laceration, finger.",Laceration,4,0,Associate
+1,Site-0BC7,11/15/24,"Ear(s), facial region","Body part: left ear. Outcome: injury, type not stated.",Left Ear STS,4,0,Production Coordinator
+2,Site-0BC7,11/13/24,"Ear(s), facial region","Body part: right ear. Outcome: injury, type not stated.",Right Ear STS,4,0,Team Member
+4,Site-0BC7,11/13/24,"Ear(s), facial region","Body part: left ear. Outcome: injury, type not stated.",Left Ear STS,4,0,Team Member
+3,Site-0BC7,11/13/24,"Ear(s), facial region","Body part: right ear. Outcome: injury, type not stated.",Right Ear STS,4,0,Team Member

@@ -1,0 +1,104 @@
+-- Q-0086, run 20261027-025156-9960
+SELECT i.record_key, i.site_code, i.event_date, r.*, a.activity_nr, n.open_date AS inspection_opened, n.estab_name AS inspection_estab, n.site_address AS inspection_address, n.site_city AS inspection_city, n.site_zip AS inspection_zip
+FROM lightning.metastore.l1.unseen3001_records.incident i
+JOIN lightning.metastore.l1.unseen3001_records.site s ON i.site_code = s.site_code
+JOIN unseen3001_public.severe_injury_reports r ON regexp_extract(r.Address1, '^ *([0-9]+)', 1) = s.street_number AND (r.Zip = s.zip OR upper(r.City) = upper(s.city))
+  AND abs(datediff(to_date(r.EventDate, 'M/d/yyyy'), to_date(i.event_date))) <= 7
+LEFT JOIN unseen3001_public.related_activity a ON a.rel_act_nr = r.UPA AND a.rel_type = 'R'
+LEFT JOIN unseen3001_public.inspection n ON n.activity_nr = a.activity_nr
+WHERE i.event_date >= '2024-01-01' AND i.narrative rlike '(?i)amputat'
+
+-- EXPLAIN QUERY (administrator)
+== Parsed Logical Plan ==
+'Project ['i.record_key, 'i.site_code, 'i.event_date, r.*, 'a.activity_nr, 'n.open_date AS inspection_opened#516516, 'n.estab_name AS inspection_estab#516517, 'n.site_address AS inspection_address#516518, 'n.site_city AS inspection_city#516519, 'n.site_zip AS inspection_zip#516520]
++- 'Filter (('i.event_date >= 2024-01-01) AND RLIKE('i.narrative, (?i)amputat))
+   +- 'Join LeftOuter, ('n.activity_nr = 'a.activity_nr)
+      :- 'Join LeftOuter, (('a.rel_act_nr = 'r.UPA) AND ('a.rel_type = R))
+      :  :- 'Join Inner, ((('regexp_extract('r.Address1, ^ *([0-9]+), 1) = 's.street_number) AND (('r.Zip = 's.zip) OR ('upper('r.City) = 'upper('s.city)))) AND ('abs('datediff('to_date('r.EventDate, M/d/yyyy), 'to_date('i.event_date))) <= 7))
+      :  :  :- 'Join Inner, ('i.site_code = 's.site_code)
+      :  :  :  :- 'SubqueryAlias i
+      :  :  :  :  +- 'UnresolvedRelation [lightning, metastore, l1, unseen3001_records, incident], [], false
+      :  :  :  +- 'SubqueryAlias s
+      :  :  :     +- 'UnresolvedRelation [lightning, metastore, l1, unseen3001_records, site], [], false
+      :  :  +- 'SubqueryAlias r
+      :  :     +- 'UnresolvedRelation [unseen3001_public, severe_injury_reports], [], false
+      :  +- 'SubqueryAlias a
+      :     +- 'UnresolvedRelation [unseen3001_public, related_activity], [], false
+      +- 'SubqueryAlias n
+         +- 'UnresolvedRelation [unseen3001_public, inspection], [], false
+
+== Analyzed Logical Plan ==
+record_key: string, site_code: string, event_date: string, ID: string, UPA: string, EventDate: string, Employer: string, Address1: string, City: string, State: string, Zip: string, Hospitalized: string, Amputation: string, Inspection: string, Final Narrative: string, NatureTitle: string, Part of Body Title: string, EventTitle: string, SourceTitle: string, FederalState: string, activity_nr: string, inspection_opened: string, inspection_estab: string, inspection_address: string, ... 2 more fields
+Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563, activity_nr#516564, open_date#516573 AS inspection_opened#516516, estab_name#516568 AS inspection_estab#516517, site_address#516569 AS inspection_address#516518, ... 2 more fields]
++- Filter ((event_date#516532 >= 2024-01-01) AND RLIKE(narrative#516534, (?i)amputat))
+   +- Join LeftOuter, (activity_nr#516567 = activity_nr#516564)
+      :- Join LeftOuter, ((rel_act_nr#516566 = UPA#516548) AND (rel_type#516565 = R))
+      :  :- Join Inner, (((regexp_extract(Address1#516551, ^ *([0-9]+), 1) = street_number#516546) AND ((Zip#516554 = zip#516545) OR (upper(City#516552) = upper(city#516543)))) AND (abs(datediff(to_date(EventDate#516549, Some(M/d/yyyy), Some(GMT), false), to_date(event_date#516532, None, Some(GMT), false))) <= 7))
+      :  :  :- Join Inner, (site_code#516531 = site_code#516541)
+      :  :  :  :- SubqueryAlias i
+      :  :  :  :  +- SubqueryAlias lightning.metastore.l1.unseen3001_records.incident
+      :  :  :  :     +- RelationV2[record_key#516527, plant_group#516528, source_table#516529, case_id#516530, site_code#516531, event_date#516532, body_part#516533, narrative#516534] lightning.metastore.l1.unseen3001_records.incident metastore.l1.unseen3001_records.incident
+      :  :  :  +- SubqueryAlias s
+      :  :  :     +- SubqueryAlias lightning.metastore.l1.unseen3001_records.site
+      :  :  :        +- RelationV2[site_code#516541, plant_group#516542, city#516543, state#516544, zip#516545, street_number#516546] lightning.metastore.l1.unseen3001_records.site metastore.l1.unseen3001_records.site
+      :  :  +- SubqueryAlias r
+      :  :     +- SubqueryAlias severe_injury_reports
+      :  :        +- LightningLogicalRelation[ID#516547,UPA#516548,EventDate#516549,Employer#516550,Address1#516551,City#516552,State#516553,Zip#516554,Hospitalized#516555,Amputation#516556,Inspection#516557,Final Narrative#516558,NatureTitle#516559,Part of Body Title#516560,EventTitle#516561,SourceTitle#516562,FederalState#516563] csv
+      :  +- SubqueryAlias a
+      :     +- SubqueryAlias related_activity
+      :        +- LightningLogicalRelation[activity_nr#516564,rel_type#516565,rel_act_nr#516566] csv
+      +- SubqueryAlias n
+         +- SubqueryAlias inspection
+            +- LightningLogicalRelation[activity_nr#516567,estab_name#516568,site_address#516569,site_city#516570,site_state#516571,site_zip#516572,open_date#516573,insp_type#516574] csv
+
+== Optimized Logical Plan ==
+Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563, activity_nr#516564, open_date#516573 AS inspection_opened#516516, estab_name#516568 AS inspection_estab#516517, site_address#516569 AS inspection_address#516518, ... 2 more fields]
++- Join LeftOuter, (activity_nr#516567 = activity_nr#516564)
+   :- Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563, activity_nr#516564]
+   :  +- Join LeftOuter, (rel_act_nr#516566 = UPA#516548)
+   :     :- Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563]
+   :     :  +- Join Inner, (((regexp_extract(Address1#516551, ^ *([0-9]+), 1) = street_number#516546) AND ((Zip#516554 = zip#516545) OR (upper(City#516552) = upper(city#516543)))) AND (abs(datediff(cast(gettimestamp(EventDate#516549, M/d/yyyy, TimestampType, Some(GMT), false) as date), cast(event_date#516532 as date))) <= 7))
+   :     :     :- Project [record_key#516527, site_code#516531, event_date#516532, city#516543, zip#516545, street_number#516546]
+   :     :     :  +- Join Inner, (site_code#516531 = site_code#516541)
+   :     :     :     :- Project [record_key#516527, site_code#516531, event_date#516532]
+   :     :     :     :  +- Filter RLIKE(narrative#516534, (?i)amputat)
+   :     :     :     :     +- RelationV2[record_key#516527, site_code#516531, event_date#516532, narrative#516534] metastore.l1.unseen3001_records.incident
+   :     :     :     +- RelationV2[site_code#516541, city#516543, zip#516545, street_number#516546] metastore.l1.unseen3001_records.site
+   :     :     +- Filter isnotnull(Address1#516551)
+   :     :        +- LightningLogicalRelation[ID#516547,UPA#516548,EventDate#516549,Employer#516550,Address1#516551,City#516552,State#516553,Zip#516554,Hospitalized#516555,Amputation#516556,Inspection#516557,Final Narrative#516558,NatureTitle#516559,Part of Body Title#516560,EventTitle#516561,SourceTitle#516562,FederalState#516563] csv
+   :     +- Project [activity_nr#516564, rel_act_nr#516566]
+   :        +- Filter ((isnotnull(rel_type#516565) AND (rel_type#516565 = R)) AND isnotnull(rel_act_nr#516566))
+   :           +- LightningLogicalRelation[activity_nr#516564,rel_type#516565,rel_act_nr#516566] csv
+   +- Project [activity_nr#516567, estab_name#516568, site_address#516569, site_city#516570, site_zip#516572, open_date#516573]
+      +- Filter isnotnull(activity_nr#516567)
+         +- LightningLogicalRelation[activity_nr#516567,estab_name#516568,site_address#516569,site_city#516570,site_state#516571,site_zip#516572,open_date#516573,insp_type#516574] csv
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563, activity_nr#516564, open_date#516573 AS inspection_opened#516516, estab_name#516568 AS inspection_estab#516517, site_address#516569 AS inspection_address#516518, ... 2 more fields]
+   +- BroadcastHashJoin [activity_nr#516564], [activity_nr#516567], LeftOuter, BuildRight, false
+      :- Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563, activity_nr#516564]
+      :  +- BroadcastHashJoin [UPA#516548], [rel_act_nr#516566], LeftOuter, BuildRight, false
+      :     :- Project [record_key#516527, site_code#516531, event_date#516532, ID#516547, UPA#516548, EventDate#516549, Employer#516550, Address1#516551, City#516552, State#516553, Zip#516554, Hospitalized#516555, Amputation#516556, Inspection#516557, Final Narrative#516558, NatureTitle#516559, Part of Body Title#516560, EventTitle#516561, SourceTitle#516562, FederalState#516563]
+      :     :  +- BroadcastHashJoin [street_number#516546], [regexp_extract(Address1#516551, ^ *([0-9]+), 1)], Inner, BuildRight, (((Zip#516554 = zip#516545) OR (upper(City#516552) = upper(city#516543))) AND (abs(datediff(cast(gettimestamp(EventDate#516549, M/d/yyyy, TimestampType, Some(GMT), false) as date), cast(event_date#516532 as date))) <= 7)), false
+      :     :     :- Project [record_key#516527, site_code#516531, event_date#516532, city#516543, zip#516545, street_number#516546]
+      :     :     :  +- SortMergeJoin [site_code#516531], [site_code#516541], Inner
+      :     :     :     :- Sort [site_code#516531 ASC NULLS FIRST], false, 0
+      :     :     :     :  +- Exchange hashpartitioning(site_code#516531, 200), ENSURE_REQUIREMENTS, [plan_id=543866]
+      :     :     :     :     +- Project [record_key#516527, site_code#516531, event_date#516532]
+      :     :     :     :        +- Filter RLIKE(narrative#516534, (?i)amputat)
+      :     :     :     :           +- Scan USLTableScan[incident](LIVE) [record_key#516527,site_code#516531,event_date#516532,narrative#516534] PushedFilters: [IsNotNull(event_date), IsNotNull(narrative), GreaterThanOrEqual(event_date,2024-01-01), IsNotNul..., ReadSchema: struct<record_key:string,site_code:string,event_date:string,narrative:string>
+      :     :     :     +- Sort [site_code#516541 ASC NULLS FIRST], false, 0
+      :     :     :        +- Exchange hashpartitioning(site_code#516541, 200), ENSURE_REQUIREMENTS, [plan_id=543867]
+      :     :     :           +- Scan USLTableScan[site](LIVE) [site_code#516541,city#516543,zip#516545,street_number#516546] PushedFilters: [IsNotNull(street_number)], ReadSchema: struct<site_code:string,city:string,zip:string,street_number:string>
+      :     :     +- BroadcastExchange HashedRelationBroadcastMode(List(regexp_extract(input[4, string, false], ^ *([0-9]+), 1)),false), [plan_id=543873]
+      :     :        +- Filter isnotnull(Address1#516551)
+      :     :           +- FileScan csv UNSEEN3001_PUBLIC.severe_injury_reports[ID#516547,UPA#516548,EventDate#516549,Employer#516550,Address1#516551,City#516552,State#516553,Zip#516554,Hospitalized#516555,Amputation#516556,Inspection#516557,Final Narrative#516558,NatureTitle#516559,Part of Body Title#516560,EventTitle#516561,SourceTitle#516562,FederalState#516563] Batched: false, DataFilters: [isnotnull(Address1#516551)], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3a://l1data/unseen3001/unseen3001_public/osha_sir_2024.csv], PartitionFilters: [], PushedFilters: [IsNotNull(Address1)], ReadSchema: struct<ID:string,UPA:string,EventDate:string,Employer:string,Address1:string,City:string,State:st...
+      :     +- BroadcastExchange HashedRelationBroadcastMode(List(input[1, string, true]),false), [plan_id=543877]
+      :        +- Project [activity_nr#516564, rel_act_nr#516566]
+      :           +- Filter ((isnotnull(rel_type#516565) AND (rel_type#516565 = R)) AND isnotnull(rel_act_nr#516566))
+      :              +- FileScan csv UNSEEN3001_PUBLIC.related_activity[activity_nr#516564,rel_type#516565,rel_act_nr#516566] Batched: false, DataFilters: [isnotnull(rel_type#516565), (rel_type#516565 = R), isnotnull(rel_act_nr#516566)], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3a://l1data/unseen3001/unseen3001_public/related_activity.csv], PartitionFilters: [], PushedFilters: [IsNotNull(rel_type), EqualTo(rel_type,R), IsNotNull(rel_act_nr)], ReadSchema: struct<activity_nr:string,rel_type:string,rel_act_nr:string>
+      +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=543881]
+         +- Filter isnotnull(activity_nr#516567)
+            +- FileScan csv UNSEEN3001_PUBLIC.inspection[activity_nr#516567,estab_name#516568,site_address#516569,site_city#516570,site_zip#516572,open_date#516573] Batched: false, DataFilters: [isnotnull(activity_nr#516567)], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3a://l1data/unseen3001/unseen3001_public/inspection.csv], PartitionFilters: [], PushedFilters: [IsNotNull(activity_nr)], ReadSchema: struct<activity_nr:string,estab_name:string,site_address:string,site_city:string,site_zip:string,...
+

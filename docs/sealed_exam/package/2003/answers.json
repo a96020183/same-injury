@@ -1,0 +1,75 @@
+{
+ "seed": 2003,
+ "tables": {
+  "plant_group_A:postgres/sites": "site_master",
+  "plant_group_A:postgres/tbl_ehs_01": "incident",
+  "plant_group_A:postgres/tbl_mx_02": "distractor",
+  "plant_group_A:postgres/people_dim": "distractor",
+  "plant_group_A:postgres/nm_detail": "distractor",
+  "plant_group_B:scan/sites": "site_master",
+  "plant_group_B:scan/scanned_log_transcribed": "incident",
+  "plant_group_B:scan/training_completions": "distractor",
+  "plant_group_B:scan/fa_visits": "distractor",
+  "plant_group_C:mysql/plants": "site_master",
+  "plant_group_C:mysql/inc_rpt": "incident",
+  "plant_group_C:mysql/training_completions": "distractor",
+  "plant_group_C:mysql/nurse_log": "distractor",
+  "plant_group_D:csv/sites": "site_master",
+  "plant_group_D:csv/inc_rpt": "incident",
+  "plant_group_D:csv/training_completions": "distractor",
+  "plant_group_D:csv/hr_roster": "distractor",
+  "plant_group_D:csv/first_aid_log": "distractor",
+  "minio:csv/form300a": "summary"
+ },
+ "field_map": {
+  "plant_group_A:postgres/tbl_ehs_01": {
+   "case_id": "rec_id",
+   "site": "site",
+   "date": "Incident Date",
+   "body_part": "Body Part Affected",
+   "narrative": "what_happened",
+   "injury": "Injury Type",
+   "outcome": "result_cd",
+   "days_away": "away_ct",
+   "job_title": "occupation",
+   "_date_format": "%Y%m%d"
+  },
+  "plant_group_B:scan/scanned_log_transcribed": {
+   "site": "site",
+   "narrative": "transcribed_text",
+   "date": "transcribed_text",
+   "body_part": "transcribed_text"
+  },
+  "plant_group_C:mysql/inc_rpt": {
+   "case_id": "f6",
+   "site": "f2",
+   "date": "f4",
+   "body_part": "f5",
+   "narrative": "f8",
+   "injury": "f9",
+   "outcome": "f1",
+   "days_away": "f3",
+   "job_title": "f7",
+   "_date_format": "%d/%m/%Y"
+  },
+  "plant_group_D:csv/inc_rpt": {
+   "case_id": "f2",
+   "site": "f1",
+   "date": "f3",
+   "body_part": "f5",
+   "narrative": "f6",
+   "injury": "f7",
+   "outcome": "f8",
+   "days_away": "f4",
+   "job_title": "f9",
+   "_date_format": "%m/%d/%y"
+  }
+ },
+ "systems": {
+  "A": "postgres",
+  "B": "scan",
+  "C": "mysql",
+  "D": "csv"
+ },
+ "n_establishments": 33
+}

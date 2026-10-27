@@ -1,0 +1,1110 @@
+[
+ {
+  "lane": "L1",
+  "dir": "log",
+  "site": "Site-99C6",
+  "date": "2024-10-09",
+  "column": "outside",
+  "caseId": "LN-006",
+  "receipts": [
+   "Q-0075",
+   "Q-0079",
+   "Q-0080",
+   "Q-0081",
+   "Q-0082"
+  ],
+  "resultCode": "state_plan",
+  "differences": [],
+  "detail": [
+   "The State Plan's own records were not part of this run.",
+   "State Plan states set their own reporting rules (29 CFR 1904.37(b)(2) lets them be more stringent) and may keep the report in their own system, so OSHA's federal Severe Injury file may not show it",
+   "Searched 6 places; see the path below."
+  ],
+  "headline": "WY runs a State Plan, which keeps its own records",
+  "hypotheses": [
+   {
+    "h": "state_plan",
+    "status": "not_ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0075",
+     "Q-0079",
+     "Q-0081",
+     "Q-0082"
+    ],
+    "by": "rules"
+   }
+  ],
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075"
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0079"
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0080"
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0081"
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0082"
+   },
+   {
+    "label": "1904.39 exclusions"
+   }
+  ]
+ },
+ {
+  "lane": "L2",
+  "dir": "log",
+  "site": "Site-BA55",
+  "date": "2024-08-19",
+  "column": "outside",
+  "caseId": "LN-003",
+  "receipts": [
+   "Q-0075",
+   "Q-0083",
+   "Q-0084",
+   "Q-0085",
+   "Q-0086"
+  ],
+  "resultCode": "state_plan",
+  "differences": [],
+  "detail": [
+   "The State Plan's own records were not part of this run.",
+   "State Plan states set their own reporting rules (29 CFR 1904.37(b)(2) lets them be more stringent) and may keep the report in their own system, so OSHA's federal Severe Injury file may not show it",
+   "Searched 6 places; see the path below."
+  ],
+  "headline": "MN runs a State Plan, which keeps its own records",
+  "hypotheses": [
+   {
+    "h": "state_plan",
+    "status": "not_ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0075",
+     "Q-0083",
+     "Q-0085",
+     "Q-0086"
+    ],
+    "by": "rules"
+   }
+  ],
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075"
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0083"
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0084"
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0085"
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0086"
+   },
+   {
+    "label": "1904.39 exclusions"
+   }
+  ]
+ },
+ {
+  "lane": "L3",
+  "dir": "log",
+  "site": "Site-30F7",
+  "date": "2024-12-09",
+  "column": "reported_differs",
+  "basis": "linked",
+  "reportId": "SIR-724205",
+  "caseId": "LN-002",
+  "receipts": [
+   "Q-0075",
+   "Q-0078"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "body part named differently: log finger, OSHA middle/ring finger"
+  ],
+  "detail": [
+   "A person approved the employer identity.",
+   "Written differently: body part named differently: log finger, OSHA middle/ring finger"
+  ],
+  "headline": "OSHA report SIR-724205",
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075"
+   },
+   {
+    "label": "Candidate map: unified log × OSHA × DOL, same house number, ±7 days",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "DOL inspection behind OSHA's referral (from the candidate map)",
+    "qid": "Q-0078",
+    "found": 1
+   }
+  ]
+ },
+ {
+  "lane": "L4",
+  "dir": "log",
+  "site": "Site-014F",
+  "date": "2024-09-09",
+  "column": "reported_differs",
+  "basis": "linked",
+  "reportId": "SIR-233551",
+  "caseId": "LN-022",
+  "receipts": [
+   "Q-0075",
+   "Q-0078",
+   "Q-0087",
+   "Q-0088",
+   "Q-0089",
+   "Q-0090"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "ZIP differs: OSHA 00214, plant 00271"
+  ],
+  "detail": [
+   "A person approved the employer identity.",
+   "Written differently: ZIP differs: OSHA 00214, plant 00271"
+  ],
+  "headline": "OSHA report SIR-233551",
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "supported",
+    "why": "",
+    "qids": [
+     "Q-0078",
+     "Q-0075",
+     "Q-0087",
+     "Q-0090"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0078",
+     "Q-0087"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0078"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075"
+   },
+   {
+    "label": "Candidate map: unified log × OSHA × DOL, same house number, ±7 days",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "DOL inspection behind OSHA's referral (from the candidate map)",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0087"
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0088"
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0089"
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0090",
+    "found": 1
+   }
+  ]
+ },
+ {
+  "lane": "L5",
+  "dir": "log",
+  "site": "Site-SYN1",
+  "plantName": "Dalian Hollow, TX",
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0091",
+    "found": 1
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0092",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0093",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0094",
+    "found": 0
+   },
+   {
+    "label": "Our plants at OSHA's ZIP or house number",
+    "qid": "Q-0095",
+    "found": 1
+   },
+   {
+    "label": "Both narratives side by side",
+    "found": 2
+   },
+   {
+    "label": "DOL inspections at OSHA's ZIP or house number",
+    "qid": "Q-0096",
+    "found": 0
+   }
+  ],
+  "receipts": [
+   "Q-0075",
+   "Q-0091",
+   "Q-0092",
+   "Q-0093",
+   "Q-0094",
+   "Q-0095",
+   "Q-0096"
+  ],
+  "differences": [],
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "not_ruled_out",
+    "why": "Verifier: refused 'same injury' without a receipt that places the report (model said: Same ZIP, city, body part, equipment; date 1 day off)",
+    "qids": [
+     "Q-0091",
+     "Q-0095"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "Only one OSHA report matches details",
+    "qids": [
+     "Q-0091",
+     "Q-0095"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "not_ruled_out",
+    "why": "Verifier: no receipt places the report at this plant (model said: Only plant at that ZIP; report same ZIP)",
+    "qids": [
+     "Q-0095",
+     "Q-0091"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "state_plan",
+    "status": "ruled_out",
+    "why": "TX is under federal OSHA (State Plan list).",
+    "qids": [
+     "Q-0075"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "excluded",
+    "status": "ruled_out",
+    "why": "No 1904.39(b) exclusion in the narrative.",
+    "qids": [],
+    "by": "rules"
+   },
+   {
+    "h": "not_found",
+    "status": "ruled_out",
+    "why": "OSHA report found at same ZIP ±7 days",
+    "qids": [
+     "Q-0091"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [
+   {
+    "round": 2,
+    "verdict": "same",
+    "objection": "Verifier: 'same injury' but OSHA's address (9236 ****** **, ZIP 00581) is not the plant's (no. 9205, ZIP 00581) and the employer is masked; no receipt places the report at this plant."
+   },
+   {
+    "round": 3,
+    "verdict": "same",
+    "objection": "Verifier: 'same injury' but OSHA's address (9236 ****** **, ZIP 00581) is not the plant's (no. 9205, ZIP 00581) and the employer is masked; no receipt places the report at this plant."
+   }
+  ],
+  "date": "2024-08-04",
+  "logKey": "extra_sites:Site-SYN1:S3347",
+  "caseId": "S3347",
+  "evaluator": "Same ZIP, city, body part, equipment, activity; only date (1 day), injury wording, house number differ",
+  "column": "review",
+  "reportId": "SIR-SYN001",
+  "headline": "The agents could not settle it",
+  "detail": [
+   "Escalated by the Planner: No DOL inspection at plant address; house numbers differ; no referral number for dol_inspection",
+   "Evaluator's summary before the Verifier's corrections (see the explanations): Written_differently stands; same ZIP, city, body part, equipment align; other explanations ruled out by evidence.",
+   "Searched 8 places; see the path below."
+  ]
+ },
+ {
+  "lane": "L6",
+  "dir": "log",
+  "site": "Site-SYN2",
+  "plantName": "Marevo Junction, OH",
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075",
+    "found": 0
+   },
+   {
+    "label": "Candidate map: unified log × OSHA × DOL, same house number, ±7 days",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "DOL inspection behind OSHA's referral (from the candidate map)",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0097",
+    "found": 1
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0098",
+    "found": 1
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0099",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0100",
+    "found": 0
+   }
+  ],
+  "receipts": [
+   "Q-0075",
+   "Q-0078",
+   "Q-0097",
+   "Q-0098",
+   "Q-0099",
+   "Q-0100"
+  ],
+  "differences": [
+   "OSHA's report does not flag an amputation; the log does"
+  ],
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "supported",
+    "why": "Same address, date, body part; DOL inspection ties referral to plant; Form 301 confirms amputation vs initial hospitalization report",
+    "qids": [
+     "Q-0078",
+     "Q-0075",
+     "Q-0097",
+     "Q-0098"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "No other OSHA reports at this ZIP ±7 days; only one candidate in unified map",
+    "qids": [
+     "Q-0097",
+     "Q-0078"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "ruled_out",
+    "why": "DOL inspection DOL-SYN0002 opened at identical address 2537 ****** ***, MAREVO JUNCTION 00564",
+    "qids": [
+     "Q-0078"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "state_plan",
+    "status": "ruled_out",
+    "why": "OSHA's federal file has the report.",
+    "qids": [
+     "Q-0078",
+     "Q-0097",
+     "Q-0099",
+     "Q-0100"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "excluded",
+    "status": "ruled_out",
+    "why": "No 1904.39(b) exclusion in the narrative.",
+    "qids": [],
+    "by": "rules"
+   },
+   {
+    "h": "not_found",
+    "status": "ruled_out",
+    "why": "OSHA report SIR-SYN002 exists in federal file with referral number",
+    "qids": [
+     "Q-0097"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [],
+  "date": "2024-04-30",
+  "logKey": "extra_sites:Site-SYN2:S8753",
+  "caseId": "S8753",
+  "evaluator": "Same plant address, date, body part; DOL inspection confirms referral link; Form 301 shows confirmed fingertip amputations vs initial phone report noting hospitalization only",
+  "reportId": "SIR-SYN002",
+  "basis": "linked",
+  "column": "reported_differs",
+  "headline": "OSHA report SIR-SYN002",
+  "detail": [
+   "A person approved the employer identity.",
+   "Written differently: OSHA's report does not flag an amputation; the log does"
+  ]
+ },
+ {
+  "lane": "L7",
+  "dir": "log",
+  "site": "Site-SYN2",
+  "plantName": "Marevo Junction, OH",
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0101",
+    "found": 0
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0102",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0103",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0104",
+    "found": 0
+   },
+   {
+    "label": "1904.39 exclusions",
+    "found": 0
+   }
+  ],
+  "receipts": [
+   "Q-0075",
+   "Q-0101",
+   "Q-0102",
+   "Q-0103",
+   "Q-0104"
+  ],
+  "differences": [],
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "ruled_out",
+    "why": "no OSHA reports found to compare",
+    "qids": [
+     "Q-0101",
+     "Q-0103",
+     "Q-0104"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "no OSHA reports found for any injury",
+    "qids": [
+     "Q-0101",
+     "Q-0103",
+     "Q-0104"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "ruled_out",
+    "why": "searches covered same city and ZIP",
+    "qids": [
+     "Q-0101",
+     "Q-0104"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "state_plan",
+    "status": "ruled_out",
+    "why": "OH is under federal OSHA (State Plan list).",
+    "qids": [
+     "Q-0075"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "excluded",
+    "status": "ruled_out",
+    "why": "No 1904.39(b) exclusion in the narrative.",
+    "qids": [],
+    "by": "rules"
+   },
+   {
+    "h": "not_found",
+    "status": "supported",
+    "why": "all OSHA searches returned zero results",
+    "qids": [
+     "Q-0101",
+     "Q-0102",
+     "Q-0103",
+     "Q-0104"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [],
+  "date": "2024-08-06",
+  "logKey": "extra_sites:Site-SYN2:S2385",
+  "caseId": "S2385",
+  "column": "not_found",
+  "headline": "No matching report found in this sample (composite company)",
+  "detail": [
+   "Searched 6 places; see the path below.",
+   "Evaluator: No OSHA report found; Ohio not a State Plan state; all searches negative."
+  ]
+ },
+ {
+  "lane": "L8",
+  "dir": "log",
+  "site": "Site-SYN3",
+  "plantName": "Dalast Bend, AL",
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0105",
+    "found": 0
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0106",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0107",
+    "found": 0
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0108",
+    "found": 0
+   },
+   {
+    "label": "1904.39 exclusions",
+    "found": 0
+   }
+  ],
+  "receipts": [
+   "Q-0075",
+   "Q-0105",
+   "Q-0106",
+   "Q-0107",
+   "Q-0108"
+  ],
+  "differences": [],
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "ruled_out",
+    "why": "No OSHA report exists to compare wording",
+    "qids": [
+     "Q-0105",
+     "Q-0107",
+     "Q-0108"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "No OSHA report found for any injury",
+    "qids": [
+     "Q-0105",
+     "Q-0107",
+     "Q-0108"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "ruled_out",
+    "why": "No OSHA reports in same ZIP or city",
+    "qids": [
+     "Q-0105",
+     "Q-0107",
+     "Q-0108"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "state_plan",
+    "status": "ruled_out",
+    "why": "AL is under federal OSHA (State Plan list).",
+    "qids": [
+     "Q-0075"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "excluded",
+    "status": "ruled_out",
+    "why": "No 1904.39(b) exclusion in the narrative.",
+    "qids": [],
+    "by": "rules"
+   },
+   {
+    "h": "not_found",
+    "status": "supported",
+    "why": "Zero OSHA reports in federal file for site",
+    "qids": [
+     "Q-0105",
+     "Q-0106",
+     "Q-0107",
+     "Q-0108"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [],
+  "date": "2024-10-19",
+  "logKey": "extra_sites:Site-SYN3:S7560",
+  "caseId": "S7560",
+  "column": "not_found",
+  "headline": "No matching report found in this sample (composite company)",
+  "detail": [
+   "Searched 6 places; see the path below.",
+   "Evaluator: Internal Form 301 matches log; no federal OSHA report found; Alabama not a State Plan state; no exclusion applies."
+  ]
+ },
+ {
+  "lane": "L9",
+  "dir": "log",
+  "site": "Site-515A",
+  "date": "2024-12-02",
+  "column": "reported_differs",
+  "basis": "linked",
+  "reportId": "SIR-612190",
+  "caseId": "LN-011",
+  "receipts": [
+   "Q-0075",
+   "Q-0078",
+   "Q-0109",
+   "Q-0110",
+   "Q-0111",
+   "Q-0112"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "ZIP differs: OSHA 00498, plant 00180",
+   "body part named differently: log finger, OSHA index finger"
+  ],
+  "detail": [
+   "A person approved the employer identity.",
+   "Written differently: ZIP differs: OSHA 00498, plant 00180",
+   "Written differently: body part named differently: log finger, OSHA index finger"
+  ],
+  "headline": "OSHA report SIR-612190",
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "supported",
+    "why": "",
+    "qids": [
+     "Q-0078",
+     "Q-0075",
+     "Q-0109"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0109",
+     "Q-0078"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "ruled_out",
+    "why": "",
+    "qids": [
+     "Q-0078"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "searched": [
+   {
+    "label": "State Plan check",
+    "qid": "Q-0075"
+   },
+   {
+    "label": "Candidate map: unified log × OSHA × DOL, same house number, ±7 days",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "DOL inspection behind OSHA's referral (from the candidate map)",
+    "qid": "Q-0078",
+    "found": 1
+   },
+   {
+    "label": "OSHA reports, same ZIP, ±7 days",
+    "qid": "Q-0109"
+   },
+   {
+    "label": "Reply letters on the HQ drive",
+    "qid": "Q-0110"
+   },
+   {
+    "label": "OSHA reports, same ZIP, 8–30 days",
+    "qid": "Q-0111",
+    "found": 1
+   },
+   {
+    "label": "OSHA reports, same city, other ZIP, ±7 days",
+    "qid": "Q-0112",
+    "found": 1
+   }
+  ]
+ },
+ {
+  "lane": "R29",
+  "dir": "osha",
+  "site": "Site-014F",
+  "date": "2024-09-09",
+  "column": "in_log_differs",
+  "basis": "linked",
+  "reportId": "SIR-233551",
+  "receipts": [
+   "Q-0074",
+   "Q-0113",
+   "Q-0114"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "ZIP differs: OSHA 00214, plant 00271"
+  ],
+  "detail": [
+   "Differs: ZIP differs: OSHA 00214, plant 00271"
+  ],
+  "headline": "Site-014F log, case LN-022",
+  "searched": [
+   {
+    "label": "Match OSHA's address to a plant",
+    "qid": "Q-0074",
+    "found": 1
+   },
+   {
+    "label": "Plant log, same site, ±7 days",
+    "qid": "Q-0113",
+    "found": 3
+   },
+   {
+    "label": "Plant log, same site, 8–30 days",
+    "qid": "Q-0114",
+    "found": 7
+   }
+  ]
+ },
+ {
+  "lane": "R37",
+  "dir": "osha",
+  "site": "Site-515A",
+  "date": "2024-12-02",
+  "column": "in_log_differs",
+  "basis": "linked",
+  "reportId": "SIR-612190",
+  "receipts": [
+   "Q-0074",
+   "Q-0115",
+   "Q-0116"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "ZIP differs: OSHA 00498, plant 00180",
+   "body part named differently: log finger, OSHA index finger"
+  ],
+  "detail": [
+   "Differs: ZIP differs: OSHA 00498, plant 00180",
+   "Differs: body part named differently: log finger, OSHA index finger"
+  ],
+  "headline": "Site-515A log, case LN-011",
+  "searched": [
+   {
+    "label": "Match OSHA's address to a plant",
+    "qid": "Q-0074",
+    "found": 1
+   },
+   {
+    "label": "Plant log, same site, ±7 days",
+    "qid": "Q-0115",
+    "found": 2
+   },
+   {
+    "label": "Plant log, same site, 8–30 days",
+    "qid": "Q-0116",
+    "found": 1
+   }
+  ]
+ },
+ {
+  "lane": "R41",
+  "dir": "osha",
+  "site": "Site-30F7",
+  "date": "2024-12-09",
+  "column": "in_log_differs",
+  "basis": "linked",
+  "reportId": "SIR-724205",
+  "receipts": [
+   "Q-0074",
+   "Q-0117"
+  ],
+  "resultCode": "written_differently",
+  "differences": [
+   "body part named differently: log finger, OSHA middle/ring finger"
+  ],
+  "detail": [
+   "Differs: body part named differently: log finger, OSHA middle/ring finger"
+  ],
+  "headline": "Site-30F7 log, case LN-002",
+  "searched": [
+   {
+    "label": "Match OSHA's address to a plant",
+    "qid": "Q-0074",
+    "found": 1
+   },
+   {
+    "label": "Plant log, same site, ±7 days",
+    "qid": "Q-0117",
+    "found": 1
+   }
+  ]
+ },
+ {
+  "lane": "R48",
+  "dir": "osha",
+  "site": "Site-SYN1",
+  "plantName": "Dalian Hollow, TX",
+  "searched": [
+   {
+    "label": "Match OSHA's address to a plant",
+    "qid": "Q-0074",
+    "found": 0
+   },
+   {
+    "label": "Our plants at OSHA's ZIP with an amputation logged the same week",
+    "qid": "Q-0076",
+    "found": 1
+   }
+  ],
+  "receipts": [
+   "Q-0074",
+   "Q-0076"
+  ],
+  "differences": [],
+  "hypotheses": [
+   {
+    "h": "written_differently",
+    "status": "not_ruled_out",
+    "why": "Verifier: refused 'same injury' without a receipt that places the report (model said: Same ZIP, city, body part, equipment; date 1 day off)",
+    "qids": [
+     "Q-0091",
+     "Q-0095"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "different_injury",
+    "status": "ruled_out",
+    "why": "Only one OSHA report matches details",
+    "qids": [
+     "Q-0091",
+     "Q-0095"
+    ],
+    "by": "evaluator"
+   },
+   {
+    "h": "wrong_site",
+    "status": "not_ruled_out",
+    "why": "Verifier: no receipt places the report at this plant (model said: Only plant at that ZIP; report same ZIP)",
+    "qids": [
+     "Q-0095",
+     "Q-0091"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "state_plan",
+    "status": "ruled_out",
+    "why": "TX is under federal OSHA (State Plan list).",
+    "qids": [
+     "Q-0075"
+    ],
+    "by": "rules"
+   },
+   {
+    "h": "excluded",
+    "status": "ruled_out",
+    "why": "No 1904.39(b) exclusion in the narrative.",
+    "qids": [],
+    "by": "rules"
+   },
+   {
+    "h": "not_found",
+    "status": "ruled_out",
+    "why": "OSHA report found at same ZIP ±7 days",
+    "qids": [
+     "Q-0091"
+    ],
+    "by": "evaluator"
+   }
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [],
+  "date": "2024-08-05",
+  "reportId": "SIR-SYN001",
+  "column": "review",
+  "logKey": "extra_sites:Site-SYN1:S3347",
+  "headline": "The agents could not settle it",
+  "detail": [
+   "Mirrored from L5, which sent this pair to a person: No DOL inspection at plant address; house numbers differ; no referral number for dol_inspection",
+   "Searched 2 places; see the path below."
+  ]
+ },
+ {
+  "lane": "R49",
+  "dir": "osha",
+  "site": "Site-SYN2",
+  "plantName": "Marevo Junction, OH",
+  "searched": [
+   {
+    "label": "Match OSHA's address to a plant",
+    "qid": "Q-0074",
+    "found": 1
+   },
+   {
+    "label": "Plant log, same site, ±7 days",
+    "qid": "Q-0118",
+    "found": 1
+   },
+   {
+    "label": "Plant log, same site, 8–30 days",
+    "qid": "Q-0119",
+    "found": 0
+   }
+  ],
+  "receipts": [
+   "Q-0074",
+   "Q-0118",
+   "Q-0119"
+  ],
+  "differences": [
+   "OSHA's report does not flag an amputation; the log does"
+  ],
+  "synthetic": true,
+  "syntheticKind": "synthetic",
+  "verifier": [],
+  "date": "2024-04-30",
+  "reportId": "SIR-SYN002",
+  "logKey": "extra_sites:Site-SYN2:S8753",
+  "basis": "linked",
+  "column": "in_log_differs",
+  "headline": "Site-SYN2 log, case S8753",
+  "detail": [
+   "Differs: OSHA's report does not flag an amputation; the log does"
+  ]
+ }
+]

@@ -1,0 +1,119 @@
+{
+ "source": "SIR (OSHA), DOL API v4 OSHA inspection, ITA 2024 case detail; names pseudonymized (scripts/pseudonymize_fixtures.py); DOL inspection numbers replaced by test codes 900001-900006 (a published inspection number names the establishment)",
+ "cases": [
+  {
+   "sir_id": "SIR-T00001",
+   "upa": "REF-T00002",
+   "event_date": "2024-01-09",
+   "sir_employer": "Sovi O' Tukuc, Inc.",
+   "dol_activity_nr": 900001,
+   "dol_estab_name": "SOVI O'TUKUC, INC.",
+   "dol_site_address": "2270 TURBINE PKWY",
+   "ita": {
+    "establishment_id": "EST-426994",
+    "name": "Hasesar Mafuba",
+    "company": "Curukoki USA, Inc.",
+    "ein": "",
+    "street": "6533 Kiln Ave",
+    "zip": "00466"
+   },
+   "ita_name_sim": 0.5,
+   "parent_vs_subsidiary": false
+  },
+  {
+   "sir_id": "SIR-T00003",
+   "upa": "REF-T00004",
+   "event_date": "2024-01-23",
+   "sir_employer": "Guvetal Vuhofuka Vovukot",
+   "dol_activity_nr": 900002,
+   "dol_estab_name": "GUVETAL VUHOFUKA VOVUKOT, INC.",
+   "dol_site_address": "7930 LUMBER PKWY",
+   "ita": {
+    "establishment_id": "EST-950053",
+    "name": "Guvetal Vuhofuka Vovukot, Inc-Kizukud",
+    "company": "Guvetal Vuhofuka Vovukot, Inc.",
+    "ein": "EIN-1",
+    "street": "7930 Lumber Pkwy",
+    "zip": "00123"
+   },
+   "ita_name_sim": 0.52,
+   "parent_vs_subsidiary": false
+  },
+  {
+   "sir_id": "SIR-T00005",
+   "upa": "REF-T00006",
+   "event_date": "2024-04-16",
+   "sir_employer": "HUZOPIMA' RIHOJ AND JAZITIR COMPANY LLC",
+   "dol_activity_nr": 900003,
+   "dol_estab_name": "HUZOPIMA? RIHOJ AND JAZITIR COMPANY LLC",
+   "dol_site_address": "5234 YARD WAY",
+   "ita": {
+    "establishment_id": "EST-602686",
+    "name": "VATASUR02",
+    "company": "Huzopima' Rihoj  Jazitir",
+    "ein": "EIN-2",
+    "street": "5234 Yard Way",
+    "zip": "00442"
+   },
+   "ita_name_sim": 0.66,
+   "parent_vs_subsidiary": false
+  },
+  {
+   "sir_id": "SIR-T00007",
+   "upa": "REF-T00008",
+   "event_date": "2024-05-15",
+   "sir_employer": "GEJIC Kuhava Kivabetelet",
+   "dol_activity_nr": 900004,
+   "dol_estab_name": "GEJIC KUHAVA TEMICOP SUDUFI, INC.",
+   "dol_site_address": "8556 ALDER ST",
+   "ita": {
+    "establishment_id": "EST-002790",
+    "name": "Gejic MIZE G COLAD SOVI 773",
+    "company": "TADOKEG DIVIMAJ KIVABETELET",
+    "ein": "EIN-3",
+    "street": "8556 ALDER ST",
+    "zip": "00484"
+   },
+   "ita_name_sim": 0.56,
+   "parent_vs_subsidiary": false
+  },
+  {
+   "sir_id": "SIR-T00009",
+   "upa": "REF-T00010",
+   "event_date": "2024-08-03",
+   "sir_employer": "Fazihu Cecovadup INC",
+   "dol_activity_nr": 900005,
+   "dol_estab_name": "B & C PONUFOGU, INC.",
+   "dol_site_address": "1550 INDUSTRIAL AVE",
+   "ita": {
+    "establishment_id": "EST-019668",
+    "name": "B and C Ponufogu",
+    "company": "Fazihu Cecovadup",
+    "ein": "",
+    "street": "1550 Industrial Ave",
+    "zip": "00482"
+   },
+   "ita_name_sim": 0.6,
+   "parent_vs_subsidiary": true
+  },
+  {
+   "sir_id": "SIR-T00011",
+   "upa": "REF-T00012",
+   "event_date": "2024-08-03",
+   "sir_employer": "Zamifikab Metotunomi Kivabetelet",
+   "dol_activity_nr": 900006,
+   "dol_estab_name": "ZAMIFIKAB METOTUNOMI INC.",
+   "dol_site_address": "9234 JUNIPER RD",
+   "ita": {
+    "establishment_id": "EST-380185",
+    "name": "GOT - Potogikupe",
+    "company": "Zamifikab Metotunomi",
+    "ein": "",
+    "street": "9234 Juniper Rd",
+    "zip": "00181"
+   },
+   "ita_name_sim": 0.58,
+   "parent_vs_subsidiary": false
+  }
+ ]
+}
