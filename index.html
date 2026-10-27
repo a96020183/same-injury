@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore recorded Same Injury runs: find injury systems, follow agent decisions, and inspect query receipts. An offline replay.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Same Injury · Recorded demo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="data/replay.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="replay-banner" role="note" tabindex="0" aria-label="Replay notice. Scroll horizontally to read the full notice on a small screen.">Replay of recorded live runs. Live mode needs local Zetaris + Meterless Nightshift — see GitHub README. <a href="https://github.com/a96020183/same-injury" title="The coordinator will replace this repository URL before publication.">GitHub README</a></div>
+  <header class="top">
+    <a class="brand" href="#overview">Same Injury</a>
+    <span class="counsel">For counsel review</span>
+    <div class="header-actions"><span class="recorded-label">Recorded demo</span><button class="ghost" id="trace-open">Open trace</button></div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="runbar">
+      <label for="run-select">Workflow recording <select id="run-select"><option value="demo">Demo company</option><option value="unseen">Unseen company</option></select></label>
+      <span id="run-id" class="run-id"></span>
+      <a href="#about">What is replayed?</a>
+    </div>
+    <nav class="view-nav" aria-label="Demo views">
+      <button data-view="overview" aria-current="page">Overview</button>
+      <button data-view="systems">Find the systems</button>
+      <button data-view="results">Match the records</button>
+    </nav>
+    <section id="overview" class="view" aria-labelledby="intro-title">
+      <div class="lead">
+        <div><h1 id="intro-title">One injury. Three records.<br>No shared key from the log to OSHA.</h1>
+          <p class="lede">Match plant logs with OSHA reports, in both directions. Follow the agents’ decisions back to the queries that support them.</p><p class="fine opening-note">The opening example below is from the Demo company recording.</p></div>
+        <div class="start"><button class="primary" data-view="systems">Find the systems</button><span>Explore the recorded workflow.</span></div>
+      </div>
+      <div id="intro-records" class="records"></div>
+      <p class="boundary"><strong>SYNTHETIC demonstration.</strong> The opening injury, plant, phone report and inspection are invented. Negative outcomes appear only at invented plants. This is an audit list for review, never a finding that an employer failed to report.</p>
+      <div class="threads" aria-label="The plant log is matched to OSHA by house number, ZIP and week. OSHA is linked to DOL by referral number.">
+        <div><strong>Plant log</strong><span>site, case, date</span></div><p>House no. + ZIP + week<br><b>No shared key</b></p><div><strong>OSHA report</strong><span>phone report, own ID</span></div><p>Referral number<br><b>Linked by referral</b></p><div><strong>DOL inspection</strong><span>opened later, own ID</span></div>
+      </div>
+      <div class="unseen-feature"><div><h2>See why another address is not another employer.</h2><p>In the unseen company’s SYNTHETIC pair, the Evaluator says “different injuries.” The code Verifier objects: the employer is masked. A person must decide.</p></div><button class="ghost" id="watch-unseen">Watch the disagreement</button></div>
+      <details class="system-summary"><summary>The systems behind the demo</summary><div id="system-types" class="system-types"></div><p>Composite public records, with names and places replaced by codes. The source README explains the remaining re-identification limits. All negative cases are invented records in invented plants.</p></details>
+    </section>
+    <section id="systems" class="view" hidden aria-labelledby="systems-title">
+      <div class="section-head"><div><h1 id="systems-title">Where the injury records are</h1><p>Recorded Discovery decisions and field maps. Training, HR and maintenance tables remain visible as excluded tables.</p></div><button class="primary" data-view="results">Continue recorded run</button></div>
+      <p class="governance">In the recorded live product, agents used a masked, non-admin Zetaris role. An administrator approved compilation of the unified model. This website only displays that recording.</p>
+      <div id="source-list" class="source-list"></div>
+      <label class="toggle"><input id="show-excluded" type="checkbox"> Include tables classified as “not injury records”</label>
+      <div id="table-list" class="tables"></div>
+      <details class="usl"><summary>Inspect the recorded unified model</summary><p>The website cannot compile a model or grant access.</p><pre id="usl-code"></pre></details>
+    </section>
+    <section id="results" class="view" hidden aria-labelledby="results-title">
+      <div class="section-head"><div><h1 id="results-title">Which records are the same injury</h1><p>Open a case to inspect the evidence, agent exchanges and query receipts.</p></div><button class="ghost" id="focus-case">Open the featured case</button></div>
+      <label class="snapshot-label" for="snapshot">Recorded snapshot <select id="snapshot"><option value="before">Before identity approval</option><option value="after">After recorded operator approvals</option></select></label>
+      <p id="snapshot-note" class="boundary"></p>
+      <div id="run-stats" class="run-stats"></div>
+      <div class="cols"><div><h2>Plant log → OSHA</h2><p class="column-note">For each log amputation, where did the agents look?</p><div id="log-items"></div></div><div><h2>OSHA → plant log</h2><p class="column-note">For each nearby severe-injury report, what is in the log?</p><div id="osha-items"></div></div></div>
+      <details class="certify"><summary>Before you certify: recorded review summary</summary><div id="certify-body"></div></details>
+    </section>
+    <section class="evidence-notes" aria-labelledby="exam-title">
+      <details><summary id="exam-title">What was measured? Two separate sealed exams</summary>
+        <p>Layer 1 schema discovery on five sealed companies. These scores measure finding tables and mapping fields; they do not measure injury-matching accuracy.</p>
+        <div class="table-scroll"><table><caption>Separate recorded exam runs and baselines</caption><thead><tr><th>Run</th><th>Injury logs found</th><th>Fields mapped correctly</th></tr></thead><tbody id="score-rows"></tbody></table></div>
+        <p class="fine">Source: <code>docs/sealed_exam/scores_by_run.json</code>. Pre-exam hashes are self-reported, without an external timestamp. See the repository’s sealed-exam report for the protocol and limitations.</p>
+      </details>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-title">
+      <h2 id="about-title">What you are watching</h2>
+      <div class="about-cols"><div><h3>Recorded, with evidence</h3><p>Case outcomes and trace events come from the repository’s recorded live runs. Query results come from the bundled SQL recordings. Receipt metadata was regenerated offline and checked against those recordings; it is labelled in every receipt.</p><p>The original product uses Zetaris for evidence and access control, Nightshift for model calls, and the Meterless World Model for shared state and identity proposals.</p></div><div><h3>Decisions stay in the recording</h3><p>This website makes no model calls, sends no queries, and performs no approvals. The later snapshot shows automatic operator approvals already in the trace; they were not a human review. Missing post-review receipts are labelled as not included.</p><p>A State Plan label means its own records were outside the federal file searched. “Not found” describes only the listed searches, never an employer’s reporting conduct.</p></div></div>
+      <div class="downloads"><a href="SITE_README.md">How to use this replay</a><a href="data/replay.json" download>Download replay data</a><a href="data/provenance.json" download>Source manifest</a></div>
+      <p class="fine">Source commit <code>9a40898</code>. All negative conclusions and every scanned form shown here belong to invented SYNTHETIC plants. Composite records may remain recognisable; see the source README’s privacy limits.</p>
+    </section>
+    <footer>Same Injury <span>Recorded evidence. A person decides.</span></footer>
+  </main>
+  <dialog id="trace-dialog" class="trace-drawer" aria-labelledby="trace-title">
+    <div class="drawer-head"><div><h2 id="trace-title">Agent trace</h2><p id="trace-context"></p></div><button class="ghost" data-close="trace-dialog">Close trace</button></div>
+    <div class="trace-controls"><label for="trace-mode">Show <select id="trace-mode"><option value="key">Key decisions</option><option value="all">Every event</option></select></label><label for="trace-agent">Agent <select id="trace-agent"><option value="">All agents</option></select></label><button class="ghost" id="trace-clear" hidden>Clear case filter</button></div>
+    <p id="trace-count" class="fine" role="status"></p><ol id="trace-events" class="events"></ol><button id="trace-more" class="ghost">Show more events</button>
+  </dialog>
+  <dialog id="case-dialog" class="case-drawer" aria-labelledby="case-title"><div class="drawer-head"><h2 id="case-title">Case evidence</h2><button class="ghost" data-close="case-dialog">Close case</button></div><div id="case-body"></div></dialog>
+  <dialog id="receipt-dialog" class="receipt-dialog" aria-labelledby="receipt-title"><div class="drawer-head"><h2 id="receipt-title">Query receipt</h2><button class="ghost" data-close="receipt-dialog">Close receipt</button></div><div id="receipt-body"></div></dialog>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Enable JavaScript to explore this local replay. The complete evidence is also available in <a href="data/replay.json">replay.json</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Literata.woff2
+Copyright 2017 The Literata Project Authors (https://github.com/googlefonts/literata)
+Literata ExtraBold
+Regular
+https://scripts.sil.org/OFL
+
+Manrope_400.woff2
+Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+Manrope
+Regular
+http://scripts.sil.org/OFL
+
+These pre-existing local font assets are self-hosted. Literata is the ExtraBold (800) face. Manrope is declared with each file’s actual 400, 600 and 700 weight.

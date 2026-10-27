@@ -1,0 +1,76 @@
+{
+  "sourceCommit": "9a40898e9e6420b1a43276e6bd3c75448cc3c449",
+  "sources": [
+    {
+      "path": "sample/seed1003/scans/301_Site-SYN2_caseS2385.jpg",
+      "sha256": "f445c11c4b74f32d11e7639daebe8baf898396c3d5d545d0699ae26a11d6da7e",
+      "use": "SYNTHETIC scanned form"
+    },
+    {
+      "path": "sample/seed1003/scans/301_Site-SYN2_caseS8753.jpg",
+      "sha256": "dc56fd38bc18760a7c3ab87e622386418cad56c726d27eaf2d46c66d8c6f8e7f",
+      "use": "SYNTHETIC scanned form"
+    },
+    {
+      "path": "sample/seed1003/scans/301_Site-SYN3_caseS7560.jpg",
+      "sha256": "489c6ebe00924da52ef53b39efd37c719e19e4399c14c40572b9833c8447e8ae",
+      "use": "SYNTHETIC scanned form"
+    },
+    {
+      "path": "docs/trace/demo_20261027-023325-7fc3_trace.jsonl",
+      "sha256": "e8e60b368126d0ee48c41c6384f931564d2729d2851ba6a3638a28371849854a",
+      "use": "demo"
+    },
+    {
+      "path": "docs/trace/demo_20261027-023325-7fc3_items_at_review.json",
+      "sha256": "6cd5c26df49bb04fce3329bbd42bbb26c90811f4552ecfb1ec72555220b24d5f",
+      "use": "demo"
+    },
+    {
+      "path": "docs/trace/demo_20261027-023325-7fc3_items.json",
+      "sha256": "afd7d51fe8894a34824ea3fe916bfbaf4a480df18536acadbee6417388681b0d",
+      "use": "demo"
+    },
+    {
+      "path": "sample/seed1003/zetaris_cassette.jsonl",
+      "sha256": "e7390568517f1b843567229e810a3abf1fdfaafbc20bba8123f0bcedc44dc302",
+      "use": "demo"
+    },
+    {
+      "path": "docs/trace/unseen3001_20261027-025156-9960_trace.jsonl",
+      "sha256": "714262229d7bb79840c931939b22aa1d45e0ec8d4df4a22ffb047ca75266bbc7",
+      "use": "unseen"
+    },
+    {
+      "path": "docs/trace/unseen3001_20261027-025156-9960_items_at_review.json",
+      "sha256": "1328ec72aee2f8e9415ef3fcb2592d66903e7d3bbe7340765d4c1db786b621df",
+      "use": "unseen"
+    },
+    {
+      "path": "docs/trace/unseen3001_20261027-025156-9960_items.json",
+      "sha256": "d2e9d0e89312d83ff830e8dc0eb5210c5112c8a1d6c66db9421f3bb7b4f5bfae",
+      "use": "unseen"
+    },
+    {
+      "path": "sample/unseen3001/full/zetaris_cassette.jsonl",
+      "sha256": "e24a619f5239effbcb3b5664ba105d6d2b8aeeb02367ff0e6035badef0477b3b",
+      "use": "unseen"
+    },
+    {
+      "path": "sample/seed1003/intro.json",
+      "sha256": "fcf897386ce557a6617ec257ea6044e444696c67b976e97f31935048fc621e46",
+      "use": "product description / separate sealed scores"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a73d17a256961597c9b77139dc7c3101857a52fed598093bee71d7cdd87abebb",
+      "use": "product description / separate sealed scores"
+    },
+    {
+      "path": "docs/sealed_exam/scores_by_run.json",
+      "sha256": "6f2a869484701caf902c7d2d85535bd022b5c2a9f265119aecd86e53b0e4cbdd",
+      "use": "product description / separate sealed scores"
+    }
+  ],
+  "receiptNotice": "Receipt metadata was regenerated offline from SAMPLE_MODE. Recorded query results are checked against the SQL cassette. These are not original live receipt files."
+}
