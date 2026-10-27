@@ -1,0 +1,52 @@
+{
+ "run_at_utc": "2026-10-27T04:59:57.432Z",
+ "suite": "Meterless World Model conformance (vendor/meterless/engines/world-model/conformance/runner.ts)",
+ "vendor_commit": "1742dec",
+ "implementation": "engine/world-model/index.ts",
+ "node": "v24.18.0",
+ "exit_code": 0,
+ "passed": 8,
+ "total": 8,
+ "checks": [
+  {
+   "id": "sid-001",
+   "result": "PASS",
+   "what": "stable ids: diacritics and NBSP normalize identically (NFKD + strip marks)"
+  },
+  {
+   "id": "sid-002",
+   "result": "PASS",
+   "what": "stable ids: distinct names stay distinct (no over-normalization)"
+  },
+  {
+   "id": "band-001",
+   "result": "PASS",
+   "what": "merge bands at the boundaries: 0.85 auto, 0.84 review, 0.82 review, 0.81 new"
+  },
+  {
+   "id": "prov-001",
+   "result": "PASS",
+   "what": "writes without provenance are rejected"
+  },
+  {
+   "id": "idem-001",
+   "result": "PASS",
+   "what": "ingest idempotency: same batch twice produces an empty diff"
+  },
+  {
+   "id": "idem-002",
+   "result": "PASS",
+   "what": "the idempotency check can fail: a mutated batch changes the shape"
+  },
+  {
+   "id": "bitemp-001",
+   "result": "PASS",
+   "what": "bitemporal edges: a superseding edge closes the old one; point-in-time queries respect validity"
+  },
+  {
+   "id": "audit-001",
+   "result": "PASS",
+   "what": "every mutation writes an audit entry in order"
+  }
+ ]
+}

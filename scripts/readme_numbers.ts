@@ -219,7 +219,7 @@ const blocks: Record<string, () => string> = {
   "unseen-l4-story": () => lanes(unseen, pair("unseen3001", RUNS.unseen, LEAD.unseen)),
   "unseen-hero": () => hero(unseen, pair("unseen3001", RUNS.unseen, LEAD.unseen)[0]), "demo-hero": () => hero(demo, pair("demo", RUNS.demo, LEAD.demo)[0]),
   "demo-pair": () => `${pair("demo", RUNS.demo, LEAD.demo).join("/")} (${LEAD.demo})`, "unseen-pair": () => `${pair("unseen3001", RUNS.unseen, LEAD.unseen)[0]} (${LEAD.unseen})`,
-  variants, scan, privacy, "unseen-300a": () => yearly(unseen), synthetic: syntheticSentence, "synthetic-previous": previousSentence, "user-scope": userScope, "variants-lane": () => variantsLane || "?", "unseen-lead-agents": () => leadAgents(unseen, pair("unseen3001", RUNS.unseen, LEAD.unseen).slice(0, 1)),
+  variants, scan, privacy, "unseen-300a": () => yearly(unseen), synthetic: syntheticSentence, "synthetic-previous": previousSentence, "user-scope": userScope, "variants-lane": () => variantsLane || "?", conformance: () => { const c = JSON.parse(readFileSync(path.join(ROOT, "docs/evidence/world_model_conformance.json"), "utf8")); return `**${c.passed}/${c.total}** checks passed, re-run ${c.run_at_utc.slice(0, 10)} against vendor/meterless ${c.vendor_commit} (\`npm run conformance\`, needs \`vendor/meterless\`; output: \`docs/evidence/world_model_conformance.txt\`, \`.json\`; \`scripts/conformance_evidence.mjs\`)`; }, "unseen-lead-agents": () => leadAgents(unseen, pair("unseen3001", RUNS.unseen, LEAD.unseen).slice(0, 1)),
 };
 const file = path.join(ROOT, "README.md");
 let md = readFileSync(file, "utf8").replace(/\r\n/g, "\n"); // compare and write with LF (.gitattributes: README.md eol=lf)
