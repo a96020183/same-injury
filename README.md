@@ -1,5 +1,7 @@
 # Same Injury
 
+**Try it in the browser:** [replay demo](https://a96020183.github.io/same-injury/) — recorded live runs, no install. Live mode needs local Zetaris + Meterless Nightshift (setup below).
+
 **60-second judge path** (no keys; Node.js ≥ 22.13)
 1. `npm ci && npm start`, open http://127.0.0.1:8740, press **Score · unseen company** → **Replay both layers**: on a company generated after the code was written, the steps of its lead pair by <!-- auto:unseen-lead-agents -->the Linker, Research, the Evaluator and the Verifier (code)<!-- /auto:unseen-lead-agents -->, every step with its query receipts.
 2. Press **Find the systems** on the first screen, approve the unified model, then open **Trace**: key decisions first, counts at the top (model calls, Evaluator and Verifier rejections, re-plans, escalations, Skeptic).
